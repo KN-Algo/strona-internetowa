@@ -61,6 +61,7 @@ nav img {
   float: left;
   padding: 20px;
   margin-left: 1em;
+  margin-right: -100%;
 }
 
 .active-nav {
