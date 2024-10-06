@@ -1,0 +1,64 @@
+.main-content > * {
+  margin: 5em 0;
+}
+
+.group-div {
+  height: 45em;
+}
+
+.group-div img {
+  height: 95%;
+}
+
+.leaders-div {
+  height: 35em;
+}
+
+.person-grid {
+  display: flex;
+}
+
+#person-checker {
+  display: none;
+}
+
+.person-container {
+  width: 15em;
+  height: 25em;
+  padding: 1em;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  transition: ease-out 0.5s;
+  margin: 0 1em;
+}
+
+.person-container > * {
+  transition: ease-out 0.5s;
+}
+
+.person-container img {
+  display: block;
+  margin: auto auto;
+  width: 13em;
+  border-radius: 5px;
+}
+
+.person-container p {
+  height: 0;
+  overflow: hidden;
+}
+
+.person-container-checked {
+  background-color: grey;
+  width: 20em;
+  height: 35em;
+}
+
+.person-container-checked > * {
+  background-color: grey;
+}
+
+.person-container-checked p {
+  height: 12em;
+}
