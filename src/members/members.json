@@ -1,0 +1,28 @@
+{
+  "members" : [
+    {
+      "name" : "Adrian Góral",
+      "img": "/img/members/Adrian.JPG",
+      "description": "lorem ipsum",
+      "god": true
+    },
+    {
+      "name" : "Adrian Góral",
+      "img": "/img/members/Adrian.JPG",
+      "description": "lorem ipsum",
+      "god": false
+    },
+    {
+      "name" : "Adrian Góral",
+      "img": "/img/members/Adrian.JPG",
+      "description": "lorem ipsum",
+      "god": false
+    },
+    {
+      "name" : "Adrian Góral",
+      "img": "/img/members/Adrian.JPG",
+      "description": "lorem ipsum",
+      "god": false
+    }
+  ]
+}
