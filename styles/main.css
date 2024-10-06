@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #fff2f0;
+    background-color: #fffbfa;
     font-family: 'Roboto', sans-serif;
     color: rgb(49, 49, 49);
 }
@@ -51,7 +51,7 @@ nav li a {
 
 nav li a:hover {
     background-color: #000424;
-    color: #fff2f0;
+    color: #fffbfa;
     transition: 0.3s;
     text-decoration: none;
 }
@@ -74,7 +74,7 @@ footer {
 footer {
     width: 100%;
     background-color: #000424;
-    color: #fff2f0;
+    color: #fffbfa;
     text-align: center;
     padding: 5rem 0;
     height: 7rem;
@@ -87,7 +87,7 @@ footer {
 footer p {
     margin: 1rem;
     background-color: transparent;
-    color: #fff2f0;
+    color: #fffbfa;
 }
 
 .socials {
@@ -106,7 +106,7 @@ footer p {
 
 .socials i, .socials a {
     background-color: transparent;
-    color: #fff2f0;
+    color: #fffbfa;
 }
 
 .topnav .icon {
