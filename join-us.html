@@ -8,6 +8,14 @@
     <script src="scripts/navbar.js"></script>
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/join-us.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/img/favicos/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="/img/favicos/favicon.svg" />
+    <link rel="shortcut icon" href="/img/favicos/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicos/apple-touch-icon.png" />
+    <link rel="manifest" href="/img/favicos/site.webmanifest" />
+
 </head>
 <nav>
     <ul class="topnav" id="nav-menu">
@@ -47,4 +55,78 @@
 </footer>
 <script type="text/javascript" src="./scripts/navbar.js"></script>
 <script type="text/javascript"> window.toggleMenu = toggleMenu;</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LdQalkqAAAAAOAaZ72UetAF-LTDiDhcM1Pv5P0J"></script>
+<script>
+    const contact = document.getElementById("contact-form");
+    contact.addEventListener("submit", (e) => {
+        e.preventDefault();
+        let recaptcha = false;
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LdQalkqAAAAAOAaZ72UetAF-LTDiDhcM1Pv5P0J', {action: 'submit'}).then(function (token) {
+                const dataR = new FormData();
+                dataR.append("token", token);
+                fetch("/src/api/recaptcha.php", {
+                    method: "POST",
+                    body: dataR
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log(data);
+                        if (data.success)
+                            recaptcha = true;
+                    })
+                     .then(() => {
+                         if (recaptcha) {
+                             registerUser();
+                        } else {
+                            Swal.fire({
+                                icon: 'warning',
+                                title: 'Błąd',
+                                text: 'Recaptcha się nie powiodła',
+                                footer: 'Botom wstęp wzbroniony!'
+                            })
+                        }
+                    })
+            });
+        });
+
+        function registerUser() {
+            const formData = new FormData(contact);
+            console.log(formData);
+            fetch("src/api/sendContactMail.php", {
+                method: "POST",
+                body: formData
+            })
+               .then(
+                   Swal.fire({
+                       icon: 'info',
+                       title: 'Proszę czekać',
+                       text: 'Trwa wysyłanie maila...',
+                       allowOutsideClick: false,
+                       allowEscapeKey: false,
+                       allowEnterKey: false,
+                       showConfirmButton: false,
+                       timer: 5000
+                   })
+               )
+               .then(response => response.json())
+               .then(data => {
+                   Swal.fire({
+                       icon: data.icon,
+                        title: data.title,
+                       text: data.message,
+                   })
+                   .then(() => {
+                       if (data.icon === "success") {
+                           contact.reset();
+                       }
+                   });
+               })
+               .catch(error => {
+                   console.error(error);
+               });
+        }
+    });
+</script>
 </html>
