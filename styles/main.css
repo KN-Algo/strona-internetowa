@@ -4,9 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #fff2f0;
     font-family: 'Roboto', sans-serif;
     color: rgb(49, 49, 49);
+}
+
+body {
+    background-color: #fff2f0;
 }
 
 main {
