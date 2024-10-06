@@ -34,6 +34,7 @@ input[type="text"], input[type="email"] {
     box-sizing: border-box;
     border: 2px solid #000424;
     border-radius: 4px;
+    background-color: #fff2f0;
 }
 
 input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
@@ -75,4 +76,5 @@ textarea {
     border: 2px solid #000424;
     border-radius: 4px;
     resize: vertical;
+    background-color: #fff2f0;
 }
