@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="scripts/navbar.js"></script>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/join-us.css">
 </head>
 <nav>
     <ul class="topnav" id="nav-menu">
@@ -22,7 +23,19 @@
     </ul>
 </nav>
 <body>
-    <h1>REKRUTACJA</h1>
+    <h1>REKRUTACJA I KONTAKT</h1>
+    <p>Nasze koło rozpoczęło działalność niedawno i wciąż poszukuje nowych osób do podjęcia współpracy. Jeżeli jesteś zainteresowany tematyką, którą się zajmujemy i chciałbyś do nas dołączyć lub po prostu masz trochę pytań, możesz skontaktować się z nami mailowo, korzystając z formularza poniżej:</p>
+    <form id="contact-form">
+        <label for="name">Imię i nazwisko:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Adres e-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="subject">Temat:</label>
+        <input type="text" id="subject" name="subject" required>
+        <label for="message">Wiadomość:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Wyślij</button>
+    </form>
 </body>
 <footer>
     <p>KN ALGO Copyright &copy; 2024</p>
