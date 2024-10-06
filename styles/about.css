@@ -11,11 +11,13 @@
 }
 
 .leaders-div {
-  height: 35em;
+  height: fit-content;
 }
 
 .person-grid {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 #person-checker {
@@ -30,7 +32,7 @@
   border-radius: 5px;
   text-align: center;
   transition: ease-out 0.5s;
-  margin: 0 1em;
+  margin: 1em;
 }
 
 .person-container > * {
