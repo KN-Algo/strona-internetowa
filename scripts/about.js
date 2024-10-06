@@ -13,8 +13,25 @@ function getJSON(url, callback) {
     xhr.send();
 };
 
+
+function person_onclick() {
+  if(this.clicked == undefined) {
+    this.clicked = false;
+  }
+
+  if(!this.clicked) {
+    this.classList.add("person-container-checked");
+  } else {
+    this.classList.remove("person-container-checked");
+  }
+
+  this.clicked = !this.clicked;
+}
+
+
 function create_person_container(person) {
   let main_div = document.createElement("div");
+  main_div.onclick = person_onclick;
   main_div.classList.add("person-container");
   if(person.god) {
     main_div.classList.add("person-container-leader");
@@ -37,20 +54,6 @@ function create_person_container(person) {
 }
 
 
-let person_onclick = function() {
-  if(this.clicked == undefined) {
-    this.clicked = false;
-  }
-
-  if(!this.clicked) {
-    this.classList.add("person-container-checked");
-  } else {
-    this.classList.remove("person-container-checked");
-  }
-
-  this.clicked = !this.clicked;
-}
-
 let members = getJSON("src/members/members.json", (err, data) => {
   if(err != null) {
     console.err(err);
@@ -61,5 +64,3 @@ let members = getJSON("src/members/members.json", (err, data) => {
     create_person_container(e);
   });
 });
-
-document.querySelectorAll(".person-container").forEach((e) => e.onclick = person_onclick);

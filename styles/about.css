@@ -62,3 +62,15 @@
 .person-container-checked p {
   height: 12em;
 }
+
+.person-container-leader {
+  border-color: gold;
+}
+
+.person-container-checked.person-container-leader {
+  background-color: yellow;
+}
+
+.person-container-checked.person-container-leader > * {
+  background-color: yellow;
+}
