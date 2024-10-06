@@ -74,6 +74,14 @@ body {
     min-height: 100vh;
 }
 
+.main-content {
+  margin: auto 20%;
+}
+
+.main-content h1 {
+  margin: 1em 0;
+}
+
 footer {
     margin-top: auto;
 }
