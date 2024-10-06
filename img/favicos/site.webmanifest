@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "KNAlgo",
+  "short_name": "KNAlgo",
   "icons": [
     {
       "src": "/img/favicos/web-app-manifest-192x192.png",
