@@ -129,7 +129,7 @@ footer p {
     color: none;
 }
   
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 790px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive li.icon {
         position: absolute;
