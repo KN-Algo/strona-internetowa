@@ -36,6 +36,7 @@ h1 {
 }
 
 .hidden-img {
+    margin: 0.5rem;
     max-width: 50%;
     max-height: auto;
 }
