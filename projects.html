@@ -32,7 +32,8 @@
     </ul>
 </nav>
 <body>
-    <h1>KN ALGO</h1>
+    <div id="projects-container">
+    </div>
 </body>
 <footer>
     <p>KN ALGO Copyright &copy; 2024</p>
@@ -43,4 +44,57 @@
 </footer>
 <script type="text/javascript" src="./scripts/navbar.js"></script>
 <script type="text/javascript"> window.toggleMenu = toggleMenu;</script>
+<script>
+
+    window.onload = function() {
+
+        fetch('projects.json')
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                const projectsContainer = document.getElementById('projects-container');
+                data.projects.forEach(project => {
+                    const record = document.createElement('div');
+                    record.className = 'record';
+
+                    //Create h3 element with project name
+                    const name = document.createElement('h3');
+                    name.textContent = project.name;
+                    record.appendChild(name);
+
+                    //Create p element with short description
+                    const shortDescription = document.createElement('p');
+                    shortDescription.textContent = project.shortDescription;
+                    record.appendChild(shortDescription);
+
+                    //Create div element with hidden content
+                    const hiddenDiv = document.createElement('div');
+                    hiddenDiv.className = 'hidden';
+
+                    //Create p element with long description
+                    const longDescription = document.createElement('p');
+                    longDescription.textContent = project.longDescription;
+                    hiddenDiv.appendChild(longDescription);
+
+                    //Loop over images array and create img elements
+                    project.images.forEach(image => {
+                        const img = document.createElement('img');
+                        img.src = `img/projects/${image.src}`;
+                        img.alt = image.alt;
+                        img.className = 'hidden-img';
+                        hiddenDiv.appendChild(img);
+                    });
+
+                    //Append hiddenDiv to record
+                    record.appendChild(hiddenDiv);
+                    projectsContainer.appendChild(record);
+
+                    record.addEventListener('click', function() {
+                        hiddenDiv.classList.toggle('hidden');
+                    });
+                })
+            })
+            .catch(error => console.error(error));
+    };
+</script>
 </html>
