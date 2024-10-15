@@ -35,7 +35,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #000424;
+    background-color: #fff2f0;
 }
 
 nav li {
@@ -51,21 +51,22 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    color: #fff2f0;
 }
 
 nav li a:hover {
-    color: #000424;
-    background-color: #fffbfa;
+    background-color: #000424;
+    color: #fffbfa;
     transition: 0.3s;
     text-decoration: none;
 }
 
 nav img {
-  max-height: 6em;
+  max-height: 5em;
   float: left;
-  padding: 20px;
+  padding: 15px;
   background-color: #fff2f0;
+  margin-right: -100%;
+  margin-left: 2em;
 }
 
 .active-nav {
@@ -165,13 +166,3 @@ footer p {
     
 }
 
-.spacer {
-  width: 6em;
-  height: 6em;
-  background-color: #fff2f0;
-  float: left;
-}
-
-.right {
-  float: right;
-}
