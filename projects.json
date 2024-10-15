@@ -25,6 +25,12 @@
                     "alt":"Pierwsze zdjęcie"
                 }
             ]
+        },
+        {
+            "name": "Test projektu bez zdjęć",
+            "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit vero in obcaecati cupiditate laudantium, nostrum odit commodi praesentium veritatis provident suscipit eaque assumenda accusantium iusto magnam vitae qui cum.",
+            "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit vero in obcaecati cupiditate laudantium, nostrum odit commodi praesentium veritatis provident suscipit eaque assumenda accusantium iusto magnam vitae qui cum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit vero in obcaecati cupiditate laudantium, nostrum odit commodi praesentium veritatis provident suscipit eaque assumenda accusantium iusto magnam vitae qui cum.",
+            "images": []
         }
     ]
 }
