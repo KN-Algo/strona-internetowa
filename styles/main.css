@@ -35,6 +35,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: #000424;
 }
 
 nav li {
@@ -50,11 +51,12 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: #fff2f0;
 }
 
 nav li a:hover {
-    background-color: #000424;
-    color: #fffbfa;
+    color: #000424;
+    background-color: #fffbfa;
     transition: 0.3s;
     text-decoration: none;
 }
@@ -63,8 +65,7 @@ nav img {
   max-height: 6em;
   float: left;
   padding: 20px;
-  margin-left: 1em;
-  margin-right: -100%;
+  background-color: #fff2f0;
 }
 
 .active-nav {
@@ -162,4 +163,15 @@ footer p {
         visibility: visible;
     }
     
+}
+
+.spacer {
+  width: 6em;
+  height: 6em;
+  background-color: #fff2f0;
+  float: left;
+}
+
+.right {
+  float: right;
 }
