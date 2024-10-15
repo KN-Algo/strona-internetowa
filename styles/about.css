@@ -64,14 +64,9 @@ h1 {
 }
 
 .person-container-checked {
-  background-color: grey;
   width: 20em;
   height: 35em;
 }
-
-/*.person-container-checked > * {
-  background-color: grey;
-}*/
 
 .person-container-checked p {
   height: 12em;
@@ -82,5 +77,5 @@ h1 {
 }
 
 .person-container-checked.person-container-leader {
-  background-color: gold;
+  background-color: none;
 }
