@@ -22,8 +22,8 @@
         <img src="/img/logos/logo-white.png" alt="KN ALGO">
         <li><a href="/">Strona główna</a></li>
         <li><a href="about.html">Zespół</a></li>
-        <li><a href="#" class="active-nav">Projekty</a></li>
-        <li><a href="events.html">Wydarzenia</a></li>
+        <li><a href="projects.html">Projekty</a></li>
+        <li><a href="#" class="active-nav">Wydarzenia</a></li>
         <li><a href="join-us.html">Rekrutacja</a></li>
         <li class="icon" >
             <a href="javascript:void(0);" onclick="toggleMenu()" id="hamburger">
@@ -49,23 +49,23 @@
 
     window.onload = function() {
 
-        fetch('projects.json')
+        fetch('events.json')
             .then(response => response.json())
             .then(data => {
                 console.log(data);
                 const projectsContainer = document.getElementById('projects-container');
-                data.projects.forEach(project => {
+                data.events.forEach(event => {
                     const record = document.createElement('div');
                     record.className = 'record';
 
                     //Create h3 element with project name
                     const name = document.createElement('h3');
-                    name.textContent = project.name;
+                    name.textContent = event.name;
                     record.appendChild(name);
 
                     //Create p element with short description
                     const shortDescription = document.createElement('p');
-                    shortDescription.textContent = project.shortDescription;
+                    shortDescription.textContent = event.shortDescription;
                     record.appendChild(shortDescription);
 
                     //Create div element with hidden content
@@ -74,13 +74,13 @@
 
                     //Create p element with long description
                     const longDescription = document.createElement('p');
-                    longDescription.textContent = project.longDescription;
+                    longDescription.textContent = event.longDescription;
                     hiddenDiv.appendChild(longDescription);
 
                     //Loop over images array and create img elements
-                    project.images.forEach(image => {
+                    event.images.forEach(image => {
                         const img = document.createElement('img');
-                        img.src = `img/projects/${image.src}`;
+                        img.src = `img/events/${image.src}`;
                         img.alt = image.alt;
                         img.className = 'hidden-img';
                         hiddenDiv.appendChild(img);
