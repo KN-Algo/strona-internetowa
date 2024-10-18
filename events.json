@@ -1,19 +1,11 @@
 {
     "events": [
         {
-            "name": "Wyjazd do Mitsubishi",
-            "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit vero in obcaecati cupiditate laudantium, nostrum odit commodi praesentium veritatis provident suscipit eaque assumenda accusantium iusto magnam vitae qui cum.",
-            "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit vero in obcaecati cupiditate laudantium, nostrum odit commodi praesentium veritatis provident suscipit eaque assumenda accusantium iusto magnam vitae qui cum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit vero in obcaecati cupiditate laudantium, nostrum odit commodi praesentium veritatis provident suscipit eaque assumenda accusantium iusto magnam vitae qui cum.",
-            "images": [
-                {
-                    "src": "projekt1.jpg",
-                    "alt": "Pierwsze zdjęcie"
-                },
-                {
-                    "src": "projekt2.jpg",
-                    "alt": "Drugie zdjęcie"
-                }
-            ]
+            "name": "Wizyta Αλγο w Mitsubishi Electronics!",
+            "shortDescription": "Algo w Mitshubishi! Dnia 22 maja 2024r. dzięki uprzejmości firmy Mitsubishi Electronics członkowie naszego koła uczestniczyli w prezentacji najnowszych rozwiązań firmy.",
+            "longDescription": "Podczas prezentacji zapoznaliśmy się z programami:\nIconics - Zaawansowane środowisko SCADA i wizualizacji dla procesów przemysłowych.\nMailab - Innowacyjne rozwiązania uczenia maszynowego dla zastosowań przemysłowych.\nVixio - Oprogramowanie do rozpoznawania obrazów, które otwiera nowe możliwości w automatyzacji.\nByło to niezwykle ciekawe oraz rozwijające doświadczenie, które dało nam obraz tego jak może wyglądać przemysł przyszłości. Serdecznie dziękujemy Mitsubishi Electronics za gościnność i fascynującą prezentację!",
+            "images": []
         }
     ]
 }
+    
