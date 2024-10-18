@@ -31,10 +31,10 @@ function person_onclick() {
 
 function create_person_container(person) {
   let main_div = document.createElement("div");
-  main_div.onclick = person_onclick;
+//  main_div.onclick = person_onclick;
   main_div.classList.add("person-container");
   if(person.god) {
-    main_div.classList.add("person-container-leader");
+    return; //why redesign the code, just make spaghetti instead
   }
 
   let img = document.createElement("img");
@@ -43,12 +43,8 @@ function create_person_container(person) {
   let h2 = document.createElement("h2");
   h2.innerHTML = person.name;
 
-  let p = document.createElement("p");
-  p.innerHTML = person.description;
-
   main_div.appendChild(img);
   main_div.appendChild(h2);
-  main_div.appendChild(p);
 
   document.querySelector(".person-grid").appendChild(main_div);
 }
