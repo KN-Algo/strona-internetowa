@@ -2,34 +2,27 @@
     "projects": [
         {
             "name": "Magazyny i fabryki",
-            "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit vero in obcaecati cupiditate laudantium, nostrum odit commodi praesentium veritatis provident suscipit eaque assumenda accusantium iusto magnam vitae qui cum.",
-            "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit vero in obcaecati cupiditate laudantium, nostrum odit commodi praesentium veritatis provident suscipit eaque assumenda accusantium iusto magnam vitae qui cum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit vero in obcaecati cupiditate laudantium, nostrum odit commodi praesentium veritatis provident suscipit eaque assumenda accusantium iusto magnam vitae qui cum.",
+            "shortDescription": "Ten projekt to aplikacja internetowa, która stanowi wyzwanie logiczne oparte na optymalizacji połączeń.",
+            "longDescription": "Gracz ma przed sobą planszę, na której znajduje się 7 fabryk, ulokowanych w ustalonych miejscach. Zadaniem gracza jest postawienie 4 magazynów w dowolnych lokalizacjach oraz połączenie fabryk z magazynami w taki sposób, aby każda fabryka miała dostęp do przynajmniej jednego magazynu. Celem gry jest stworzenie jak najkrótszej sieci połączeń. Gracz, który użyje najmniejszej ilości drogi, aby połączyć fabryki z magazynami, wygrywa i trafia na szczyt rankingu. Aby dodać wyzwania, stworzyliśmy także algorytm, który oblicza optymalne rozwiązanie, co pozwala na porównanie wyników z teoretycznie najlepszym możliwym wynikiem.",
             "images": [
                 {
-                    "src": "projekt1.jpg",
+                    "src": "fabryki1.jpg",
                     "alt": "Pierwsze zdjęcie"
                 },
                 {
-                    "src": "projekt2.jpg",
+                    "src": "fabryki2.jpg",
                     "alt": "Drugie zdjęcie"
+                },
+                {
+                    "src": "fabryki3.jpg",
+                    "alt": "Trzecie zdjęcie"
                 }
             ]
         }, 
         {
             "name": "Muzyczny kontroler",
-            "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit vero in obcaecati cupiditate laudantium, nostrum odit commodi praesentium veritatis provident suscipit eaque assumenda accusantium iusto magnam vitae qui cum.",
-            "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit vero in obcaecati cupiditate laudantium, nostrum odit commodi praesentium veritatis provident suscipit eaque assumenda accusantium iusto magnam vitae qui cum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit vero in obcaecati cupiditate laudantium, nostrum odit commodi praesentium veritatis provident suscipit eaque assumenda accusantium iusto magnam vitae qui cum.",
-            "images": [
-                {
-                    "src":"projekt1.jpg",
-                    "alt":"Pierwsze zdjęcie"
-                }
-            ]
-        },
-        {
-            "name": "Test projektu bez zdjęć",
-            "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit vero in obcaecati cupiditate laudantium, nostrum odit commodi praesentium veritatis provident suscipit eaque assumenda accusantium iusto magnam vitae qui cum.",
-            "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit vero in obcaecati cupiditate laudantium, nostrum odit commodi praesentium veritatis provident suscipit eaque assumenda accusantium iusto magnam vitae qui cum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit vero in obcaecati cupiditate laudantium, nostrum odit commodi praesentium veritatis provident suscipit eaque assumenda accusantium iusto magnam vitae qui cum.",
+            "shortDescription": "Stworzyliśmy skrypt, który pozwala sterować komputerem za pomocą klawiatury MIDI, otwierając nowe możliwości interakcji z aplikacjami i grami.",
+            "longDescription": "Nasz projekt to innowacyjne połączenie muzyki i technologii! Skrypt, który stworzyliśmy, umożliwia wykorzystanie klawiatury MIDI do kontrolowania komputera. Dzięki temu każdy klawisz na instrumencie może zostać przypisany do odpowiednich funkcji klawiatury komputerowej lub działań myszy, co daje zupełnie nowe możliwości interakcji z aplikacjami i grami. Pomysł zrodził się z chęci eksperymentowania i zabawy, a jego realizacja opiera się na języku Python. Skrypt jest łatwy do dostosowania – każdy użytkownik może samodzielnie przypisać klawisze MIDI do funkcji komputera, według swoich potrzeb i pomysłów. Projekt jest otwarty na dalsze ulepszenia, a my zachęcamy do wspólnych eksperymentów i twórczego wykorzystania narzędzi technologicznych.",
             "images": []
         }
     ]
