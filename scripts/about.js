@@ -37,13 +37,15 @@ function create_person_container(person) {
     return; //why redesign the code, just make spaghetti instead
   }
 
+  let img_div = document.createElement("div");
   let img = document.createElement("img");
   img.src = person.img;
 
   let h2 = document.createElement("h2");
   h2.innerHTML = person.name;
-
-  main_div.appendChild(img);
+  
+  img_div.appendChild(img)
+  main_div.appendChild(img_div);
   main_div.appendChild(h2);
 
   document.querySelector(".person-grid").appendChild(main_div);

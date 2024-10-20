@@ -59,7 +59,14 @@ h1 {
   transition-delay: .15s;
 }
 
-.person-container img {
+.person-container div {
+  height: 19em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.person-container div img {
   display: block;
   margin: auto auto;
   width: 13em;
