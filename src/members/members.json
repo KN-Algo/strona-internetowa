@@ -20,7 +20,7 @@
     },
     {
       "name" : "Adam Krzywicki",
-      "img": "/img/members/Adrian.JPG",
+      "img": "/img/members/Adam.jpg",
       "description": "lorem ipsum",
       "god": false
     },
@@ -38,7 +38,7 @@
     },
     {
       "name" : "Wiktor Siepka",
-      "img": "/img/members/Adrian.JPG",
+      "img": "/img/members/Wiktor.jpg",
       "description": "lorem ipsum",
       "god": false
     },
@@ -68,12 +68,6 @@
     },
     {
       "name" : "Jakub Barczyński",
-      "img": "/img/members/Adrian.JPG",
-      "description": "lorem ipsum",
-      "god": false
-    },
-    {
-      "name" : "Wojciech Grzybowski",
       "img": "/img/members/Adrian.JPG",
       "description": "lorem ipsum",
       "god": false
