@@ -151,4 +151,23 @@ h1 {
   font-size: 14px;
 }
 
+@media screen and (max-width: 930px) {
+  .person-container-leader {
+    display: inline-block;
+    width: 100%;
+  }
 
+  .person-container-leader img {
+    width: 100%;
+    margin-bottom: 0em;
+  }
+
+  .person-container-leader div {
+    width: 100%;
+    margin: 3em auto 0 auto;
+  }
+
+  .group-div img {
+    width: 100%;
+  }
+}
