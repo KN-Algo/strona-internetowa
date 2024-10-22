@@ -60,13 +60,24 @@ nav li a:hover {
     text-decoration: none;
 }
 
-nav img {
-  max-height: 5em;
+.logo {
+  height: 100%;
+  max-width: 5em;
   float: left;
-  padding: 15px;
-  background-color: #fff2f0;
+  
   margin-right: -100%;
   margin-left: 2em;
+
+  padding: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 100%;
+  background-color: #fff2f0;
 }
 
 .active-nav {
@@ -142,7 +153,7 @@ footer p {
     color: none;
 }
   
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 930px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive li.icon {
         position: absolute;
@@ -163,6 +174,10 @@ footer p {
         display: block;
         visibility: visible;
     }
-    
+
+    .logo {
+      padding: 20px;
+      margin-left: 1em;
+    }
 }
 
