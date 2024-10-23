@@ -78,6 +78,7 @@ nav li a:hover {
 .logo img {
   width: 100%;
   background-color: #fff2f0;
+  cursor: pointer;
 }
 
 .active-nav {
