@@ -71,6 +71,13 @@
       "img": "/img/members/temp.png",
       "description": "lorem ipsum",
       "god": false
+    },
+    {
+      "name" : "Adam Krystek",
+      "img": "/img/members/temp.png",
+      "description": "lorem ipsum",
+      "god": false
     }
+    
   ]
 }
