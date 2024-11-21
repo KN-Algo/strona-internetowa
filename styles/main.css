@@ -60,6 +60,10 @@ nav li a:hover {
     text-decoration: none;
 }
 
+.idk-what-im-doing {
+  display: none;
+}
+
 .logo {
   height: 100%;
   max-width: 5em;
@@ -156,29 +160,47 @@ footer p {
   
 @media screen and (max-width: 930px) and (min-width: 450px) {
     .topnav.responsive {position: relative;}
+
     .topnav.responsive li.icon {
         position: absolute;
         right: 0;
         top: 0;
     }
+
     .topnav.responsive li {
         float: none;
         display: block;
         text-align: left;
     }
+
     .topnav.responsive {
         border-bottom: 1px solid #000424;
     }
+
     .topnav li {display: none;}
+
     .topnav li.icon {
         float: right;
         display: block;
         visibility: visible;
+        font-size: 20px;
+    }
+
+    .fa-bars::before {
+      font-size: 35px;
+    }
+
+    .topnav .idk-what-im-doing {
+      display: inline-block;
+      width: 75%;
+      height: 100%;
+      padding: 30px;
     }
 
     .logo {
-      padding: 20px;
-      margin-left: 1em;
+      max-width: 4em;
+      margin-left: 2em;
+      padding: 10px 0;
     }
 }
 
@@ -188,7 +210,9 @@ footer p {
       margin: auto 10%;
     }
 
-    .topnav.responsive {position: relative;}
+    .topnav.responsive {
+      position: relative;
+    }
     .topnav.responsive li.icon {
         position: absolute;
         right: 0;
@@ -202,7 +226,9 @@ footer p {
     .topnav.responsive {
         border-bottom: 1px solid #000424;
     }
+
     .topnav li {display: none;}
+
     .topnav li.icon {
         float: right;
         display: block;
@@ -212,11 +238,29 @@ footer p {
 
     .topnav li.icon a {
       padding: 14px 0;
+      margin-right: 1em;
     }
 
-  .logo {
-    max-width: 1.4em;
-    margin-left: .3em;
-    padding: 14px 0;
-  }
+    .topnav ul {
+      background-color: #000;
+    }
+
+    .fa-bars::before {
+      font-size: 25px;
+    }
+
+    .logo {
+      max-width: 3em;
+      margin-left: 1em;
+      padding: 10px 0;
+    }
+
+    .topnav .idk-what-im-doing {
+      display: inline-block;
+      width: 75%;
+      height: 100%;
+      padding: 25px;
+    }
+
+
 }
