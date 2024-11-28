@@ -46,6 +46,7 @@ if (file_exists($translationFile)) {
                 <i class="fa fa-bars"></i>
             </a>
         </li>
+        <li class="idk-what-im-doing"></li>
     </ul>
 </nav>
 <body>
