@@ -28,6 +28,14 @@ return [
 
     'team-members' => "Członkowie Koła",
 
+    // events.php
+
+    'title-events-page' => 'WYDARZENIA | KN ALGO',
+
+    // projects.php
+
+    'title-projects-page' => 'PROJEKTY | KN ALGO',
+
     // join-us.php
 
     'title-join-us-page' => 'REKRUTACJA | KN ALGO', 
