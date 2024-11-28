@@ -1,81 +1,58 @@
 {
   "members" : [
     {
-      "name" : "Marta Lampasiak",
-      "img": "/img/members/Adrian.JPG",
-      "description": "lorem ipsum",
-      "god": true
-    },
-    {
-      "name" : "Jacek Jagodziński",
-      "img": "/img/members/Adrian.JPG",
-      "description": "lorem ipsum",
-      "god": true
-    },
-    {
       "name" : "Adrian Goral",
       "img": "/img/members/Adrian.JPG",
-      "description": "lorem ipsum",
       "god": false
     },
     {
       "name" : "Adam Krzywicki",
       "img": "/img/members/Adam.jpg",
-      "description": "lorem ipsum",
       "god": false
     },
     {
       "name" : "Mateusz Andrzejewski",
       "img": "/img/members/Mateusz.JPG",
-      "description": "lorem ipsum",
       "god": false
     },
     {
       "name" : "Paulina Szulc",
       "img": "/img/members/Paulina.JPG",
-      "description": "lorem ipsum",
       "god": false
     },
     {
       "name" : "Wiktor Siepka",
       "img": "/img/members/Wiktor.jpg",
-      "description": "lorem ipsum",
       "god": false
     },
     {
       "name" : "Bartosz Michalak",
       "img": "/img/members/temp.png",
-      "description": "lorem ipsum",
       "god": false
     },
     {
       "name" : "Adam Jabłoński",
       "img": "/img/members/ADAM-J.JPG",
-      "description": "lorem ipsum",
       "god": false
     },
     {
       "name" : "Piotr Kosior",
       "img": "/img/members/Piotr.JPG",
-      "description": "lorem ipsum",
       "god": false
     },
     {
       "name" : "Stefan Bogdan",
       "img": "/img/members/Stefan.JPG",
-      "description": "lorem ipsum",
       "god": false
     },
     {
       "name" : "Jakub Barczyński",
       "img": "/img/members/temp.png",
-      "description": "lorem ipsum",
       "god": false
     },
     {
       "name" : "Adam Krystek",
       "img": "/img/members/temp.png",
-      "description": "lorem ipsum",
       "god": false
     }
     
