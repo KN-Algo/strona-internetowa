@@ -1,5 +1,19 @@
+<?php
+// Ustawienie domyślnego języka
+$lang = isset($_GET['lang']) ? $_GET['lang'] : 'pl';
+
+// Ścieżka do pliku tłumaczeń
+$translationFile = __DIR__ . "/translations/{$lang}.php";
+
+// Wczytaj tłumaczenia, jeśli plik istnieje, inaczej użyj polskiego
+if (file_exists($translationFile)) {
+    $translations = include($translationFile);
+} else {
+    $translations = include(__DIR__ . "/translations/pl.php");
+}
+?>
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="<?php echo htmlspecialchars($lang); ?>">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,6 +31,23 @@
     <link rel="stylesheet" href="styles/about.css">
     <script defer src="/scripts/about.js" type="text/javascript"></script>
 </head>
+<nav>
+    <ul class="topnav" id="nav-menu">
+        <div class="logo" onclick="window.location.replace('/index.php?lang=<?php echo htmlspecialchars($lang); ?>')">
+          <img src="/img/logos/logo-white.png" alt="KN ALGO">
+        </div>
+        <li><a href="/index.php?lang=<?php echo htmlspecialchars($lang); ?>" ><?php echo htmlspecialchars($translations['main-page']); ?></a></li>
+        <li><a href="#" class="active-nav"><?php echo htmlspecialchars($translations['team']); ?></a></li>
+        <li><a href="projects.php?lang=<?php echo htmlspecialchars($lang); ?>"><?php echo htmlspecialchars($translations['projects']); ?></a></li>
+        <li><a href="events.php?lang=<?php echo htmlspecialchars($lang); ?>"><?php echo htmlspecialchars($translations['events']); ?></a></li>
+        <li><a href="join-us.php?lang=<?php echo htmlspecialchars($lang); ?>"><?php echo htmlspecialchars($translations['recruitment']); ?></a></li>
+        <li class="icon" >
+            <a href="javascript:void(0);" onclick="toggleMenu()" id="hamburger">
+                <i class="fa fa-bars"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
 <nav>
     <ul class="topnav" id="nav-menu">
         <div class="logo" onclick="window.location.replace('/')">
@@ -59,13 +90,6 @@
     <div class="person-grid"></div>
   </div>
 </body>
-<footer>
-    <p>KN ALGO Copyright &copy; 2024</p>
-    <ul class="socials">
-        <li><a href="https://github.com/KN-Algo"><i class="fab fa-github"></i></a></li>
-        <li><a href="https://www.instagram.com/kn_algo/"><i class="fab fa-instagram"></i></a></li>
-    </ul>
-</footer>
-<script type="text/javascript" src="./scripts/navbar.js"></script>
-<script type="text/javascript"> window.toggleMenu = toggleMenu;</script>
-</html>
+<?php
+include(__DIR__ . '/includes/footer.php');
+?>
