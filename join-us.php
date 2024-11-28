@@ -1,9 +1,23 @@
+<?php
+// Ustawienie domyślnego języka
+$lang = isset($_GET['lang']) ? $_GET['lang'] : 'pl';
+
+// Ścieżka do pliku tłumaczeń
+$translationFile = __DIR__ . "/translations/{$lang}.php";
+
+// Wczytaj tłumaczenia, jeśli plik istnieje, inaczej użyj polskiego
+if (file_exists($translationFile)) {
+    $translations = include($translationFile);
+} else {
+    $translations = include(__DIR__ . "/translations/pl.php");
+}
+?>
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="<?php echo htmlspecialchars($lang); ?>">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REKRUTACJA | KN ALGO</title>
+    <title><?php echo htmlspecialchars($translations['title-join-us-page']) ?></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="scripts/navbar.js"></script>
     <link rel="stylesheet" href="styles/main.css">
@@ -19,14 +33,14 @@
 </head>
 <nav>
     <ul class="topnav" id="nav-menu">
-        <div class="logo" onclick="window.location.replace('/')">
+        <div class="logo" onclick="window.location.replace('/index.php?lang=<?php echo htmlspecialchars($lang); ?>')">
           <img src="/img/logos/logo-white.png" alt="KN ALGO">
         </div>
-        <li><a href="/">Strona główna</a></li>
-        <li><a href="about.html">Zespół</a></li>
-        <li><a href="projects.html">Projekty</a></li>
-        <li><a href="events.html">Wydarzenia</a></li>
-        <li><a href="#" class="active-nav">Rekrutacja</a></li>
+        <li><a href="/index.php?lang=<?php echo htmlspecialchars($lang); ?>" ><?php echo htmlspecialchars($translations['main-page']); ?></a></li>
+        <li><a href="/about.php?lang=<?php echo htmlspecialchars($lang); ?>"><?php echo htmlspecialchars($translations['team']); ?></a></li>
+        <li><a href="projects.php?lang=<?php echo htmlspecialchars($lang); ?>"><?php echo htmlspecialchars($translations['projects']); ?></a></li>
+        <li><a href="events.php?lang=<?php echo htmlspecialchars($lang); ?>"><?php echo htmlspecialchars($translations['events']); ?></a></li>
+        <li><a href="#" class="active-nav"><?php echo htmlspecialchars($translations['recruitment']); ?></a></li>
         <li class="icon" >
             <a href="javascript:void(0);" onclick="toggleMenu()" id="hamburger">
                 <i class="fa fa-bars"></i>
@@ -35,29 +49,21 @@
     </ul>
 </nav>
 <body>
-    <h1>REKRUTACJA I KONTAKT</h1>
-    <p>Nasze koło rozpoczęło działalność niedawno i wciąż poszukuje nowych osób do podjęcia współpracy. Jeżeli jesteś zainteresowany tematyką, którą się zajmujemy i chciałbyś do nas dołączyć lub po prostu masz trochę pytań, możesz skontaktować się z nami mailowo, korzystając z formularza poniżej:</p>
+    <h1><?php echo htmlspecialchars($translations['recrutation-contact']); ?></h1>
+    <p><?php echo htmlspecialchars($translations['description-recrutation']); ?></p>
     <form id="contact-form">
-        <label for="name">Imię i nazwisko:</label>
+        <input type="hidden" name="lang" value="<?php echo htmlspecialchars($lang); ?>">
+        <label for="name"><?php echo htmlspecialchars($translations['name']); ?>:</label>
         <input type="text" id="name" name="name" required>
-        <label for="email">Adres e-mail:</label>
+        <label for="email"><?php echo htmlspecialchars($translations['email']); ?>:</label>
         <input type="email" id="email" name="email" required>
-        <label for="subject">Temat:</label>
+        <label for="subject"><?php echo htmlspecialchars($translations['subject']); ?>:</label>
         <input type="text" id="subject" name="subject" required>
-        <label for="message">Wiadomość:</label>
+        <label for="message"><?php echo htmlspecialchars($translations['message']); ?>:</label>
         <textarea id="message" name="message" required></textarea>
-        <button type="submit">Wyślij</button>
+        <button type="submit"><?php echo htmlspecialchars($translations['send']); ?></button>
     </form>
 </body>
-<footer>
-    <p>KN ALGO Copyright &copy; 2024</p>
-    <ul class="socials">
-        <li><a href="https://github.com/KN-Algo"><i class="fab fa-github"></i></a></li>
-        <li><a href="https://www.instagram.com/kn_algo/"><i class="fab fa-instagram"></i></a></li>
-    </ul>
-</footer>
-<script type="text/javascript" src="./scripts/navbar.js"></script>
-<script type="text/javascript"> window.toggleMenu = toggleMenu;</script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="https://www.google.com/recaptcha/api.js?render=6LdQalkqAAAAAOAaZ72UetAF-LTDiDhcM1Pv5P0J"></script>
 <script>
@@ -85,9 +91,9 @@
                         } else {
                             Swal.fire({
                                 icon: 'warning',
-                                title: 'Błąd',
-                                text: 'Recaptcha się nie powiodła',
-                                footer: 'Botom wstęp wzbroniony!'
+                                title: '<?php echo htmlspecialchars($translations['title-error']); ?>',
+                                text: '<?php echo htmlspecialchars($translations['recaptcha-error']); ?>',
+                                footer: '<?php echo htmlspecialchars($translations['no-bots']); ?>'
                             })
                         }
                     })
@@ -96,7 +102,7 @@
 
         function registerUser() {
             const formData = new FormData(contact);
-            console.log(formData);
+            // console.log(formData);
             fetch("src/api/sendContactMail.php", {
                 method: "POST",
                 body: formData
@@ -104,8 +110,8 @@
                .then(
                    Swal.fire({
                        icon: 'info',
-                       title: 'Proszę czekać',
-                       text: 'Trwa wysyłanie maila...',
+                       title: '<?php echo htmlspecialchars($translations['title-please-wait']); ?>',
+                       text: '<?php echo htmlspecialchars($translations['sending']); ?>',
                        allowOutsideClick: false,
                        allowEscapeKey: false,
                        allowEnterKey: false,
@@ -132,4 +138,6 @@
         }
     });
 </script>
-</html>
+<?php
+include(__DIR__ . '/includes/footer.php');
+?>

@@ -17,7 +17,7 @@ if (file_exists($translationFile)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZESPÓŁ | KN ALGO</title>
+    <title><?php echo htmlspecialchars($translations['title-about-page']) ?></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="scripts/navbar.js"></script>
     <link rel="stylesheet" href="styles/main.css">
@@ -48,45 +48,27 @@ if (file_exists($translationFile)) {
         </li>
     </ul>
 </nav>
-<nav>
-    <ul class="topnav" id="nav-menu">
-        <div class="logo" onclick="window.location.replace('/')">
-          <img src="/img/logos/logo-white.png" alt="KN ALGO">
-        </div>
-        <li><a href="/">Strona główna</a></li>
-        <li><a href="#" class="active-nav">Zespół</a></li>
-        <li><a href="projects.html">Projekty</a></li>
-        <li><a href="events.html">Wydarzenia</a></li>
-        <li><a href="join-us.html">Rekrutacja</a></li>
-        <li class="icon" >
-            <a href="javascript:void(0);" onclick="toggleMenu()" id="hamburger">
-                <i class="fa fa-bars"></i>
-            </a>
-        </li>
-        <li class="idk-what-im-doing"></li>
-    </ul>
-</nav>
 <body>
   <div class="main-content">
     <div class="group-div">
-      <h1>ZESPÓŁ</h1>
+      <h1><?php echo htmlspecialchars($translations['team-upper'])?></h1>
       <img src="/img/grupowe1_poziom.jpg">
     </div>
-    <h1>Prowadzący</h1>
+    <h1><?php echo htmlspecialchars($translations['leaders']); ?></h1>
     <div class="leaders">
       <div class="person-container-leader">
         <img src="/img/leaders/opiekunowie2.JPG">
         <div>
           <h2>Marta Lampasiak</h2>
-          <p>Mgr inż. Marta Lampasiak w 2022 ukończyła kierunek Automatyka i Robotyka na Wydziale Elektroniki. Pracę na Wydziale Informatyki i Telekomunikacji na Politechnice Wrocławskiej podjęła jeszcze w tym samym roku. Prowadzi głównie przedmioty związane z programowaniem i technologiami informatycznymi, jednakże jej obszar zainteresowań badawczych obejmuje: modelowanie i identyfikacja systemów dynamicznych, projektowanie układów sterowania i badania symulacyjne. Aktualnie pracuje nad doktoratem i prowadzi badania naukowe, a ich efekty często prezentuje na międzynarodowych konferencjach naukowych. Praca na PWr pozwala jej na łączenie dwóch aspektów, bez których nie wyobraża sobie swojego życia: zdobywania wiedzy i przekazywania jej innym. Dla mgr inż. Marty Lampasiak praca dydaktyczna, a w tym atmosfera na jej zajęciach, ma równie ważne znaczenie co praca naukowa, o czym świadczy chociażby tytuł laureata w Programie Quintus, w którym to studenci wybierają prowadzących wyróżniających się swoim zaangażowaniem i sposobem prowadzenia zajęć.</p>
+          <p><?php echo htmlspecialchars($translations['marta-lampasiak-description']); ?></p>
         </div>
         <div>
           <h2>Jacek Jagodziński</h2>
-          <p>Dr inż. Jacek Jagodziński ukończył studia na kierunku Automatyka i Robotyka na Wydziale Elektroniki, na Politechnice Wrocławskiej uzyskał również tytuł doktora, a pracę na wspomnianej uczelni rozpoczął w 2017 roku. Prowadzi przedmioty związane z szeroko pojętą automatyką przemysłową, IoT, przetwarzaniem sygnałów i wiele innych. Warto również nadmienić, że jego praca doktorska dotyczyła zagadnień związanych z robotyką. Natomiast w swojej pracy naukowej skupia się głównie na tworzeniu modeli systemów (nie tylko tych związanych z automatyką), ich identyfikacji oraz na ogólnie pojętej estymacji. Dr inż. Jacek Jagodziński jest opiekunem Laboratorium urządzeń i układów automatyki, a jeśli chodzi o jego pracę dydaktyczną najlepszym dowodem jego zaangażowania, a także i pomysłowości dotyczącej wymyślania coraz to nowszych tematów projektów do realizacji, są absolwenci, zarówno studiów inżynierskich, jak i magisterskich, których miał przyjemność być promotorem. Dodatkowo należy nadmienić, że posiada on duże doświadczenie związane z pracą w projektach badawczych.</p>
+          <p><?php echo htmlspecialchars($translations['jacek-jagodzinski-description']); ?></p>
         </div>
       </div>
     </div>
-    <h1>Członkowie Koła</h1>
+    <h1><?php echo htmlspecialchars($translations['team-members']); ?></h1>
     <div class="person-grid"></div>
   </div>
 </body>
