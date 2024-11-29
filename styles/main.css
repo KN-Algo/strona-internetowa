@@ -157,6 +157,21 @@ footer p {
     background-color: transparent;
     color: none;
 }
+
+.flags {
+  right: 0;
+  position: absolute;
+}
+
+.flags div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flags div a {
+    text-shadow: 1px 1px 0px #32393b, -1px 1px 0px #32393b, 1px -1px 0px #32393b, -1px -1px 0px #32393b;
+}
   
 @media screen and (max-width: 930px) and (min-width: 450px) {
     nav {
@@ -205,6 +220,10 @@ footer p {
       max-width: 4em;
       margin-left: 2em;
       padding: 10px 0;
+    }
+
+    .flags {
+      position: relative;
     }
 }
 
@@ -264,6 +283,9 @@ footer p {
       height: 100%;
       padding: 25px;
     }
-
+    
+    .flags {
+      position:relative;
+    }
 
 }

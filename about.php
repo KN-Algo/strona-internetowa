@@ -46,6 +46,13 @@ if (file_exists($translationFile)) {
                 <i class="fa fa-bars"></i>
             </a>
         </li>
+        <li class="flags">
+          <div>
+            <a>🇵🇱</a>
+            <a>🇬🇧</a>
+            <a>🇩🇪</a>
+          </div>
+        </li>
     </ul>
 </nav>
 <body>
