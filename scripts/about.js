@@ -14,41 +14,16 @@ function getJSON(url, callback) {
 };
 
 
-function person_onclick() {
-  if(this.clicked == undefined) {
-    this.clicked = false;
-  }
-
-  if(!this.clicked) {
-    this.classList.add("person-container-checked");
-  } else {
-    this.classList.remove("person-container-checked");
-  }
-
-  this.clicked = !this.clicked;
-}
-
-
 function create_person_container(person) {
-  let main_div = document.createElement("div");
-//  main_div.onclick = person_onclick;
-  main_div.classList.add("person-container");
-  if(person.god) {
-    return; //why redesign the code, just make spaghetti instead
-  }
+  let html = `
+  <div class="person-container">
+    <div>
+      <img src="${person.img}"></img>
+    </div>
+    <h2>${person.name}</h2>
+  </div>`
 
-  let img_div = document.createElement("div");
-  let img = document.createElement("img");
-  img.src = person.img;
-
-  let h2 = document.createElement("h2");
-  h2.innerHTML = person.name;
-  
-  img_div.appendChild(img)
-  main_div.appendChild(img_div);
-  main_div.appendChild(h2);
-
-  document.querySelector(".person-grid").appendChild(main_div);
+  document.querySelector(".person-grid").innerHTML += html;
 }
 
 

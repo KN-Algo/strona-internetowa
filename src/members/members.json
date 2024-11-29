@@ -2,59 +2,47 @@
   "members" : [
     {
       "name" : "Adrian Goral",
-      "img": "/img/members/Adrian.JPG",
-      "god": false
+      "img": "/img/members/Adrian.JPG"
     },
     {
       "name" : "Adam Krzywicki",
-      "img": "/img/members/Adam.jpg",
-      "god": false
+      "img": "/img/members/Adam.jpg"
     },
     {
       "name" : "Mateusz Andrzejewski",
-      "img": "/img/members/Mateusz.JPG",
-      "god": false
+      "img": "/img/members/Mateusz.JPG"
     },
     {
       "name" : "Paulina Szulc",
-      "img": "/img/members/Paulina.JPG",
-      "god": false
+      "img": "/img/members/Paulina.JPG"
     },
     {
       "name" : "Wiktor Siepka",
-      "img": "/img/members/Wiktor.jpg",
-      "god": false
+      "img": "/img/members/Wiktor.jpg"
     },
     {
       "name" : "Bartosz Michalak",
-      "img": "/img/members/temp.png",
-      "god": false
+      "img": "/img/members/temp.png"
     },
     {
       "name" : "Adam Jabłoński",
-      "img": "/img/members/ADAM-J.JPG",
-      "god": false
+      "img": "/img/members/ADAM-J.JPG"
     },
     {
       "name" : "Piotr Kosior",
-      "img": "/img/members/Piotr.JPG",
-      "god": false
+      "img": "/img/members/Piotr.JPG"
     },
     {
       "name" : "Stefan Bogdan",
-      "img": "/img/members/Stefan.JPG",
-      "god": false
+      "img": "/img/members/Stefan.JPG"
     },
     {
       "name" : "Jakub Barczyński",
-      "img": "/img/members/temp.png",
-      "god": false
+      "img": "/img/members/temp.png"
     },
     {
       "name" : "Adam Krystek",
-      "img": "/img/members/temp.png",
-      "god": false
+      "img": "/img/members/temp.png"
     }
-    
   ]
 }
