@@ -37,7 +37,7 @@ if (file_exists($translationFile)) {
           <img src="/img/logos/logo-white.png" alt="KN ALGO">
         </div>
         <li><a href="/index.php?lang=<?php echo htmlspecialchars($lang); ?>" ><?php echo htmlspecialchars($translations['main-page']); ?></a></li>
-        <li><a href="#" class="active-nav"><?php echo htmlspecialchars($translations['team']); ?></a></li>
+        <li><a href="" class="active-nav"><?php echo htmlspecialchars($translations['team']); ?></a></li>
         <li><a href="projects.php?lang=<?php echo htmlspecialchars($lang); ?>"><?php echo htmlspecialchars($translations['projects']); ?></a></li>
         <li><a href="events.php?lang=<?php echo htmlspecialchars($lang); ?>"><?php echo htmlspecialchars($translations['events']); ?></a></li>
         <li><a href="join-us.php?lang=<?php echo htmlspecialchars($lang); ?>"><?php echo htmlspecialchars($translations['recruitment']); ?></a></li>
@@ -48,9 +48,9 @@ if (file_exists($translationFile)) {
         </li>
         <li class="flags">
           <div>
-            <a>🇵🇱</a>
-            <a>🇬🇧</a>
-            <a>🇩🇪</a>
+            <a href="?lang=pl">🇵🇱</a>
+            <a href="?lang=en">🇬🇧</a>
+            <a href="?lang=de">🇩🇪</a>
           </div>
         </li>
     </ul>
