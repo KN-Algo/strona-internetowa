@@ -1,0 +1,29 @@
+{
+    "projects": [
+        {
+            "name": "Warehouses and factories",
+            "shortDescription": "This project is a web application that provides a logic challenge based on optimizing connections.",
+            "longDescription": "The player has a board in front of him, on which there are 7 factories, located in fixed locations. The player's task is to place 4 warehouses in chosen locations and connect the factories to the warehouses in such a way that each factory has access to at least one warehouse. The goal of the game is to create the shortest possible network of connections. The player who uses the least amount of road to connect factories to warehouses wins and goes to the top of the leaderboard. To add to the challenge, we have also created an algorithm that calculates the optimal solution, allowing you to compare your results with the theoretically best possible outcome.",
+            "images": [
+                {
+                    "src": "fabryki1.jpg",
+                    "alt": "Pierwsze zdjęcie"
+                },
+                {
+                    "src": "fabryki2.jpg",
+                    "alt": "Drugie zdjęcie"
+                },
+                {
+                    "src": "fabryki3.jpg",
+                    "alt": "Trzecie zdjęcie"
+                }
+            ]
+        }, 
+        {
+            "name": "Music controller",
+            "shortDescription": "We have created a script that allows you to control your computer with a MIDI keyboard, opening up new possibilities for interacting with applications and games.",
+            "longDescription": "Our project is an innovative combination of music and technology! The script we created allows you to use a MIDI keyboard to control your computer. This allows each key on the instrument to be assigned to the corresponding computer keyboard functions or mouse actions, opening up entirely new possibilities for interaction with applications and games. The idea was born out of a desire to experiment and play, and is based on the Python language. The script is easy to customize - each user can independently assign MIDI keys to computer functions, according to their needs and ideas. The project is open for further improvements, and we encourage joint experimentation and creative use of technological tools.",
+            "images": []
+        }
+    ]
+}
