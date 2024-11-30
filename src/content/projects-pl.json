@@ -24,6 +24,12 @@
             "shortDescription": "Stworzyliśmy skrypt, który pozwala sterować komputerem za pomocą klawiatury MIDI, otwierając nowe możliwości interakcji z aplikacjami i grami.",
             "longDescription": "Nasz projekt to innowacyjne połączenie muzyki i technologii! Skrypt, który stworzyliśmy, umożliwia wykorzystanie klawiatury MIDI do kontrolowania komputera. Dzięki temu każdy klawisz na instrumencie może zostać przypisany do odpowiednich funkcji klawiatury komputerowej lub działań myszy, co daje zupełnie nowe możliwości interakcji z aplikacjami i grami. Pomysł zrodził się z chęci eksperymentowania i zabawy, a jego realizacja opiera się na języku Python. Skrypt jest łatwy do dostosowania – każdy użytkownik może samodzielnie przypisać klawisze MIDI do funkcji komputera, według swoich potrzeb i pomysłów. Projekt jest otwarty na dalsze ulepszenia, a my zachęcamy do wspólnych eksperymentów i twórczego wykorzystania narzędzi technologicznych.",
             "images": []
+        },
+        {
+            "name": "Studenckie Koła Naukowe Tworzą Innowacje – Nasz Udział w Programie",
+            "shortDescription": "Nasz zespół wziął udział w programie rządowym „Studenckie koła naukowe tworzą innowacje”, który wspiera młodych naukowców w realizacji nowatorskich projektów.",
+            "longDescription": "Nasz projekt zakładał rozwinięcie istniejącego systemu w przemyśle, który umożliwia przenoszenie przedmiotów bez tarcia, poprzez dodanie zintegrowanego pomiaru wagi. To usprawnienie pozwoliłoby na bieżące monitorowanie masy transportowanych obiektów, co zwiększyłoby wydajność i precyzję w procesach przemysłowych. Przygotowanie wniosku wymagało od nas szczegółowego planu i zaangażowania całego zespołu. Efektem naszej pracy jest projekt, który odpowiada na rzeczywiste potrzeby przemysłu i otwiera przed nami nowe wyzwania, które z pasją chcemy realizować.",
+            "images": []
         }
     ]
 }
