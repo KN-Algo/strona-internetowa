@@ -7,15 +7,15 @@
             "images": [
                 {
                     "src": "fabryki1.jpg",
-                    "alt": "Pierwsze zdjęcie"
+                    "alt": "First picture"
                 },
                 {
                     "src": "fabryki2.jpg",
-                    "alt": "Drugie zdjęcie"
+                    "alt": "Second picture"
                 },
                 {
                     "src": "fabryki3.jpg",
-                    "alt": "Trzecie zdjęcie"
+                    "alt": "Third picture"
                 }
             ]
         }, 
