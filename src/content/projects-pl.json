@@ -23,7 +23,12 @@
             "name": "Muzyczny kontroler",
             "shortDescription": "Stworzyliśmy skrypt, który pozwala sterować komputerem za pomocą klawiatury MIDI, otwierając nowe możliwości interakcji z aplikacjami i grami.",
             "longDescription": "Nasz projekt to innowacyjne połączenie muzyki i technologii! Skrypt, który stworzyliśmy, umożliwia wykorzystanie klawiatury MIDI do kontrolowania komputera. Dzięki temu każdy klawisz na instrumencie może zostać przypisany do odpowiednich funkcji klawiatury komputerowej lub działań myszy, co daje zupełnie nowe możliwości interakcji z aplikacjami i grami. Pomysł zrodził się z chęci eksperymentowania i zabawy, a jego realizacja opiera się na języku Python. Skrypt jest łatwy do dostosowania – każdy użytkownik może samodzielnie przypisać klawisze MIDI do funkcji komputera, według swoich potrzeb i pomysłów. Projekt jest otwarty na dalsze ulepszenia, a my zachęcamy do wspólnych eksperymentów i twórczego wykorzystania narzędzi technologicznych.",
-            "images": []
+            "images": [
+                {
+                    "src": "dawit_klawiatura_1.jpg",
+                    "alt": "Pierwsze zdjęcie"
+                }
+            ]
         },
         {
             "name": "Studenckie Koła Naukowe Tworzą Innowacje – Nasz Udział w Programie",
