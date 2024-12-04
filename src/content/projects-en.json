@@ -23,7 +23,12 @@
             "name": "Music controller",
             "shortDescription": "We have created a script that allows you to control your computer with a MIDI keyboard, opening up new possibilities for interacting with applications and games.",
             "longDescription": "Our project is an innovative combination of music and technology! The script we created allows you to use a MIDI keyboard to control your computer. This allows each key on the instrument to be assigned to the corresponding computer keyboard functions or mouse actions, opening up entirely new possibilities for interaction with applications and games. The idea was born out of a desire to experiment and play, and is based on the Python language. The script is easy to customize - each user can independently assign MIDI keys to computer functions, according to their needs and ideas. The project is open for further improvements, and we encourage joint experimentation and creative use of technological tools.",
-            "images": []
+            "images": [
+                {
+                    "src": "dawit_klawiatura_1.jpg",
+                    "alt": "First picture"
+                }
+            ]
         }
     ]
 }
