@@ -166,8 +166,9 @@ footer p {
   justify-content: center;
 }
 
-.flags div a {
-    text-shadow: 1px 1px 0px #32393b, -1px 1px 0px #32393b, 1px -1px 0px #32393b, -1px -1px 0px #32393b;
+.flags div a img {
+  width: 20px;
+  height: 15px;
 }
   
 @media screen and (max-width: 930px) and (min-width: 450px) {

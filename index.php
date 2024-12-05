@@ -47,9 +47,9 @@ if (file_exists($translationFile)) {
         </li>
         <li class="flags">
           <div>
-            <a href="?lang=pl">🇵🇱</a>
-            <a href="?lang=en">🇬🇧</a>
-            <a href="?lang=de">🇩🇪</a>
+            <a href="?lang=pl"><img src="/img/flags/poland.png"></img></a>
+            <a href="?lang=en"><img src="/img/flags/briish.png"></img></a>
+            <a href="?lang=de"><img src="/img/flags/german.png"></img></a>
           </div>
         </li>
     </ul>
