@@ -29,7 +29,7 @@ if (file_exists($translationFile)) {
     <link rel="manifest" href="/img/favicos/site.webmanifest" />
 
     <link rel="stylesheet" href="styles/about.css">
-    <script defer src="/scripts/about.js" type="text/javascript"></script>
+    <!--<script defer src="/scripts/about.js" type="text/javascript"></script>!-->
 </head>
 <nav>
     <ul class="topnav" id="nav-menu">
@@ -76,7 +76,25 @@ if (file_exists($translationFile)) {
       </div>
     </div>
     <h1><?php echo htmlspecialchars($translations['team-members']); ?></h1>
-    <div class="person-grid"></div>
+    <div class="person-grid">
+      <?php
+        $json = file_get_contents("src/members/members.json");
+        $mem = json_decode($json);
+        foreach ($mem->members as $member) {
+          $img = "img/members/" . str_replace(" ", "-", $member->name) . ".jpg";
+          if(!file_exists($img)) {
+            $img = "img/members/temp.png";
+          }
+
+          echo "<div class='person-container'>
+                  <div>
+                    <img src=/" . $img . "></img>
+                  </div>
+                <h2>" . $member->name . "</h2>
+              </div>";
+        }
+      ?>
+    </div>
   </div>
 </body>
 <?php
