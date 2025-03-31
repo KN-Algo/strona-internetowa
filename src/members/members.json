@@ -1,48 +1,64 @@
 {
   "members" : [
     {
-      "name" : "Adrian Goral",
-      "img": "/img/members/Adrian.JPG"
+      "name" : "Adrian Goral"
     },
     {
-      "name" : "Adam Krzywicki",
-      "img": "/img/members/Adam.jpg"
+      "name" : "Adam Krzywicki"
     },
     {
-      "name" : "Mateusz Andrzejewski",
-      "img": "/img/members/Mateusz.JPG"
+      "name" : "Mateusz Andrzejewski"
     },
     {
-      "name" : "Paulina Szulc",
-      "img": "/img/members/Paulina.JPG"
+      "name" : "Paulina Szulc"
     },
     {
-      "name" : "Wiktor Siepka",
-      "img": "/img/members/Wiktor.jpg"
+      "name" : "Wiktor Siepka"
     },
     {
-      "name" : "Bartosz Michalak",
-      "img": "/img/members/temp.png"
+      "name" : "Bartosz Michalak"
     },
     {
-      "name" : "Adam Jabłoński",
-      "img": "/img/members/ADAM-J.JPG"
+      "name" : "Adam Jabłoński"
     },
     {
-      "name" : "Piotr Kosior",
-      "img": "/img/members/Piotr.JPG"
+      "name" : "Piotr Kosior"
     },
     {
-      "name" : "Stefan Bogdan",
-      "img": "/img/members/Stefan.JPG"
+      "name" : "Stefan Bogdan"
     },
     {
-      "name" : "Jakub Barczyński",
-      "img": "/img/members/temp.png"
+      "name" : "Jakub Barczyński"
     },
     {
-      "name" : "Adam Krystek",
-      "img": "/img/members/temp.png"
+      "name" : "Adam Krystek"
+    },
+    {
+      "name" : "Bartek Kuk"
+    },
+    {
+      "name" : "Dawid Pajor"
+    },
+    {
+      "name" : "Dominik Witczak"
+    },
+    {
+      "name" : "Hubert Jakubowski"
+    },
+    {
+      "name" : "Igor Olewicz"
+    },
+    {
+      "name" : "Jakub Kulik"
+    },
+    {
+      "name" : "Krystian Bury"
+    },
+    {
+      "name" : "Monika Świgost"
+    },
+    {
+      "name" : "Wiktor Jankowski-Ostrowski"
     }
   ]
 }
