@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg" style="background-color: var(--main-bg);">
   <div class="container">
     <a class="navbar-brand text-light me-3" href="/">
-      <img src="img\favicos\favicon.svg" alt="Logo" width="90" height="90">
+      <img src="../img/favicos/favicon.svg" alt="Logo" width="90" height="90">
     </a>
     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon" style="filter: brightness(10);"></span>

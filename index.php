@@ -33,14 +33,17 @@
 </div>
 
   <!-- News section -->
-  <section class="news-section py-5 bg-light">
-    <div class="container">
-      <h2>Aktualności</h2>
-      <div id="news-cards" class="row">
-        <!-- Dynamicznie ładowane newsy -->
-      </div>
+  <section class="news-section py-5">
+  <div class="container">
+    <h2 class="section-title">Aktualności</h2>
+    <div class="section-divider"></div>
+
+    <!-- Kontener na dynamiczne kafelki -->
+    <div id="news-carousel" class="row g-4">
+      <!-- Tu pojawią się dynamiczne kafelki -->
     </div>
-  </section>
+  </div>
+</section>
 </main>
 
 <?php include 'includes/footer.php'; ?>

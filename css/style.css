@@ -4,6 +4,7 @@
     position: relative;
     overflow: hidden;
     color: var(--accent-color);
+    z-index: 1;
   }
   
   #particles-js {
@@ -12,6 +13,7 @@
     height: 100%;
     z-index: 0;
   }
+
   
   .hero-section .container {
     z-index: 1;
@@ -123,6 +125,197 @@
     margin: 10px auto 30px;
     border-radius: 10px;
   }
+
+  .news-section {
+    background-color: #000424;
+    color: #f8e9e5;
+    text-align: center;
+  }
+  
+  .news-section .section-title {
+    color: #f8e9e5;
+  }
+  
+  .news-card {
+    background-color: #fff;
+    color: #111;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  .news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .news-card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .news-card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .news-card-text {
+    font-size: 0.95rem;
+    flex-grow: 1;
+  }
+  
+  .news-card a.btn {
+    margin-top: 15px;
+  }
+
+
+  .group-photo-section {
+    padding: 0;
+    margin: 0;
+    background: transparent;
+  }
+  
+  .group-photo-wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    box-shadow: none; 
+    border-radius: 0;
+  }
+  
+  .group-photo {
+    width: 45%;
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .group-photo:hover {
+    transform: scale(1.02);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  }
+  
+  
+  .group-photo-section .container {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .leader-main-photo {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leader-main-photo:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  }
+  
+  
+  .leader-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+  }
+  
+  .leader-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  }
+  
+  .leader-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  .leader-description {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+  }
+  
+  .leader-description.expanded {
+    max-height: 500px; /* lub inna wartość */
+    opacity: 1;
+  }
+  
+  
+  .leader-card.active .leader-description {
+    max-height: 300px;
+    opacity: 1;
+  }
+  
+  .expand-icon {
+    font-size: 1.2rem;
+    color: #555;
+    transition: transform 0.3s ease;
+  }
+  
+  .leader-card.active .expand-icon {
+    transform: rotate(180deg);
+  }
+  
+  .leaders-intro-description {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 20px;
+  }
+
+  .member-card {
+    background-color: #000424;
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .member-card:hover {
+    transform: translateY(-5px);
+  }
+  .member-img {
+      width: 270px;
+      height: 350px;
+      object-fit: cover;
+      border-radius: 16px;
+      border: 3px solid white;
+    }
+  .member-img:hover {
+    transform: scale(1.05);
+  }
+
+
 
   /* Animacja */
   @keyframes fadeInUp {

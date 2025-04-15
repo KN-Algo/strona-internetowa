@@ -1,0 +1,102 @@
+[
+  {
+    "firstName": "Mateusz",
+    "lastName": "Andrzejewski",
+    "image": "../img/members/Mateusz.jpg"
+  },
+  {
+    "firstName": "Jakub",
+    "lastName": "Barczyński",
+    "image": "../img/members/Jakub.jpg"
+  },
+  {
+    "firstName": "Krystian",
+    "lastName": "Bury",
+    "image": "../img/members/Krystian.jpg"
+  },
+  {
+    "firstName": "Adrian",
+    "lastName": "Goral",
+    "image": "../img/members/Adrian.jpg"
+  },
+  {
+    "firstName": "Hubert",
+    "lastName": "Jakubowski",
+    "image": "../img/members/Hubert.jpg"
+  },
+  {
+    "firstName": "Piotr",
+    "lastName": "Kosior",
+    "image": "../img/members/Piotr.jpg"
+  },
+  {
+    "firstName": "Adam",
+    "lastName": "Krystek",
+    "image": "../img/members/AdamK.jpg"
+  },
+  {
+    "firstName": "Wiktor",
+    "lastName": "Jankowski-Ostrowski",
+    "image": "../img/members/Wiktor.jpg"
+  },
+  {
+    "firstName": "Adam",
+    "lastName": "Krzywicki",
+    "image": "../img/members/Adam.jpg"
+  },
+  {
+    "firstName": "Bartek",
+    "lastName": "Kuk",
+    "image": "../img/members/Bartlomiej.jpg"
+  },
+  {
+    "firstName": "Jakub",
+    "lastName": "Kulik",
+    "image": "../img/members/temp.png"
+  },
+  {
+    "firstName": "Barek",
+    "lastName": "Michalak",
+    "image": "../img/members/Bartek.jpg"
+  },
+  {
+    "firstName": "Andrii",
+    "lastName": "Nikonchuk",
+    "image": "../img/members/Andrii.jpg"
+  },
+  {
+    "firstName": "Igor",
+    "lastName": "Olewicz",
+    "image": "../img/members/Igor.jpg"
+  },
+  {
+    "firstName": "Dawid",
+    "lastName": "Pajor",
+    "image":"../img/members/temp.png"
+  },
+  {
+    "firstName": "Wiktor",
+    "lastName": "Siepka",
+    "image": "../img/members/WiktorS.jpg"
+  },
+  {
+    "firstName": "Paulina",
+    "lastName": "Szulc",
+    "image":"../img/members/Paulina.jpg"
+  },
+  {
+    "firstName": "Monika",
+    "lastName": "Świgost",
+    "image":"../img/members/Monika.jpg"
+  },
+  {
+    "firstName": "Dominik",
+    "lastName": "Witczak",
+    "image":"../img/members/temp.png"
+  },
+  {
+    "firstName":"Jan",
+    "lastName":"Wojtysiak",
+    "image":"../img/members/Janek.jpg"
+  }
+]

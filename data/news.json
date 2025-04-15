@@ -1,0 +1,24 @@
+[
+    {
+      "type": "wydarzenie",
+      "title": "Hackathon Algorytmiczny",
+      "description": "Dołącz do naszego hackathonu!",
+      "image": "img/events/projekt1.jpg",
+      "link": "https://www.youtube.com/"
+    },
+    {
+      "type": "projekt",
+      "title": "OCR AI",
+      "description": "Projekt oparty o rozpoznawanie tekstu przy użyciu AI.",
+      "image": "/assets/projects/ocr.jpg",
+      "link": "/pages/projects.php#ocr"
+    },
+    {
+      "type": "info",
+      "title": "Nowy semestr!",
+      "description": "Zaczynamy kolejny semestr pełen kodowania i wyzwań!",
+      "image": "/assets/news/semester.jpg",
+      "link": "/pages/news.php#start"
+    }
+  ]
+  

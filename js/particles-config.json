@@ -1,6 +1,6 @@
 {
     "particles": {
-      "number": { "value": 500 },
+      "number": { "value": 400 },
       "color": { "value": "#f8e9e5" },
       "shape": { "type": "circle" },
       "opacity": {
