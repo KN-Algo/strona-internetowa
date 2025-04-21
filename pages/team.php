@@ -16,7 +16,7 @@
   <section class="group-photo-section">
     <div class="container text-center">
       <div class="group-photo-wrapper">
-      <img src="../img/grupowe1_poziom.jpg" alt="Zdjęcie zespołu" class="img-fluid group-photo">
+      <img src="../img/grupowe1_poziom.webp" alt="Zdjęcie zespołu" class="img-fluid group-photo">
       </div>
     </div>
   </section>
@@ -24,10 +24,12 @@
   <!-- Sekcja: Prowadzący -->
   <section class="leaders-section py-5">
     <div class="container">
-      <h2 class="section-title text-center mb-5">Prowadzący</h2>
+      <h2 class="section-title">
+  Aktualności<br>
+</h2>
       <div class="row align-items-center">
         <div class="col-md-6 text-center">
-        <img src="../img/leaders/opiekunowie2.JPG" alt="Prowadzący" class="img-fluid leader-main-photo">
+        <img src="../img/leaders/opiekunowie2.webp" alt="Prowadzący" class="img-fluid leader-main-photo">
         </div>
         <div class="col-md-6">
         <div class="leaders-intro-description">

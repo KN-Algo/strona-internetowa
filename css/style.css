@@ -1,3 +1,13 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
 .hero-section {
     height: 80vh;
     background-color: var(--main-bg);
@@ -69,12 +79,7 @@
     box-shadow: 0 12px 28px rgba(248, 233, 229, 0.15);
   }
   
-  .section-title {
-    color: var(--main-text, #222);
-    font-size: 2.2rem;
-    font-weight: 600;
-    text-align: center;
-  }
+  
   
   .section-divider {
     width: 60px;
@@ -110,76 +115,150 @@
     color: #111;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
-  
+
   .section-title {
-    color: #111;
-    font-size: 2.2rem;
-    font-weight: 600;
+    position: relative;
+    display: block;
     text-align: center;
+    margin: 0 auto;
+    z-index: 3;
   }
   
-  .section-divider {
-    width: 60px;
-    height: 3px;
-    background-color: var(--accent-color, #f8e9e5);
-    margin: 10px auto 30px;
-    border-radius: 10px;
+
+  
+  .section-separator {
+    line-height: 0;
+    margin-bottom: -1px;
+  }
+  
+  .news-section {
+    position: relative;
+    background-color: #0b0c2a; /* kolor bazowy */
+    background-image: 
+      radial-gradient(circle at 1px 1px, rgba(255,255,255,0.05) 1px, transparent 0),
+      url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23ffffff0d' stroke-width='0.5'%3E%3Cpath d='M0 0 L100 0 L100 100 L0 100 Z'/%3E%3Cpath d='M0 20 L100 20 M0 40 L100 40 M0 60 L100 60 M0 80 L100 80'/%3E%3Cpath d='M20 0 L20 100 M40 0 L40 100 M60 0 L60 100 M80 0 L80 100'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: 100px 100px;
+    background-repeat: repeat;
+    padding: 80px 0;
+    color: white;
+    z-index: 1;
   }
 
-  .news-section {
-    background-color: #000424;
-    color: #f8e9e5;
-    text-align: center;
+  .news-section::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,0.05) 0%, transparent 80%);
+    z-index: 0;
+  }
+
+  .section-separator {
+    position: relative;
+    z-index: 2;
   }
   
   .news-section .section-title {
-    color: #f8e9e5;
+    background-color: #0b0c2a;
+  }
+  
+  
+.news-section .container {
+  position: relative;
+  z-index: 2;
+  
+}
+.news-card-body {
+  padding: 1.5rem 1.5rem;
+}
+
+
+.news-section .container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+
+  #news-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #news-carousel {
+    gap: 2.5rem;
+    margin-top: 2rem;
+  }
+
+  #news-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .news-card-wrapper {
+    flex: 0 1 360px;
+    display: flex;
   }
   
   .news-card {
     background-color: #fff;
-    color: #111;
-    border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
     overflow: hidden;
-    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
   
   .news-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    transform: translateY(-6px);
+    box-shadow: 0 16px 28px rgba(0, 0, 0, 0.08);
   }
   
   .news-card img {
     width: 100%;
-    height: 180px;
-    object-fit: cover;
+    height: 300px;
+    object-fit: contain;
+    background-color: #fcfbfb;
+    display: block;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
   }
   
   .news-card-body {
-    padding: 20px;
+    padding: 1rem 1.25rem;
+    background-color: #f3f0f0;
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
   }
   
   .news-card-title {
-    font-size: 1.25rem;
     font-weight: 600;
-    margin-bottom: 10px;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #000;
   }
   
   .news-card-text {
     font-size: 0.95rem;
-    flex-grow: 1;
+    color: #333;
+    margin-bottom: 1rem;
   }
   
-  .news-card a.btn {
-    margin-top: 15px;
+  .news-card .btn {
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 0.45rem 1rem;
   }
-
+  
+  
 
   .group-photo-section {
     padding: 0;
@@ -314,6 +393,268 @@
   .member-img:hover {
     transform: scale(1.05);
   }
+
+  #projectFullImageModal .modal-content {
+    background-color: #000;
+    border: none;
+  }
+  
+  #projectFullImageModal .modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  
+  #projectFullImageModal img {
+    max-height: 90vh;
+    object-fit: contain;
+  }
+  
+  #projectFullImageModal .carousel-control-prev-icon,
+  #projectFullImageModal .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 50%;
+  }
+
+  #fullImageCarouselInner img {
+    max-height: 90vh;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .carousel-inner {
+    transition: transform 0.6s ease-in-out;
+  }
+  
+  .carousel-item {
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  
+
+  .accordion-button {
+    background-color: #000424;
+    color: #f8e9e5;
+    font-weight: 600;
+    border-radius: 8px !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: none !important;
+  }
+  
+  /* Hover działa tylko wtedy, gdy panel jest zwinięty */
+  .accordion-button.collapsed:hover {
+    background-color: #0a0a60 !important;
+    color: #ffffff !important;
+  }
+  
+  /* Styl aktywnego i rozwiniętego przycisku */
+  .accordion-button:not(.collapsed),
+  .accordion-button:focus,
+  .accordion-button:active {
+    background-color: #000424 !important;
+    color: #f8e9e5 !important;
+    box-shadow: none;
+  }
+  
+  /* Strzałka ▼ */
+  .accordion-button::after {
+    content: '▼';
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+    color: #f8e9e5;
+    font-size: 0.9rem;
+  }
+  
+  /* Strzałka ▲ po rozwinięciu */
+  .accordion-button:not(.collapsed)::after {
+    transform: rotate(180deg);
+  }
+  
+  /* Styl zawartości */
+  .accordion-body {
+    background-color: #f8f9fa;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  /* Zdjęcia w treści */
+  .accordion-body img {
+    transition: transform 0.3s ease;
+  }
+  
+  .accordion-body img:hover {
+    transform: scale(1.03);
+  }
+  
+  .fixed-carousel {
+    height: 420px; /* niższy pojemnik */
+    overflow: hidden;
+    position: relative;
+  }
+  
+ 
+  .carousel-item {
+    height: 100%;
+    transition: opacity 0.6s ease-in-out;
+  }
+  
+  .carousel-img {
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+
+  .carousel-inner {
+    transition: transform 0.6s ease-in-out !important;
+  }
+  
+  /* Strzałki */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: 70% 70%;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  /* Kropki – przeniesione wyżej */
+  .carousel-indicators {
+    bottom: -10px; /* bliżej karuzeli */
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    background-color: #444;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 0.6;
+    margin: 0 4px;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #000;
+    opacity: 1;
+  }
+  
+  
+  .event-card {
+    width: 100%;
+    height: 350px;
+    transition: transform 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+    object-position: center;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+  }
+  .event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+  }
+
+  #fullImageModal .modal-content {
+    background-color: #000;
+    border: none;
+  }
+  
+  #fullImageModal .modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  
+  #fullImageModal img {
+    max-height: 90vh;
+    object-fit: contain;
+  }
+  
+  #fullImageModal .carousel-control-prev-icon,
+  #fullImageModal .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 50%;
+  }
+
+  .event-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 18px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+    position: relative;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+  }
+  
+  .event-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    background-color: #f5f6fa;
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    border-radius: 18px 18px 0 0;
+    transition: transform 0.3s ease;
+  }
+  
+  .event-card img:hover {
+    transform: scale(1.03);
+  }
+  
+  .event-card .card-body {
+    padding: 1rem 1.2rem;
+  }
+  
+  .event-card .card-title {
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-bottom: 0.25rem;
+    color: #111;
+  }
+  
+  .event-card .card-text {
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
+  .event-card .read-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-weight: 500;
+    color: #004085;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .event-card .read-more:hover {
+    color: #002752;
+  }
+  
+  .read-more i {
+    font-size: 1rem;
+  }
+  
+
+  #eventGallery img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  #eventGallery img:hover {
+    transform: scale(1.03);
+  }
+  
 
 
 

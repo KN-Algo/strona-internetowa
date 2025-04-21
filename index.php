@@ -11,36 +11,36 @@
       <h1>Koło Naukowe Algo</h1>
       <p class="lead">Piękno teorii, siła praktyki!</p>
     </div>
+
   </section>
 
   <!-- About section -->
   <div class="about-wrapper">
-  <section class="about-section container">
-    <h2 class="section-title">
-      <i class="bi bi-code-slash me-2"></i> Poznajmy się!
-    </h2>
-    <div class="section-divider"></div>
-    <p>
-      Koło Naukowe Algo zrzesza studentów chcących poszerzać swoje horyzonty, chętnych do rozwoju w różnych dziedzinach nauki.
-    </p>
-    <p>
-      Naszym celem jest tworzenie nowych rozwiązań współczesnych problemów z wykorzystaniem technologii i algorytmów matematycznych.
-    </p>
-    <p>
-      Poprzez współpracę i innowacje zmieniamy otaczającą nas rzeczywistość.
-    </p>
-  </section>
-</div>
+    <section class="about-section container">
+      <h2 class="section-title">
+        <i class="bi bi-code-slash me-2"></i> Poznajmy się!
+      </h2>
+      <div class="section-divider"></div>
+      <p>
+        Koło Naukowe Algo zrzesza studentów chcących poszerzać swoje horyzonty, chętnych do rozwoju w różnych dziedzinach nauki.
+      </p>
+      <p>
+        Naszym celem jest tworzenie nowych rozwiązań współczesnych problemów z wykorzystaniem technologii i algorytmów matematycznych.
+      </p>
+      <p>
+        Poprzez współpracę i innowacje zmieniamy otaczającą nas rzeczywistość.
+      </p>
+    </section>
+  </div>
 
-  <!-- News section -->
-  <section class="news-section py-5">
-  <div class="container">
-    <h2 class="section-title">Aktualności</h2>
-    <div class="section-divider"></div>
-
-    <!-- Kontener na dynamiczne kafelki -->
-    <div id="news-carousel" class="row g-4">
-      <!-- Tu pojawią się dynamiczne kafelki -->
+  
+ 
+  <!-- Sekcja aktualności z tłem -->
+  <section class="news-section position-relative">
+  <div class="container position-relative z-1">
+    <h2 class="section-title text-center mb-5">Aktualności</h2>
+    <div class="row justify-content-center g-4" id="news-carousel">
+      <!-- Kafelki -->
     </div>
   </div>
 </section>
