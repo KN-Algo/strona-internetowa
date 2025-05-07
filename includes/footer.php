@@ -4,13 +4,13 @@
       <div class="col-md-6 mb-3 mb-md-0">
         <p class="mb-2">Bądź na bieżąco – obserwuj nas:</p>
         <div class="d-flex justify-content-center justify-content-md-start gap-3">
-          <a href="https://facebook.com" target="_blank" class="text-decoration-none text-light fs-4">
+          <a href="https://www.facebook.com/profile.php?id=61573435802424" target="_blank" class="text-decoration-none text-light fs-4">
             <i class="bi bi-facebook"></i>
           </a>
-          <a href="https://instagram.com" target="_blank" class="text-decoration-none text-light fs-4">
+          <a href="https://www.instagram.com/kn_algo/" target="_blank" class="text-decoration-none text-light fs-4">
             <i class="bi bi-instagram"></i>
           </a>
-          <a href="https://github.com" target="_blank" class="text-decoration-none text-light fs-4">
+          <a href="https://github.com/KN-Algo" target="_blank" class="text-decoration-none text-light fs-4">
             <i class="bi bi-github"></i>
           </a>
         </div>
