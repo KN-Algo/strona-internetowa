@@ -1,0 +1,32 @@
+[
+  {
+      "type": "info",
+      "title": "Wykład o Transformacie Fouriera",
+      "description": "Koniecznie sprawdź!",
+      "image": "../img/events/Wyklad1.webp",
+      "link": "/pages/events.php#Wyklad1"
+    },
+    {
+      "type": "info",
+      "title": "Nowy semestr – nowe możliwości!",
+      "description": "Ruszyła otwarta rekrutacja - zapraszamy!",
+      "image": "../img/events/Rekrutacja.webp",
+      "link": "/pages/events.php#Rekrutacja"
+    }, 
+    {
+      "type": "info",
+      "title": "ALGO na Dniach Otwartych Politechniki Wrocławskiej",
+      "description": "W tym roku zaprezentowaliśmy projekty SoundControl oraz środowisko SteamPhony",
+      "image": "../img/events/dni1.webp",
+      "link": "/pages/events.php#Dni_otwarte"
+    },
+    {
+      "type": "info",
+      "title": "KN ALGO na WITKoN 2025",
+      "description": "Prelekcja o zastosowaniu szybkiej transformaty Fouriera w Minecraft!",
+      "image": "../img/events/witkon1.webp",
+      "link": "/pages/events.php#Witkon"
+    }  
+
+  ]
+  

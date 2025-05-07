@@ -1,75 +1,49 @@
-<?php
-// Ustawienie domyślnego języka
-$lang = isset($_GET['lang']) ? $_GET['lang'] : 'pl';
-
-// Ścieżka do pliku tłumaczeń
-$translationFile = __DIR__ . "/translations/{$lang}.php";
-
-// Wczytaj tłumaczenia, jeśli plik istnieje, inaczej użyj polskiego
-if (file_exists($translationFile)) {
-    $translations = include($translationFile);
-} else {
-    $translations = include(__DIR__ . "/translations/pl.php");
-}
+<?php 
+  include 'includes/header.php'; 
+  include 'includes/navbar.php'; 
 ?>
-<!DOCTYPE html>
-<html lang="<?php echo htmlspecialchars($lang); ?>">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KN ALGO</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <script src="scripts/navbar.js"></script>
-    <link rel="stylesheet" href="styles/main.css">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/img/favicos/favicon-48x48.png" sizes="48x48" />
-    <link rel="icon" type="image/svg+xml" href="/img/favicos/favicon.svg" />
-    <link rel="shortcut icon" href="/img/favicos/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicos/apple-touch-icon.png" />
-    <link rel="manifest" href="/img/favicos/site.webmanifest" />
 
-</head>
-<nav>
-    <ul class="topnav" id="nav-menu">
-        <div class="logo">
-          <img src="/img/logos/logo-white.png" alt="KN ALGO">
-        </div>
-        <li><a href="" class="active-nav"><?php echo htmlspecialchars($translations['main-page']); ?></a></li>
-        <li><a href="about.php?lang=<?php echo htmlspecialchars($lang); ?>"><?php echo htmlspecialchars($translations['team']); ?></a></li>
-        <li><a href="projects.php?lang=<?php echo htmlspecialchars($lang); ?>"><?php echo htmlspecialchars($translations['projects']); ?></a></li>
-        <li><a href="events.php?lang=<?php echo htmlspecialchars($lang); ?>"><?php echo htmlspecialchars($translations['events']); ?></a></li>
-        <li><a href="join-us.php?lang=<?php echo htmlspecialchars($lang); ?>"><?php echo htmlspecialchars($translations['recruitment']); ?></a></li>
-        <li class="icon" >
-            <a href="javascript:void(0);" onclick="toggleMenu()" id="hamburger">
-                <i class="fa fa-bars"></i>
-            </a>
-        </li>
-        <li class="flags">
-          <div>
-            <a href="?lang=pl"><img src="/img/flags/poland.png"></img></a>
-            <a href="?lang=en"><img src="/img/flags/briish.png"></img></a>
-            <a href="?lang=de"><img src="/img/flags/german.png"></img></a>
-          </div>
-        </li>
-    </ul>
-</nav>
-<body>
-  <div class="main-content">
-    <h1>KN ALGO</h1>
-    <p>
-        <?php echo htmlspecialchars($translations['main-content-1']); ?>
-    </p>
-    <br/>
-    <p>
-        <?php echo htmlspecialchars($translations['main-content-2']); ?>
-    </p>
-    <br/>
-    <p>
-        <?php echo htmlspecialchars($translations['main-content-3']); ?>
-    </p>
+<main>
+  <!-- Hero section -->
+  <section class="hero-section text-center text-white d-flex align-items-center justify-content-center position-relative">
+    <div id="particles-js" class="position-absolute top-0 start-0 w-100 h-100 z-0"></div>
+    <div class="container position-relative z-1">
+      <h1>Koło Naukowe Algo</h1>
+      <p class="lead">Piękno teorii, siła praktyki!</p>
+    </div>
+
+  </section>
+
+  <!-- About section -->
+  <div class="about-wrapper">
+    <section class="about-section container">
+      <h2 class="section-title">
+        <i class="bi bi-code-slash me-2"></i> Poznajmy się!
+      </h2>
+      <div class="section-divider"></div>
+      <p>
+        Koło Naukowe Algo zrzesza studentów chcących poszerzać swoje horyzonty, chętnych do rozwoju w różnych dziedzinach nauki.
+      </p>
+      <p>
+        Naszym celem jest tworzenie nowych rozwiązań współczesnych problemów z wykorzystaniem technologii i algorytmów matematycznych.
+      </p>
+      <p>
+        Poprzez współpracę i innowacje zmieniamy otaczającą nas rzeczywistość.
+      </p>
+    </section>
   </div>
-</body>
-<?php
-include(__DIR__ . '/includes/footer.php');
-?>
+
+  
+ 
+  <!-- Sekcja aktualności z tłem -->
+  <section class="news-section position-relative">
+  <div class="container position-relative z-1">
+    <h2 class="section-title text-center mb-5">Aktualności</h2>
+    <div class="row justify-content-center g-4" id="news-carousel">
+      <!-- Kafelki -->
+    </div>
+  </div>
+</section>
+</main>
+
+<?php include 'includes/footer.php'; ?>

@@ -1,0 +1,82 @@
+[
+  {
+    "id":"Witkon",
+    "title": "KN ALGO na WITKoN 2025",
+    "date": "2025-04-15",
+    "thumbnail": "../img/events/witkon1.webp",
+    "description": "15 kwietnia 2025 r. nasze Koło Naukowe Algo miało zaszczyt uczestniczyć w drugiej edycji WITKoN – Konferencji Kół Naukowych i Aktywnych Studentów, zorganizowanej przez Samorząd WITa oraz koła naukowe Solvro i TK Games. Wydarzenie odbyło się na Wydziale Informatyki i Telekomunikacji Politechniki Wrocławskiej.<br><br>Podczas konferencji zaprezentowaliśmy prelekcję pt. „Jak zagrać w Minecraft szybką transformatą Fouriera”, którą wygłosił Adrian Goral, obecny wiceprzewodniczący naszego koła. W trakcie wystąpienia omówiono, w jaki sposób zaawansowane algorytmy matematyczne, takie jak szybka transformata Fouriera (FFT), mogą być wykorzystane w grze Minecraft, łącząc teorię z praktyką w środowisku wirtualnym.<br><br>Udział w WITKoN był dla nas doskonałą okazją do zaprezentowania naszych działań, nawiązania kontaktów z innymi kołami naukowymi oraz wymiany doświadczeń. Dziękujemy organizatorom za stworzenie przestrzeni do integracji i współpracy między studentami.",
+    "images":[
+      "../img/events/witkon1.webp",
+      "../img/events/witkon2.webp",
+      "../img/events/witkon3.webp",
+      "../img/events/witkon4.webp",
+      "../img/events/witkon5.webp",
+      "../img/events/witkon6.webp",
+      "../img/events/witkon7.webp",
+      "../img/events/witkon8.webp",
+      "../img/events/witkon9.webp"
+    ]
+  },
+  {
+    "id":"Dni_otwarte",
+    "title": "ALGO na Dniach Otwartych Politechniki Wrocławskiej!",
+    "date": "2025-04-11",
+    "thumbnail": "../img/events/dni1.webp",
+    "description": "Dnia 11 kwietnia 2025r. Nasze koło naukowe uczestniczyło w dniach otwartych Politechniki Wrocławskiej. Nasze stoisko cieszyło się dużym zainteresowaniem zarówno ze strony tegorocznych maturzystów, jak i obecnych studentów. W tym roku zaprezentowaliśmy projekty: <b>SoundControl oraz środowisko SteamPhony</b><br><br>Podczas wydarzenia mieliśmy okazję przeprowadzić wiele ciekawych rozmów. Opowiadaliśmy o działalności naszego koła, projektach, w które jesteśmy zaangażowani, oraz o możliwościach rozwoju, jakie oferuje studiowanie na Politechnice Wrocławskiej.<br><br>Cieszymy się, że mogliśmy podzielić się naszą pasją. Mamy nadzieję, że nasze rozmowy pomogły maturzystom w podjęciu ważnych decyzji dotyczących ich przyszłości edukacyjnej.<br><br>Serdecznie dziękujemy wszystkim za odwiedzenie naszego stoiska i okazaną ciekawość. Życzymy powodzenia na zbliżających się egzaminach maturalnych i mamy nadzieję na spotkanie z Wami już jako studenci Politechniki Wrocławskiej.",
+    "images":[
+      "../img/events/dni1.webp",
+      "../img/events/dni2.webp",
+      "../img/events/dni3.webp",
+      "../img/events/dni4.webp",
+      "../img/events/dni5.webp",
+      "../img/events/dni6.webp",
+      "../img/events/dni7.webp",
+      "../img/events/dni8.webp",
+      "../img/events/dni9.webp",
+      "../img/events/dni10.webp",
+      "../img/events/dni11.webp",
+      "../img/events/dni12.webp"
+    ]
+  },
+  {
+    "id":"Rekrutacja",
+    "title": "Nowy semestr – nowe możliwości!",
+    "date": "2025-03-03",
+    "thumbnail": "../img/events/Rekrutacja.webp",
+    "description": "Rozpoczynamy kolejny semestr działalności <b>Koła Naukowego Algo</b> i nie możemy się doczekać, żeby działać jeszcze prężniej niż wcześniej!<br><br>Jeśli interesujesz się algorytmiką, programowaniem albo po prostu chcesz rozwijać swoje umiejętności w zgranym zespole pasjonatów technologii — <b>to idealny moment, żeby do nas dołączyć!</b><br><br>Właśnie trwa rekrutacja do naszego Koła.<br> Wypełnij krótki formularz i daj się poznać — <b>czekamy na Ciebie!</b><br><a href=\"https://www.youtube.com/watch?v=WgS0eSEAfhU&amp;t=3045s\" target=\"_blank\" rel=\"noopener noreferrer\">[Formularz rekrutacyjny]</a><br><br>Razem możemy tworzyć projekty, które zmienią świat na lepsze!<br><b>Do zobaczenia na spotkaniach!</b>",
+    "images": []
+  },
+  {
+    "id":"Wyklad1",
+    "title": "Wykład o Transformacie Fouriera",
+    "date": "2024-12-18",
+    "thumbnail": "../img/events/Wyklad1.webp",
+    "description": "W ramach naszego projektu <b>SoundControl</b>,<i><u><b>dr. inż. Jacek Jagodziński</b></u></i> przygotował specjalny wykład o <b>Transformacie Fouriera</b> – narzędziu, bez którego nie byłoby analizy dźwięku, kompresji danych czy przetwarzania sygnałów!<br>Jeśli chcesz dowiedzieć się:<br>– jak rozkładać sygnał na częstotliwości,<br>– dlaczego sinusy i cosinusy rządzą światem sygnałów,<br>– oraz jak wykorzystujemy to wszystko w projekcie SoundControl<br><center><b>to koniecznie sprawdź ten wykład!</b></center><br> Link do materiału znajdziesz <a href=\"https://www.youtube.com/watch?v=WgS0eSEAfhU&amp;t=3045s\" target=\"_blank\" rel=\"noopener noreferrer\">TUTAJ</a>",
+    "images": []
+  },
+  {
+    "id": "Beckhoff",
+    "title": "Wizyta KN Algo w firmie Beckhoff",
+    "date": "2024-12-16",
+    "thumbnail": "../img/events/beckhoff1.webp",
+    "description": "Nasze koło naukowe miało możliwość uczestnictwa w prezentacji zorganizowanej przez firmę Beckhoff. Mieliśmy szansę zobaczyć system <b>XPlanar</b> w akcji, obserwując pracę lewitujących modułów.<br> <b>XPlanar</b> to innowacyjny, bezkontaktowy system transportowy, który wykorzystuje lewitację magnetyczną do przemieszczania produktów. Pozwala on na płynny i swobodny ruch, łącznie z rotacją, przy zachowaniu dużej elastyczności w konfiguracji i kontroli.<br>Co więcej,  w części poświęconej praktycznemu aspektowi technologii, poznaliśmy podstawy pisania kodu sterującego tym innowacyjnym systemem. <br><br><center>Wizyta w Beckhoff była rozwijającym doświadczeniem, które na długo pozostanie w naszej pamięci.</center><br> <b><center>Serdecznie dziękujemy firmie Beckhoff za ciekawą prezentację oraz możliwość zapoznania się z technologią!</center></b>",
+    "images": [
+      "../img/events/beckhoff1.webp",
+      "../img/events/beckhoff2.webp",
+      "../img/events/beckhoff3.webp",
+      "../img/events/beckhoff4.webp",
+      "../img/events/beckhoff5.webp"
+    ]
+  },
+  
+  {
+    "id": "Mitsubishi",
+    "title": "Wizyta KN Algo w Mitsubishi Electric!",
+    "date": "2024-05-22",
+    "thumbnail": "../img/events/algo.webp",
+    "description": "Dnia 22 maja 2024r. dzięki uprzejmości <b>firmy Mitsubishi Electronics</b> członkowie naszego koła uczestniczyli w prezentacji najnowszych rozwiązań firmy.<br>Podczas prezentacji zapoznaliśmy się z programami: <br><b>Iconics</b> - Zaawansowane środowisko SCADA i wizualizacji dla procesów przemysłowych.<br> <b>Mailab</b> - Innowacyjne rozwiązania uczenia maszynowego dla zastosowań przemysłowych.<br> <b>Vixio</b> - Oprogramowanie do rozpoznawania obrazów, które otwiera nowe możliwości w automatyzacji.<br><br> <center>Było to niezwykle ciekawe oraz rozwijające doświadczenie, które dało nam obraz tego jak może wyglądać przemysł przyszłości.</center> <br><center><b>Serdecznie dziękujemy Mitsubishi Electronics za gościnność i fascynującą prezentację!</b></center>",
+    "images": [
+      "../img/events/Mitsubishi.webp"
+    ]
+  } 
+]
