@@ -19,8 +19,7 @@ try {
 
 class Mailer {
     private PHPMailer|null $mail = null;
-    private array $translations = [];
-    function __construct($lang="pl")
+    function __construct()
     {
         if ($_ENV['PRODUCTION'] === "true") {
             error_reporting(0);
@@ -50,12 +49,6 @@ class Mailer {
         $this->mail->setFrom($_ENV["FROM_MAIL"], "Formularz na stronie KN ALGO");
         $this->mail->From = $_ENV["FROM_MAIL"];
         $this->mail->FromName = "KN ALGO - Formularz";
-        $translationFile = __DIR__ . "/../../translations/{$lang}.php";
-        if (file_exists($translationFile)) {
-            $this->translations = include($translationFile);
-        } else {
-            $this->translations = include(__DIR__ . "/../../translations/pl.php");
-        }
     }
 
     public function sendContactMail(string $name, string $email,
@@ -80,8 +73,8 @@ class Mailer {
             if (!$this->mail->send()) {
                 $response = [
                     "icon" => "error",
-                    "title" => htmlspecialchars($this->translations['title-failure']),
-                    "message" => htmlspecialchars($this->translations['contact-admin']),
+                    "title" => "Nie udało się wysłać wiadomości",
+                    "message" => "Skontaktuj się z administratorem",
                     "footer" => "Error: 510",
                     "data" => [
                         "error" => $this->mail->ErrorInfo,
@@ -91,9 +84,9 @@ class Mailer {
             } else {
                 $response = [
                     "icon" => "success",
-                    "title" => htmlspecialchars($this->translations['title-success']),
-                    "message" => htmlspecialchars($this->translations['message-success']),
-                    "footer" => htmlspecialchars($this->translations['footer-success']),
+                    "title" => "Wiadomość wysłana!",
+                    "message" => "Dziękujemy za kontakt!",
+                    "footer" => "Postaramy się odpowiedzieć jak najszybciej.",
                     "data" => [
                         "error" => null,
                         "code" => 200,
@@ -103,8 +96,8 @@ class Mailer {
         } catch (Exception $e) {
             $response = [
                 "icon" => "error",
-                "title" => htmlspecialchars($this->translations['title-error']),
-                "message" => htmlspecialchars($this->translations['contact-admin']),
+                "title" => "Nie udało się wysłać wiadomości",
+                "message" => "Skontaktuj się z administratorem",
                 "footer" => "Error: 511",
                 "data" => [
                     "error" => $e->getMessage(),

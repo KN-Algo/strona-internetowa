@@ -1,28 +1,21 @@
-<?php
+<?php 
 
 namespace Eddy\KnAlgo\api;
 
-require __DIR__ . '/../../vendor/autoload.php';
+require __DIR__ . "/../../vendor/autoload.php";
 
 use Eddy\KnAlgo\mail\Mailer;
 
-if ($_SERVER['REQUEST_METHOD'] !== 'POST')
-    header("Location: ../../index.html");
-
-$translations = include(__DIR__ . "/../../translations/pl.php");
-
-if (isset($_POST['lang']) && !empty($_POST['lang'])) {
-    $lang = $_POST['lang'];
-    $translationFile = __DIR__ . "/../../translations/{$lang}.php";
-    if (file_exists($translationFile))
-        $translations = include($translationFile);
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    header("Location: ../../index.php");
+    exit;
 }
 
 if (!isset($_POST['name']) || !isset($_POST['email']) || !isset($_POST['subject']) || !isset($_POST['message']) || empty($_POST['name']) || empty($_POST['email']) || empty($_POST['subject']) || empty($_POST['message'])){
     $response = [
         "icon" => "warning",
-        "title" => htmlspecialchars($translations['title-warning']),
-        "message" => htmlspecialchars($translations['fill-all-fields']),
+        "title" => "Chwila!",
+        "message" => "Nie wszystkie pola zostały wypełnione.",
         "footer" => "Error: 400",
         "data" => [
             "error" => null,
@@ -32,11 +25,16 @@ if (!isset($_POST['name']) || !isset($_POST['email']) || !isset($_POST['subject'
     die(json_encode($response));
 }
 
-if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
+$name = htmlspecialchars($_POST['name']);
+$email = htmlspecialchars($_POST['email']);
+$subject = htmlspecialchars($_POST['subject']);
+$message = htmlspecialchars($_POST['message']);
+
+if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     $response = [
         "icon" => "warning",
-        "title" => htmlspecialchars($translations['title-warning']),
-        "message" => htmlspecialchars($translations['email-error']),
+        "title" => "Chwila!",
+        "message" => "Niepoprawny adres e-mail.",
         "footer" => "Error: 401",
         "data" => [
             "error" => null,
@@ -47,9 +45,10 @@ if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
 }
 
 $mailer = new Mailer();
+
 for ($i = 0; $i < 3; $i++) {
     $response = [];
-    $response = $mailer->sendContactMail($_POST['name'], $_POST['email'], $_POST['subject'], $_POST['message']);
+    $response = $mailer->sendContactMail($name, $email, $subject, $message);
     if ($response['data']['code'] === 200)
         break;
 }

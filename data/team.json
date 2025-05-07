@@ -1,0 +1,102 @@
+[
+  {
+    "firstName": "Mateusz",
+    "lastName": "Andrzejewski",
+    "image": "../img/members/Mateusz.webp"
+  },
+  {
+    "firstName": "Jakub",
+    "lastName": "Barczyński",
+    "image": "../img/members/Jakub.webp"
+  },
+  {
+    "firstName": "Krystian",
+    "lastName": "Bury",
+    "image": "../img/members/Krystian.webp"
+  },
+  {
+    "firstName": "Adrian",
+    "lastName": "Goral",
+    "image": "../img/members/Adrian.webp"
+  },
+  {
+    "firstName": "Hubert",
+    "lastName": "Jakubowski",
+    "image": "../img/members/Hubert.webp"
+  },
+  {
+    "firstName": "Piotr",
+    "lastName": "Kosior",
+    "image": "../img/members/Piotr.webp"
+  },
+  {
+    "firstName": "Adam",
+    "lastName": "Krystek",
+    "image": "../img/members/AdamK.webp"
+  },
+  {
+    "firstName": "Wiktor",
+    "lastName": "Jankowski-Ostrowski",
+    "image": "../img/members/Wiktor.webp"
+  },
+  {
+    "firstName": "Adam",
+    "lastName": "Krzywicki",
+    "image": "../img/members/Adam.webp"
+  },
+  {
+    "firstName": "Bartek",
+    "lastName": "Kuk",
+    "image": "../img/members/Bartlomiej.webp"
+  },
+  {
+    "firstName": "Jakub",
+    "lastName": "Kulik",
+    "image": "../img/members/temp.webp"
+  },
+  {
+    "firstName": "Barek",
+    "lastName": "Michalak",
+    "image": "../img/members/Bartek.webp"
+  },
+  {
+    "firstName": "Andrii",
+    "lastName": "Nikonchuk",
+    "image": "../img/members/Andrii.webp"
+  },
+  {
+    "firstName": "Igor",
+    "lastName": "Olewicz",
+    "image": "../img/members/Igor.webp"
+  },
+  {
+    "firstName": "Wiktor",
+    "lastName": "Siepka",
+    "image": "../img/members/WiktorS.webp"
+  },
+  {
+    "firstName": "Maciej",
+    "lastName": "Soroka",
+    "image": "../img/members/temp.webp"
+  },
+  {
+    "firstName": "Paulina",
+    "lastName": "Szulc",
+    "image":"../img/members/Paulina.webp"
+  },
+  {
+    "firstName": "Monika",
+    "lastName": "Świgost",
+    "image":"../img/members/Monika.webp"
+  },
+  {
+    "firstName": "Dominik",
+    "lastName": "Witczak",
+    "image":"../img/members/temp.webp"
+  },
+  {
+    "firstName":"Jan",
+    "lastName":"Wojtysiak",
+    "image":"../img/members/Janek.webp"
+  }
+]
