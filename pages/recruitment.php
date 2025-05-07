@@ -13,7 +13,7 @@
 
   <section class="contact-form-section py-5 bg-light">
     <div class="container">
-      <form id="contact-form" method="POST" action="/api/send-mail.php" class="needs-validation" novalidate>
+      <form id="contact-form" class="needs-validation" novalidate>
         <div class="mb-3">
           <label for="name" class="form-label">Imię i Nazwisko</label>
           <input type="text" class="form-control" id="name" name="name" required maxlength="100">
@@ -40,18 +40,79 @@
     </div>
   </section>
 </main>
-
-<script src="https://www.google.com/recaptcha/api.js?render=............"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LeX-TErAAAAAKTVYSlg6zFHadyLOxvxjob3orV4"></script>
 <script>
-  document.getElementById("contact-form").addEventListener("submit", function(e) {
-    e.preventDefault();
-    grecaptcha.ready(function() {
-      grecaptcha.execute("TWÓJ_SITE_KEY", {action: "submit"}).then(function(token) {
-        document.getElementById("recaptcha-token").value = token;
-        e.target.submit();
-      });
+    const contact = document.getElementById("contact-form");
+    contact.addEventListener("submit", (e) => {
+        e.preventDefault();
+        let recaptcha = false;
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LeX-TErAAAAAKTVYSlg6zFHadyLOxvxjob3orV4', {action: 'submit'}).then(function (token) {
+                const dataR = new FormData();
+                dataR.append("token", token);
+                fetch("/../src/api/recaptcha.php", {
+                    method: "POST",
+                    body: dataR
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log(data);
+                        if (data.success)
+                            recaptcha = true;
+                    })
+                     .then(() => {
+                         if (recaptcha) {
+                             registerUser();
+                        } else {
+                            Swal.fire({
+                                icon: 'warning',
+                                title: 'Chwila!',
+                                text: 'Robotom wstęp wzbroniony!',
+                                footer: 'Test reCAPTCHA nie powiódł się.',
+                            })
+                        }
+                    })
+            });
+        });
+
+        function registerUser() {
+            const formData = new FormData(contact);
+            // console.log(formData);
+            fetch("/../src/api/sendContactMail.php", {
+                method: "POST",
+                body: formData
+            })
+               .then(
+                   Swal.fire({
+                       icon: 'info',
+                       title: 'Proszę czekać...',
+                       text: 'Wysyłanie wiadomości...',
+                       allowOutsideClick: false,
+                       allowEscapeKey: false,
+                       allowEnterKey: false,
+                       showConfirmButton: false,
+                       timer: 5000
+                   })
+               )
+               .then(response => response.json())
+               .then(data => {
+                   Swal.fire({
+                       icon: data.icon,
+                        title: data.title,
+                       text: data.message,
+                   })
+                   .then(() => {
+                       if (data.icon === "success") {
+                           contact.reset();
+                       }
+                   });
+               })
+               .catch(error => {
+                   console.error(error);
+               });
+        }
     });
-  });
 </script>
 
 <?php include '../includes/footer.php'; ?>

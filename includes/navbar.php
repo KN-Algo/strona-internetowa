@@ -14,11 +14,12 @@
         <li class="nav-item"><a class="nav-link text-light" href="/pages/events.php">Wydarzenia</a></li>
         <li class="nav-item"><a class="nav-link text-light" href="/pages/recruitment.php">Rekrutacja</a></li>
       </ul>
+      <!--
       <div class="d-flex">
         <button class="btn btn-outline-light btn-sm me-2">🇵🇱</button>
         <button class="btn btn-outline-light btn-sm me-2">🇬🇧</button>
         <button class="btn btn-outline-light btn-sm">🇩🇪</button>
-      </div>
+      </div> -->
     </div>
   </div>
 </nav>
