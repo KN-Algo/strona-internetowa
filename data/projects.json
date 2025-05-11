@@ -29,9 +29,15 @@
     },
     {
       "title": "SteamPhony",
-      "description": "#będzie",
+      "description": "<center><b>Steamphony to połączenie pasji do technologii, muzyki i kreatywności.</b></center><br>Steamphony to platformowa gra komputerowa stworzona od podstaw przez członków Koła Naukowego Algo. Jej wyróżnikiem jest innowacyjny sposób sterowania – zamiast klawiatury czy pada, gracz porusza postacią grając na instrumencie muzycznym! Dźwięki emitowane przez instrument są analizowane w czasie rzeczywistym i przekładane na konkretne akcje w grze, dzięki integracji z naszym autorskim projektem Sound Control.<br><br>Projekt miał swoją premierę podczas Dni Otwartych Politechniki Wrocławskiej, gdzie odwiedzający mogli przetestować grę, sterując postacią za pomocą keyboardu (instrumentu klawiszowego). Ich entuzjastyczne reakcje utwierdziły nas w przekonaniu, że warto rozwijać tę nietypową formę interakcji.<br><br>Członkowie koła samodzielnie zaprojektowali mechaniki rozgrywki, mapy, system przetwarzania dźwięku oraz całą oprawę graficzną, dbając o każdy szczegół – od pierwszego piksela po najdrobniejszy dźwięk. Jesteśmy optymistycznie nastawieni na dalszy rozwój tego projektu.",
       "images": [
-        
+        "../img/projects/steamphony1.webp",
+        "../img/projects/steamphony2.webp",
+        "../img/projects/steamphony3.webp",
+        "../img/projects/steamphony4.webp",
+        "../img/projects/steamphony5.webp",
+        "../img/projects/steamphony6.webp",
+        "../img/events/dni3.webp"
       ]
     }
   ]

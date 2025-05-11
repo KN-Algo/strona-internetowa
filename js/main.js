@@ -86,7 +86,30 @@ document.addEventListener('DOMContentLoaded', () => {
 // Toggle opisu prowadzących
 function toggleLeaderDescription(card) {
   const desc = card.querySelector('.leader-description');
+  const isExpanded = desc.classList.contains('expanded');
+
+  const isMobile = window.innerWidth < 768;
+
+  if (isMobile) {
+    // na mobile: zamknij wszystkie pozostałe
+    document.querySelectorAll('.leader-card').forEach(c => {
+      if (c !== card) {
+        c.classList.remove('active');
+        const otherDesc = c.querySelector('.leader-description');
+        otherDesc.classList.remove('expanded');
+        otherDesc.style.maxHeight = null;
+      }
+    });
+  }
+
+  card.classList.toggle('active');
   desc.classList.toggle('expanded');
+
+  if (!isExpanded) {
+    desc.style.maxHeight = desc.scrollHeight + 'px';
+  } else {
+    desc.style.maxHeight = null;
+  }
 }
 
 // PROJEKTY

@@ -15,6 +15,11 @@
     "image": "../img/members/Krystian.webp"
   },
   {
+    "firstName": "Jan",
+    "lastName": "Dębowy",
+    "image":"../img/members/Jan.webp"
+  },
+  {
     "firstName": "Adrian",
     "lastName": "Goral",
     "image": "../img/members/Adrian.webp"
@@ -52,10 +57,10 @@
   {
     "firstName": "Jakub",
     "lastName": "Kulik",
-    "image": "../img/members/temp.webp"
+    "image": "../img/members/JakubK.webp"
   },
   {
-    "firstName": "Barek",
+    "firstName": "Bartek",
     "lastName": "Michalak",
     "image": "../img/members/Bartek.webp"
   },
@@ -77,13 +82,14 @@
   {
     "firstName": "Maciej",
     "lastName": "Soroka",
-    "image": "../img/members/temp.webp"
+    "image": "../img/members/Maciej.webp"
   },
   {
     "firstName": "Paulina",
     "lastName": "Szulc",
     "image":"../img/members/Paulina.webp"
   },
+  
   {
     "firstName": "Monika",
     "lastName": "Świgost",
@@ -92,11 +98,26 @@
   {
     "firstName": "Dominik",
     "lastName": "Witczak",
-    "image":"../img/members/temp.webp"
+    "image":"../img/members/Dominik.webp"
   },
   {
     "firstName":"Jan",
     "lastName":"Wojtysiak",
     "image":"../img/members/Janek.webp"
+  },
+  {
+    "firstName": "Hanna",
+    "lastName": "Gąsior",
+    "image":"../img/members/temp.webp"
+  },
+  {
+    "firstName": "Eryk",
+    "lastName": "Pszczołowski",
+    "image":"../img/members/temp.webp"
+  },
+  {
+    "firstName": "Jakub",
+    "lastName": "Dobrzański",
+    "image":"../img/members/temp.webp"
   }
 ]

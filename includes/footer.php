@@ -13,7 +13,9 @@
           <a href="https://github.com/KN-Algo" target="_blank" class="text-decoration-none text-light fs-4">
             <i class="bi bi-github"></i>
           </a>
+          
         </div>
+        <p><i class="bi bi-envelope"></i> algo.pwr@gmail.com</p>
       </div>
       <div class="col-md-6 text-md-end">
         <p class="mb-1">&copy; 2025 Koło Naukowe Algo</p>
