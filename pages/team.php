@@ -16,7 +16,8 @@
   <section class="group-photo-section">
     <div class="container text-center">
       <div class="group-photo-wrapper">
-      <img src="../img/grupowe1_poziom.webp" alt="Zdjęcie zespołu" class="img-fluid group-photo">
+      <br>
+      <img src="../img/kn_algo_grupowe1.webp" alt="Zdjęcie zespołu" class="img-fluid group-photo">
       </div>
     </div>
   </section>
@@ -25,7 +26,7 @@
   <section class="leaders-section py-5">
     <div class="container">
       <h2 class="section-title">
-  Aktualności<br>
+  Opiekunowie<br><br>
 </h2>
       <div class="row align-items-center">
         <div class="col-md-6 text-center">
@@ -48,7 +49,7 @@
       <!-- M P -->
       <div class="col-md-5">
         <div class="leader-card" onclick="toggleLeaderDescription(this)">
-          <img src="../img/leaders/lampasiak.jpg" alt="Marta Lampasiak" class="leader-img mb-3">
+          <img src="../img/leaders/Marta_Lampasiak.jpg" alt="Marta Lampasiak" class="leader-img mb-3">
           <h5 class="text-center mb-2">mgr inż. Marta Lampasiak</h5>
           <div class="expand-icon">▼</div>
           <div class="leader-description hidden">
@@ -60,7 +61,7 @@
       <!-- J J -->
       <div class="col-md-5">
         <div class="leader-card" onclick="toggleLeaderDescription(this)">
-          <img src="../img/leaders/jagodzinski.jpg" alt="Jacek Jagodzinski" class="leader-img mb-3">
+          <img src="../img/leaders/Jacek_Jagodzinski.jpg" alt="Jacek Jagodzinski" class="leader-img mb-3">
           <h5 class="text-center mb-2">dr inż. Jacek Jagodziński</h5>
           <div class="expand-icon">▼</div>
           <div class="leader-description hidden">
