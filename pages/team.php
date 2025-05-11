@@ -49,7 +49,7 @@
       <!-- M P -->
       <div class="col-md-5">
         <div class="leader-card" onclick="toggleLeaderDescription(this)">
-          <img src="../img/leaders/Marta_Lampasiak.jpg" alt="Marta Lampasiak" class="leader-img mb-3">
+          <img src="../img/leaders/Marta_Lampasiak.webp" alt="Marta Lampasiak" class="leader-img mb-3">
           <h5 class="text-center mb-2">mgr inż. Marta Lampasiak</h5>
           <div class="expand-icon">▼</div>
           <div class="leader-description hidden">
@@ -61,7 +61,7 @@
       <!-- J J -->
       <div class="col-md-5">
         <div class="leader-card" onclick="toggleLeaderDescription(this)">
-          <img src="../img/leaders/Jacek_Jagodzinski.jpg" alt="Jacek Jagodzinski" class="leader-img mb-3">
+          <img src="../img/leaders/Jacek_Jagodzinski.webp" alt="Jacek Jagodzinski" class="leader-img mb-3">
           <h5 class="text-center mb-2">dr inż. Jacek Jagodziński</h5>
           <div class="expand-icon">▼</div>
           <div class="leader-description hidden">
