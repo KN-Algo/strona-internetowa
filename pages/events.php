@@ -2,7 +2,7 @@
   include '../includes/header.php'; 
   include '../includes/navbar.php'; 
 ?>
-
+<main>
 <section class="events-section py-5 bg-light">
   <div class="container">
     <h2 class="section-title text-center mb-5">Wydarzenia</h2>
@@ -49,5 +49,5 @@
     </div>
   </div>
 </div>
-
+</main>
 <?php include '../includes/footer.php'; ?>
