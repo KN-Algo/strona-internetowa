@@ -34,8 +34,8 @@
         </div>
         <div class="col-md-6">
         <div class="leaders-intro-description">
-            <p><strong>dr inż. Jacek Jagodziński i mgr inż. Marta Lampasiak</strong> to duet, który łączy pasję do algorytmów z doświadczeniem dydaktycznym. Od lat inspirują studentów do eksplorowania świata struktur danych, grafów, teorii złożoności i bardziej praktycznych zastosowań algorytmiki.</p>
-            <p>Ich wspólne działania to nie tylko prowadzenie koła, ale też organizacja wydarzeń, opieka nad projektami badawczymi i mentoring przyszłych specja.</p>
+            <p><strong>Dr. inż. Jacek Jagodziński i mgr inż. Marta Lampasiak</strong> to zgrany duet, który łączy pasję do algorytmiki z doświadczeniem dydaktycznym. Inspirują studentów do zgłębiania świata informatyki i automatyki – od struktur danych, przez systemy dynamiczne, aż po projektowanie i analizę algorytmów.</p>
+            <p>Ich współpraca to coś więcej niż tylko prowadzenie koła. To również wspólna organizacja wydarzeń, tworzenie projektów badawczych i prac naukowych. Razem budują środowisko, w którym nauka łączy się z praktyką, a pomysły przeradzają się w realne działania.</p>
           </div>
         </div>
       </div>

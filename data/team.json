@@ -1,14 +1,25 @@
 [
   {
-    "firstName": "Mateusz",
-    "lastName": "Andrzejewski",
-    "image": "../img/members/Mateusz.webp"
-  },
-  {
     "firstName": "Jakub",
-    "lastName": "Barczyński",
+    "lastName": "Barczyński<br><b>Prezes</b>",
     "image": "../img/members/Jakub.webp"
   },
+  {
+    "firstName": "Adrian",
+    "lastName": "Goral<br><b>Wiceprezes</b>",
+    "image": "../img/members/Adrian.webp"
+  },
+  {
+    "firstName": "Paulina",
+    "lastName": "Szulc<br><b>Członek zarządu</b>",
+    "image":"../img/members/Paulina.webp"
+  },
+  {
+    "firstName": "Mateusz",
+    "lastName": "Andrzejewski<br><b>Skarbnik</b>",
+    "image": "../img/members/Mateusz.webp"
+  },
+  
   {
     "firstName": "Krystian",
     "lastName": "Bury",
@@ -19,11 +30,7 @@
     "lastName": "Dębowy",
     "image":"../img/members/Jan.webp"
   },
-  {
-    "firstName": "Adrian",
-    "lastName": "Goral",
-    "image": "../img/members/Adrian.webp"
-  },
+  
   {
     "firstName": "Hubert",
     "lastName": "Jakubowski",
@@ -84,11 +91,7 @@
     "lastName": "Soroka",
     "image": "../img/members/Maciej.webp"
   },
-  {
-    "firstName": "Paulina",
-    "lastName": "Szulc",
-    "image":"../img/members/Paulina.webp"
-  },
+  
   
   {
     "firstName": "Monika",
