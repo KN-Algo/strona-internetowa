@@ -86,13 +86,12 @@
     "lastName": "Siepka",
     "image": "../img/members/WiktorS.webp"
   },
+ 
   {
     "firstName": "Maciej",
     "lastName": "Soroka",
     "image": "../img/members/Maciej.webp"
   },
-  
-  
   {
     "firstName": "Monika",
     "lastName": "Świgost",
@@ -107,6 +106,11 @@
     "firstName":"Jan",
     "lastName":"Wojtysiak",
     "image":"../img/members/Janek.webp"
+  }, 
+  {
+    "firstName": "Dawid",
+    "lastName": "Pajor",
+    "image": "../img/members/temp.webp"
   },
   {
     "firstName": "Hanna",
@@ -121,6 +125,11 @@
   {
     "firstName": "Jakub",
     "lastName": "Dobrzański",
+    "image":"../img/members/temp.webp"
+  },
+  {
+    "firstName": "Wiktor",
+    "lastName": "Lepak",
     "image":"../img/members/temp.webp"
   }
 ]

@@ -12,7 +12,7 @@
         <li class="nav-item"><a class="nav-link text-light" href="/pages/team.php">Zespół</a></li>
         <li class="nav-item"><a class="nav-link text-light" href="/pages/projects.php">Projekty</a></li>
         <li class="nav-item"><a class="nav-link text-light" href="/pages/events.php">Wydarzenia</a></li>
-        <li class="nav-item"><a class="nav-link text-light" href="/pages/recruitment.php">Rekrutacja</a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="/pages/recruitment.php">Kontakt</a></li>
       </ul>
       <!--
       <div class="d-flex">
