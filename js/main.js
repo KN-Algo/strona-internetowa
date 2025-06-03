@@ -179,6 +179,9 @@ if (projectsAccordion) {
         projectsAccordion.appendChild(card);
       });
 
+
+      
+
       // pełnoekranowy modal tylko dla zdjęć z danego projektu
       document.addEventListener('click', function (e) {
         const img = e.target.closest('.carousel-img');
@@ -220,6 +223,81 @@ if (projectsAccordion) {
       console.error('Błąd ładowania projektów:', err);
     });
 }
+
+//NADCHODZĄCE PROJEKTY
+
+// NADCHODZĄCE PROJEKTY
+
+const mip_projectsAccordion = document.getElementById('mip_projects-accordion');
+
+if (mip_projectsAccordion) {
+  fetch('../data/mip_projects.json')
+    .then(res => res.json())
+    .then(data => {
+      data.forEach((project, index) => {
+        const card = document.createElement('div');
+        card.className = 'accordion-item mb-3';
+
+        let imagesHTML = '';
+
+        if (project.images && project.images.length >= 2) {
+          const carouselId = `mip-carousel-${index}`;
+          const indicators = project.images.map((_, i) =>
+            `<button type="button" data-bs-target="#${carouselId}" data-bs-slide-to="${i}" ${i === 0 ? 'class="active"' : ''} aria-label="Slide ${i + 1}"></button>`
+          ).join('');
+
+          imagesHTML = `
+            <div id="${carouselId}" class="carousel slide mt-4" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                ${indicators}
+              </div>
+              <div class="carousel-inner fixed-carousel">
+              ${project.images.map((img, i) => `
+                <div class="carousel-item ${i === 0 ? 'active' : ''}">
+                  <img src="${img}" class="d-block mx-auto carousel-img" alt="Zdjęcie projektu" data-project-index="mip-${index}">
+                </div>
+              `).join('')}
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#${carouselId}" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Poprzednie</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#${carouselId}" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Następne</span>
+              </button>
+            </div>
+          `;
+        } else if (project.images && project.images.length === 1) {
+          imagesHTML = `
+            <div class="text-center mt-4">
+              <img src="${project.images[0]}" class="img-fluid rounded shadow-sm carousel-img" alt="Zdjęcie projektu" data-project-index="mip-${index}">
+            </div>
+          `;
+        }
+
+        card.innerHTML = `
+          <h2 class="accordion-header" id="mip-heading-${index}">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mip-collapse-${index}" aria-expanded="false" aria-controls="mip-collapse-${index}">
+              ${project.title}
+            </button>
+          </h2>
+          <div id="mip-collapse-${index}" class="accordion-collapse collapse" aria-labelledby="mip-heading-${index}" data-bs-parent="#mip_projects-accordion">
+            <div class="accordion-body">
+              <p>${project.description}</p>
+              ${imagesHTML}
+            </div>
+          </div>
+        `;
+
+        mip_projectsAccordion.appendChild(card);
+      });
+    })
+    .catch(err => {
+      console.error('Błąd ładowania nadchodzących projektów:', err);
+    });
+}
+
 
 
 //WYDARZENIA

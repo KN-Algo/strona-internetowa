@@ -10,7 +10,17 @@
       <div class="accordion" id="projects-accordion">
         <!-- Dynamiczne wpisy tutaj -->
       </div>
+
+       
     </div>
+    <br><br><hr><br><br>
+    
+   <div class="container">
+  <h2 class="section-title text-center mb-5">Nadchodzące projekty</h2>
+  <div class="accordion" id="mip_projects-accordion">
+    <!-- Dynamiczne wpisy tutaj -->
+  </div>
+</div>
   </section>
 </main>
 
