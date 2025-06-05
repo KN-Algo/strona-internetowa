@@ -6,8 +6,8 @@
 <main>
   <section class="contact-hero text-white text-center py-5" style="background-color: #0b0c2a;">
     <div class="container">
-      <h2 class="section-title mb-3">Dołącz do nas!</h2>
-      <p class="lead">Jesteśmy otwarci na nowe współprace. Skontaktuj się z nami!</p>
+      <h2 class="section-title mb-3">Skontaktuj się z nami!</h2>
+      <p class="lead">Jesteśmy otwarci na nowe współprace.</p>
     </div>
   </section>
 
