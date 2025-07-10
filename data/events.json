@@ -1,5 +1,18 @@
 [
   {
+    "id":"Mitsubishi_2",
+    "title":"Wizyta w Mitsubishi Electric",
+    "date": "2025-06-03",
+    "thumbnail": "../img/events/algo_mitsu.webp",
+    "description": "4 czerwca mieliśmy okazję odwiedzić siedzibę Mitsubishi Electric, gdzie zapoznaliśmy się z wybranymi rozwiązaniami wykorzystywanymi w przemyśle. 🏭<br>Mogliśmy przetestować aplikację do rozpoznawania obrazów 📷 oraz poznać narzędzia wspomagające zarządzanie sieciami 🌐.<br>Zobaczyliśmy również przemysłowe komputery 💻 i inne przykłady sprzętu stosowanego w automatyce.<br>Cieszymy się, że mogliśmy poszerzyć naszą wiedzę 📚 i zobaczyć z bliska, jak wyglądają technologie wykorzystywane w praktyce!",
+    "images":[
+      "../img/events/algo_mitsu1.webp",
+      "../img/events/algo_mitsu2.webp"
+
+    ]
+    
+  }
+  ,{
     "id":"Witkon",
     "title": "KN ALGO na WITKoN 2025",
     "date": "2025-04-15",
@@ -78,5 +91,5 @@
     "images": [
       "../img/events/Mitsubishi.webp"
     ]
-  } 
+  }
 ]

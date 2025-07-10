@@ -26,6 +26,13 @@
       "description": "Prelekcja o zastosowaniu szybkiej transformaty Fouriera w Minecraft!",
       "image": "../img/events/witkon1.webp",
       "link": "/pages/events.php#Witkon"
+    },
+    {
+      "type":"info",
+      "title":"Wizyta w Mitsubishi Electric",
+      "description":"Mieliśmy okazję odwiedzić siedzibę Mitsubishi Electric!",
+      "image":"../img/events/algo_mitsu.webp",
+      "link":"/pages/events.php#Mitsubishi_2"
     }  
 
   ]
