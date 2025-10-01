@@ -8,13 +8,6 @@
     },
     {
       "type": "info",
-      "title": "Nowy semestr – nowe możliwości!",
-      "description": "Ruszyła otwarta rekrutacja - zapraszamy!",
-      "image": "../img/events/Rekrutacja1.webp",
-      "link": "/pages/events.php#Rekrutacja"
-    }, 
-    {
-      "type": "info",
       "title": "ALGO na Dniach Otwartych Politechniki Wrocławskiej",
       "description": "W tym roku zaprezentowaliśmy projekty SoundControl oraz środowisko SteamPhony",
       "image": "../img/events/dni1.webp",
@@ -33,6 +26,13 @@
       "description":"Mieliśmy okazję odwiedzić siedzibę Mitsubishi Electric!",
       "image":"../img/events/algo_mitsu.webp",
       "link":"/pages/events.php#Mitsubishi_2"
+    },
+    {
+      "type":"info",
+      "title":"KN Algo na Dolnośląskim Festiwalu Nauki",
+      "description":"Zaprezentowaliśmy nasz najnowszy projekt – „Szach-Mat 2.0” ♟️",
+      "image":"../img/events/dfn5.webp",
+      "link":"/pages/events.php#DFN"
     }  
 
   ]

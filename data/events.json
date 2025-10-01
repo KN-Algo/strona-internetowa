@@ -1,5 +1,18 @@
 [
   {
+    "id":"DFN",
+    "title":"KN Algo na Dolnośląskim Festiwalu Nauki",
+    "date":"2025-09-01",
+    "thumbnail":"../img/events/dfn5.webp",
+    "description":"🎓 <b>KN Algo na Dolnośląskim Festiwalu Nauki</b><br>18 września mieliśmy przyjemność uczestniczyć w Dolnośląskim Festiwalu Nauki, gdzie zaprezentowaliśmy nasz najnowszy projekt – „Szach-Mat 2.0” ♟️<br>To wyjątkowe połączenie klasycznej gry w szachy z nowoczesną technologią. Nasza fizyczna szachownica została wyposażona w mechanizm CoreXY oraz system elektromagnesów, dzięki którym pionki mogą poruszać się automatycznie. Co więcej – grę można prowadzić na dwa sposoby:<br>♟️ poprzez aplikację webową<br>♟️ lub tradycyjnie – przesuwając pionki ręką, które dzięki czujnikom magnetycznym są natychmiast wykrywane.<br><b>Szach-Mat 2.0</b> nie jest zwykłą planszą, a prawdziwym interaktywnym systemem, który łączy w sobie elementy informatyki, automatyki, mechatroniki i algorytmiki 🤖<br>Podczas warsztatów każdy mógł rywalizować z naszym autorskim silnikiem szachowym. Były emocje, radość i dużo dobrej zabawy – zarówno dzieci, jak i dorośli chętnie podejmowali wyzwanie💪<br>Najlepsi gracze zostali nagrodzeni gadżetami naszego koła, a my mieliśmy ogromną satysfakcję widząc, jak wiele radości sprawił nasz projekt.<br>🙏 Serdecznie dziękujemy wszystkim, którzy do nas dołączyli. Cieszymy się, że mogliśmy podzielić się z Wami efektem naszej pracy – to właśnie takie chwile motywują nas do dalszego działania.<br>⚡ <b>A to dopiero początek! Już w październiku będzie można zobaczyć ulepszoną wersję Szach-Mat 2.0 podczas wydarzeń:</b><br>📍 DaWiT – 21.10 (budynek C1, Politechnika Wrocławska)<br>📍 DAS – 29.10 (budynek C3, Politechnika Wrocławska)<br><b>Do zobaczenia przy szachownicy! ♟️✨</b>",
+    "images":[
+      "../img/events/dfn1.webp",
+      "../img/events/dfn2.webp",
+      "../img/events/dfn3.webp",
+      "../img/events/dfn4.webp"
+    ]
+  },
+  {
     "id":"Mitsubishi_2",
     "title":"Wizyta w Mitsubishi Electric",
     "date": "2025-06-03",
