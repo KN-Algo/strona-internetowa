@@ -1,19 +1,5 @@
 [
     {
-      "title": "ESA Spacecraft Anomaly Detection Challenge",
-      "description": "<b>ESA Spacecraft Anomaly Detection</b> to międzynarodowy konkurs organizowany przez Europejską Agencję Kosmiczną (ESA), którego celem jest opracowanie algorytmu automatycznego wykrywania anomalii w danych telemetrycznych pochodzących z rzeczywistej misji kosmicznej.<br>Uczestnicy otrzymują zestaw danych w postaci długiego, multikanałowego szeregu czasowego, obejmującego 14 lat pracy jednego z europejskich statków kosmicznych. Dane zawierają pomiary z 87 kanałów (w tym kanały krytyczne, pomocnicze oraz sygnały sterujące) oraz etykiety wskazujące momenty wystąpienia anomalii i rzadkich zdarzeń nominalnych.<br><br>Zadanie konkursowe polega na wykryciu wszystkich punktów czasowych w danych testowych, które należą do anomalii lub rzadkich zdarzeń nominalnych, przy jednoczesnym ograniczeniu liczby fałszywych alarmów.<br>Projekt stanowi połączenie zagadnień z zakresu sztucznej inteligencji, uczenia maszynowego, analizy szeregów czasowych oraz inżynierii danych kosmicznych, i znajduje realne zastosowanie w monitorowaniu zdrowia satelitów oraz automatyzacji nadzoru nad misjami ESA.",
-      "images": [
-        
-      ]
-    },
-    {
-      "title": "Szach-Mat 2.0",
-      "description": "<b>Projekt Szach-Mat 2.0</b> ma na celu stworzenie nowoczesnego, interaktywnego systemu do gry w szachy. Kluczową cechą projektu jest fizyczna plansza szachowa, na której pionki poruszają się automatycznie przy użyciu elektromagnesu przemieszczanego pod planszą w mechanizmie typu CoreXY.<br><br>Gra może być sterowana:<ul><li>komendami głosowymi (np. Wieża na E5),</li><li>przez aplikację webową lub mobilną,</li><li>lub poprzez ręczne przesuwanie pionków (wykrywane przez czujniki magnetyczne).</li></ul><br>Projekt łączy klasyczną grę w szachy z elementami automatyki, informatyki, mechatroniki i algorytmów. Ma na celu zarówno stworzenie innowacyjnego urządzenia, jak i rozwinięcie umiejętności zespołu w zakresie praktycznego tworzenia złożonych systemów złożonych z komponentów sprzętowych i programowych.",
-      "images": [
-        
-      ]
-    },
-    {
       
       "title": "Magdalena",
       "description": "<b>Magdalena – Modularna Automatyczna Głowicowa Drukarka Adaptacyjna z Logiką Ekspandowalną i Napędem Inercyjno-Adaptacyjnym</b> to koncepcja nowoczesnej, modułowej drukarki 3D pracującej w technologii FDM, której konstrukcja oparta jest na uniwersalnym module mechanicznym wykorzystywanym również w projekcie szachowym. Bazując na gotowej ramie z mechaniką typu CoreXY, urządzenie zostanie przystosowane do pracy z różnymi głowicami narzędziowymi, z możliwością automatycznej wymiany – zarówno w oparciu o autorski system, jak i gotowe rozwiązania, takie jak Bondtech.<br><br>Projekt zakłada pełne sterowanie online, z możliwością dalszego dopracowania technologii komunikacji i interfejsu użytkownika. Drukarka będzie zabudowana, z aktywną kontrolą temperatury wewnątrz komory roboczej, co zapewni stabilne warunki druku dla wymagających materiałów. Integralną częścią konstrukcji będzie również wydajny system filtracji powietrza, umożliwiający bezpieczną pracę w zamkniętych pomieszczeniach.<br><br>Wewnątrz komory znajdzie się kamera, zapewniająca podgląd procesu drukowania w czasie rzeczywistym. Dodatkowo kamera może zostać wykorzystana do analizy obrazu i wczesnego wykrywania błędów druku. System zostanie wyposażony w magnetyczny stół roboczy ułatwiający zdejmowanie wydruków, a także szereg czujników monitorujących m.in. zaplątanie filamentu, poprawność działania głównych komponentów czy postępujące zużycie elementów mechanicznych. W przyszłości urządzenie może być rozbudowane o funkcjonalność wycinarki laserowej, dzięki czemu stanie się wielofunkcyjnym narzędziem warsztatowym.",
