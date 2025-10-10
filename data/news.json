@@ -33,7 +33,13 @@
       "description":"Zaprezentowaliśmy nasz najnowszy projekt – „Szach-Mat 2.0” ♟️",
       "image":"../img/events/dfn5.webp",
       "link":"/pages/events.php#DFN"
-    }  
-
+    },
+      {
+      "type": "info",
+      "title": "Nowy semestr – nowe możliwości!",
+      "description": "Ruszyła otwarta rekrutacja - zapraszamy!",
+      "image": "../img/events/algo_rekru.webp",
+      "link": "/pages/events.php#Rekrutacja"
+    } 
   ]
   

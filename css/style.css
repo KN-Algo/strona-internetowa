@@ -499,6 +499,158 @@ main {
     overflow: hidden;
     position: relative;
   }
+
+/* ==============================
+   [RECRUITMENT MODAL - TEMP START]
+   Responsive styles for recruitment popup
+   Remove this whole block when recruitment ends
+   ============================== */
+.recruitment-modal .modal-dialog {
+  /* Tighter width for better fit across zoom levels */
+  max-width: min(92vw, 600px);
+  margin: 1.25rem auto;
+}
+
+.recruitment-modal .modal-content {
+  border: 2px solid #000; /* widoczne obramowanie panelu */
+  border-radius: 14px;
+  overflow: visible; /* nie przycinaj zawartości, body samo zarządza przewijaniem */
+  /* Cap total height and keep footer visible */
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.recruitment-modal .modal-body {
+  padding: 0.75rem 0.75rem 0 0.75rem;
+  background: #ffffff;
+  flex: 1 1 auto;
+  min-height: 0; /* pozwala flex-itemowi się kurczyć i nie wypychać stopki */
+  overflow: auto; /* jeśli obrazek jest wyższy, tylko body przewija się wewnątrz */
+}
+
+.recruitment-modal .poster-wrapper {
+  width: 100%;
+  /* bez sztywnego limitu wysokości; kontrolę przejmuje max-height modala i przewijanie body */
+  max-height: none;
+  /* [TEMP] delikatny odstęp dookoła plakatu wewnątrz panelu */
+  padding: 12px;
+  box-sizing: border-box;
+  /* [TEMP] zaokrąglenie białej ramki */
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.recruitment-modal .poster-img {
+  display: block;
+  width: 100%;
+  height: auto; /* unikamy przycięcia na różnych zoomach */
+  object-fit: contain; /* całe zdjęcie w panelu */
+}
+
+.recruitment-modal .modal-footer.recruitment-footer {
+  background: #ffffff;
+  border-top: none;
+  padding: 0.75rem 0.75rem 1rem 0.75rem;
+}
+
+/* CTA button look and responsiveness */
+.btn-recruitment {
+  background-color: #000424;
+  color: #f8e9e5;
+  border: 1px solid #000424;
+  padding: 0.6rem 1.25rem;
+  border-radius: 10px;
+  font-weight: 600;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+.btn-recruitment:hover {
+  background-color: #0a0a60;
+  color: #fff;
+  border-color: #0a0a60;
+}
+
+/* Wyraźny przycisk X do zamknięcia (widoczny na ciemnym plakacie) */
+.recruitment-close-global {
+  position: fixed; /* przypnij do rogu ekranu */
+  top: calc(env(safe-area-inset-top, 0px) + 16px);
+  right: calc(env(safe-area-inset-right, 0px) + 16px);
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 2px solid #000424;
+  border-radius: 999px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  z-index: 1100;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  background-image: none;
+  transition: background-color .2s ease, border-color .2s ease, box-shadow .2s ease;
+  display: none; /* domyślnie ukryty, pokażemy dopiero po pełnym otwarciu modala */
+}
+.recruitment-close-global::before,
+.recruitment-close-global::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 2px;
+  background-color: #000424;
+  transform-origin: center;
+  transition: background-color .2s ease;
+}
+.recruitment-close-global::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.recruitment-close-global::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+.recruitment-close-global:hover {
+  background-color: #fff;
+  border-color: #dc3545; /* czerwony */
+  box-shadow: 0 10px 24px rgba(220, 53, 69, 0.25);
+}
+.recruitment-close-global:hover::before,
+.recruitment-close-global:hover::after {
+  background-color: #dc3545; /* czerwony X na hover */
+}
+
+@media (max-width: 576px) {
+  .recruitment-modal .modal-dialog {
+    max-width: 92vw;
+    margin: 0 auto;
+  }
+  .btn-recruitment {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+  }
+  /* Mniejszy X i mniejsze odsunięcie poza ramkę na małych ekranach */
+  .recruitment-close-global {
+    top: calc(env(safe-area-inset-top, 0px) + 10px);
+    right: calc(env(safe-area-inset-right, 0px) + 10px);
+    width: 34px;
+    height: 34px;
+  }
+  .recruitment-close-global::before,
+  .recruitment-close-global::after {
+    width: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* On larger screens, keep it modest */
+  .recruitment-modal .modal-dialog {
+    max-width: 560px;
+  }
+}
+/* ==============================
+   [RECRUITMENT MODAL - TEMP END]
+   ============================== */
   
  
   .carousel-item {
