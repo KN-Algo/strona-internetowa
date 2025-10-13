@@ -29,6 +29,9 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 <script src="../js/main.js"></script>
+<!-- [RECRUITMENT MODAL - TEMP START] JS to auto-show recruitment popup -->
+<script src="../js/recruitment-modal.js"></script>
+<!-- [RECRUITMENT MODAL - TEMP END] -->
 
 </body>
 </html>

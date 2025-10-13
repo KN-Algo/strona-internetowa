@@ -46,4 +46,25 @@
 </section>
 </main>
 
+<!-- [RECRUITMENT MODAL - TEMP START] Popup on homepage -->
+<div class="modal fade recruitment-modal" id="recruitmentModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+        <div class="poster-wrapper mx-auto">
+          <img src="img/events/algo_rekru.webp" alt="Rekrutacja do Koła Naukowego Algo" class="poster-img" loading="eager">
+        </div>
+      </div>
+      <div class="modal-footer recruitment-footer">
+        <a class="btn btn-recruitment btn-lg w-100" href="https://docs.google.com/forms/d/e/1FAIpQLSdrH77bBYWOwYfHsaS_MdbeBNQkQLhAsgrdQtlPtBoWAfq72g/viewform?usp=header" target="_blank">
+          Dołącz – formularz rekrutacyjny
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Global close button fixed to viewport corner -->
+<button type="button" class="recruitment-close-global" aria-label="Zamknij"></button>
+<!-- [RECRUITMENT MODAL - TEMP END] -->
+
 <?php include 'includes/footer.php'; ?>

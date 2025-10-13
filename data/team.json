@@ -26,17 +26,6 @@
     "image": "../img/members/Krystian.webp"
   },
   {
-    "firstName": "Jan",
-    "lastName": "Dębowy",
-    "image":"../img/members/Jan.webp"
-  },
-  
-  {
-    "firstName": "Hubert",
-    "lastName": "Jakubowski",
-    "image": "../img/members/Hubert.webp"
-  },
-  {
     "firstName": "Piotr",
     "lastName": "Kosior",
     "image": "../img/members/Piotr.webp"
@@ -67,11 +56,6 @@
     "image": "../img/members/JakubK.webp"
   },
   {
-    "firstName": "Bartek",
-    "lastName": "Michalak",
-    "image": "../img/members/Bartek.webp"
-  },
-  {
     "firstName": "Andrii",
     "lastName": "Nikonchuk",
     "image": "../img/members/Andrii.webp"
@@ -86,31 +70,11 @@
     "lastName": "Siepka",
     "image": "../img/members/WiktorS.webp"
   },
- 
-  {
-    "firstName": "Maciej",
-    "lastName": "Soroka",
-    "image": "../img/members/Maciej.webp"
-  },
+
   {
     "firstName": "Monika",
     "lastName": "Świgost",
     "image":"../img/members/Monika.webp"
-  },
-  {
-    "firstName": "Dominik",
-    "lastName": "Witczak",
-    "image":"../img/members/Dominik.webp"
-  },
-  {
-    "firstName":"Jan",
-    "lastName":"Wojtysiak",
-    "image":"../img/members/Janek.webp"
-  }, 
-  {
-    "firstName": "Dawid",
-    "lastName": "Pajor",
-    "image": "../img/members/temp.webp"
   },
   {
     "firstName": "Hanna",
@@ -118,18 +82,9 @@
     "image":"../img/members/temp.webp"
   },
   {
-    "firstName": "Eryk",
-    "lastName": "Pszczołowski",
-    "image":"../img/members/temp.webp"
-  },
-  {
     "firstName": "Jakub",
     "lastName": "Dobrzański",
     "image":"../img/members/temp.webp"
-  },
-  {
-    "firstName": "Wiktor",
-    "lastName": "Lepak",
-    "image":"../img/members/temp.webp"
   }
+ 
 ]
