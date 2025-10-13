@@ -56,7 +56,7 @@
         </div>
       </div>
       <div class="modal-footer recruitment-footer">
-        <a class="btn btn-recruitment btn-lg w-100" href="https://docs.google.com/forms/d/e/1FAIpQLSdrH77bBYWOwYfHsaS_MdbeBNQkQLhAsgrdQtlPtBoWAfq72g/viewform?usp=header">
+        <a class="btn btn-recruitment btn-lg w-100" href="https://docs.google.com/forms/d/e/1FAIpQLSdrH77bBYWOwYfHsaS_MdbeBNQkQLhAsgrdQtlPtBoWAfq72g/viewform?usp=header" target="_blank">
           Dołącz – formularz rekrutacyjny
         </a>
       </div>
