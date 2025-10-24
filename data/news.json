@@ -40,6 +40,20 @@
       "description": "Ruszyła otwarta rekrutacja - zapraszamy!",
       "image": "../img/events/algo_rekru.webp",
       "link": "/pages/events.php#Rekrutacja"
+    },
+    {
+      "type": "info",
+      "title": "KN Algo wystąpiło na Inauguracji Wydziałowej roku akademickiego 2025/26",
+      "description":"Mieliśmy zaszczyt zaprezentować nasze projekty oraz działalność koła naukowego przed nowymi studentami!",
+      "image": "../img/events/inauguracja1.webp",
+      "link": "/pages/events.php#Inauguracja"
+    },
+    {
+      "type": "info",
+      "title": "ALGO ponownie zwycięzcą konkursu na najlepsze stoisko na DaWIT!",
+      "description":"Cieszymy się, że doceniliście naszą pracę!",
+      "image": "../img/events/dawit1.webp",
+      "link": "/pages/events.php#DaWiT2025"
     } 
   ]
   
