@@ -1,4 +1,35 @@
 [
+  {
+    "id":"DaWiT2025",
+    "title":"ALGO ponownie zwycięzcą konkursu na najlepsze stoisko na DaWIT!",
+    "date":"2025-10-24",
+    "thumbnail":"../img/events/dawit1.webp",
+    "description":"🎉<b>🥇 KN Algo ponownie zwycięzcą konkursu na najlepsze stoisko na DaWIT!</b><br>W ten wtorek mieliśmy okazję przedstawić Wam <b>Szach-Mat 2.0</b> ♟️ Projekt ten powstał dzięki ogromnej pracy i poświęceniu wielu osób działających w naszym kole, którzy pozostali zdeterminowani pomimo niedużego zespołu 💪<br><br>Cieszymy się, że dzieliliście z nami tę chwilę - razem patrzyliśmy, jak nasze autonomicznie działające szachy nabierają prędkości ☄️<br><br>Liczymy na kolejne sukcesy w przyszłym roku 🤞<br>Bo jak to się mówi - do trzech razy sztuka! 🏆🎉<br><br><b>Dziękujemy wszystkim, którzy odwiedzili nasze stoisko i docenili naszą pracę! 🙏</b>",
+    "images": [
+      "../img/events/dawit1.webp",
+      "../img/events/dawit2.webp",
+      "../img/events/dawit3.webp",
+      "../img/events/dawit4.webp",
+      "../img/events/dawit5.webp",
+      "../img/events/dawit6.webp",
+      "../img/events/dawit7.webp",
+      "../img/events/dawit8.webp"
+    ]
+  },
+  {
+    "id":"Inauguracja",
+    "title": "KN Algo na Inauguracji Wydziałowej roku akademickiego 2025/26",
+    "date": "2025-10-17",
+    "thumbnail": "../img/events/inauguracja1.webp",
+    "description": "🎓 <b>KN Algo na Inauguracji Wydziałowej roku akademickiego 2025/26</b>🎓<br>W środę, 15 października, mieliśmy przyjemność wystąpić podczas <b>Inauguracji Wydziału Informatyki i Telekomunikacji Politechniki Wrocławskiej</b> 💙<br>Nasze Koło mieli przyjemność zaprezentować <b>Prezes Jakub Barczyński</b> oraz <b>Wiceprezes Adrian Goral</b>. Opowiedzieli o tym, czym zajmujemy się w Algo – od algorytmów po kreatywne projekty łączące informatykę z praktyką 🔍⚙️<br>Dziękujemy za zaproszenie i możliwość wystąpienia na tak ważnym wydarzeniu ✨<br><br><b>💬 A do wszystkich nowych studentów – witamy na pokładzie PWr 🚀</b><br>Mamy nadzieję, że udało nam się Was choć trochę zainspirować… bo jeśli tak, to drzwi do KN Algo są otwarte! Wpadnijcie pogadać, zobaczyć jak działamy i może… zostać z nami na dłużej 👀<br><br>📷 fot. Kamil Winiarz (Dział Promocji WIT)",
+    "images":[
+      "../img/events/inauguracja1.webp",
+      "../img/events/inauguracja2.webp",
+      "../img/events/inauguracja3.webp",
+      "../img/events/inauguracja4.webp"
+    ]
+  },
+
     {
     "id":"Rekrutacja",
     "title": "Nowy semestr – nowe możliwości!",

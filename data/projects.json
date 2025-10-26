@@ -44,7 +44,9 @@
       "title":"Szach-Mat 2.0",
       "description":"<center><b>Projekt Szach-Mat 2.0 to nowoczesny, interaktywny system do gry w szachy,</b></center><br>który łączy tradycyjną planszę z elementami automatyki i sztucznej inteligencji. Pionki poruszają się automatycznie dzięki elektromagnesowi poruszającego się w kinematyce <b>Corex xy</b><br><br><b>System integruje fizyczną planszę</b> wyposażoną w czujniki z własnym silnikiem szachowym oraz backendem, z którym komunikuje się przez protokół MQTT. Dzięki temu możliwe jest zarówno ręczne granie na planszy, jak i pełna synchronizacja stanu gry z <b>zaprojektowaną przez nas aplikacją webową.</b><br><br>Projekt rozwija kompetencje w obszarze mechatroniki, programowania i systemów rozproszonych, pokazując, jak klasyczna gra może zostać przeniesiona w świat nowoczesnych technologii.<br><br> Pierwsza prezentacja projektu miała miejsce podczas Dolnośląskiego Festiwalu Nauki we Wrocławiu, gdzie cieszył się dużym zainteresowaniem zarówno dzieci, jak i dorosłych. Ulepszona wersja Szach-Mat 2.0 będzie dostępna do zobaczenia podczas nadchodzących wydarzeń na Politechnice Wrocławskiej.",
       "images":[
+        "../img/events/dawit7.webp",
         "../img/projects/szachy1.webp",
+        "../img/events/dawit8.webp",
         "../img/projects/szachy2.webp",
         "../img/projects/szachy3.webp",
         "../img/projects/szachy4.webp",
