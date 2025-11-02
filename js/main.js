@@ -23,28 +23,102 @@ fetch('../data/news.json')
     return response.json();
   })
   .then(data => {
-    const shuffled = data.sort(() => 0.5 - Math.random()).slice(0, 3);
     const container = document.getElementById("news-carousel");
     if (!container) return;
 
-    shuffled.forEach(item => {
-      const col = document.createElement("div");
-      col.className = "news-card-wrapper";
+    // Najnowsze wpisy są na dole pliku – odwracamy kolejność
+    const sorted = Array.isArray(data) ? [...data].reverse() : [];
 
-      col.innerHTML = `
-        <div class="news-card h-100 d-flex flex-column">
-          <img src="${item.image}" alt="${item.title}">
-          <div class="news-card-body d-flex flex-column">
-            <div>
-              <h5 class="news-card-title">${item.title}</h5>
-              <p class="news-card-text">${item.description}</p>
+    const carouselId = 'newsCarousel';
+
+    // Bazowo tworzymy po 1 karcie na slajd (potem uzupełnimy do 3 przez klonowanie)
+    const slidesHTML = sorted.map((item, idx) => `
+      <div class="carousel-item${idx === 0 ? ' active' : ''}">
+        <div class="row justify-content-center g-3">
+          <div class="col-12 col-sm-6 col-lg-4 d-flex">
+            <div class="news-card h-100 d-flex flex-column w-100">
+              <img src="${item.image}" alt="${item.title}">
+              <div class="news-card-body d-flex flex-column">
+                <div>
+                  <h5 class="news-card-title">${item.title}</h5>
+                  <p class="news-card-text">${item.description}</p>
+                </div>
+                <a href="${item.link}" class="btn btn-outline-dark mt-auto">Czytaj więcej</a>
+              </div>
             </div>
-            <a href="${item.link}" class="btn btn-outline-dark mt-auto">Czytaj więcej</a>
           </div>
         </div>
-      `;
-      container.appendChild(col);
+      </div>
+    `).join('');
+
+    const indicatorsHTML = sorted.map((_, idx) => `
+      <button type="button" data-bs-target="#${carouselId}" data-bs-slide-to="${idx}" ${idx === 0 ? 'class="active" aria-current="true"' : ''} aria-label="Slide ${idx + 1}"></button>
+    `).join('');
+
+    // Użyjemy trybu fade, aby uzyskać płynniejsze przejścia bez znikania elementów
+    container.innerHTML = `
+      <div id="${carouselId}" class="carousel slide carousel-fade" data-bs-touch="true" data-bs-interval="false">
+        <div class="carousel-inner">
+          ${slidesHTML}
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#${carouselId}" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Poprzednie</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#${carouselId}" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Następne</span>
+        </button>
+        <div class="carousel-indicators">${indicatorsHTML}</div>
+      </div>
+    `;
+
+    // Multi-item: uzupełnij każdy slajd do 3 kart przez sklonowanie kolejnych elementów
+    const minPerSlide = 3;
+    const items = container.querySelectorAll(`#${carouselId} .carousel-item`);
+    items.forEach((el) => {
+      let next = el.nextElementSibling;
+      for (let i = 1; i < minPerSlide; i++) {
+        if (!next) next = items[0];
+        const clone = next.querySelector('.col-12').cloneNode(true);
+        el.querySelector('.row').appendChild(clone);
+        next = next.nextElementSibling;
+      }
     });
+
+    // --- Dodano: automatyczne przewijanie karuzeli gdy jest w widoku + obsługa scroll (kółko myszy)
+    // Pobierz element karuzeli i stwórz instancję Bootstrap Carousel z interwałem
+    const carouselEl = document.getElementById(carouselId);
+    if (carouselEl) {
+      // Ustawiamy instancję z interwałem (ms) i bez automatycznego startu
+      const bsCarousel = new bootstrap.Carousel(carouselEl, { interval: 4000, ride: false, pause: false });
+
+      // Auto-start tylko gdy karuzela jest widoczna (oszczędza CPU i UX)
+      let autoSliding = false;
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && entry.intersectionRatio > 0.35) {
+            if (!autoSliding) {
+              bsCarousel.cycle();
+              autoSliding = true;
+            }
+          } else {
+            if (autoSliding) {
+              bsCarousel.pause();
+              autoSliding = false;
+            }
+          }
+        });
+      }, { threshold: [0, 0.2, 0.35, 0.6, 1] });
+
+      observer.observe(carouselEl);
+
+      // Pauzuj przy najechaniu myszką, wznów po opuszczeniu
+      carouselEl.addEventListener('mouseenter', () => bsCarousel.pause());
+      carouselEl.addEventListener('mouseleave', () => { if (autoSliding) bsCarousel.cycle(); });
+
+      // (Usunięto handler obsługi kółka myszy — preferujemy tylko kliknięcia strzałek dla nawigacji)
+    }
   })
   .catch(error => {
     console.error("Błąd wczytywania aktualności:", error);
