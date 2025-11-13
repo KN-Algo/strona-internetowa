@@ -1,4 +1,59 @@
 [
+
+  {
+    "id":"nowi",
+    "title":"Witamy nowych członków KN Algo! ",
+    "date":"2025-11-12",
+    "thumbnail":"../img/events/_grupowe_1.webp",
+    "description":"💙 <b>Witamy nowych członków KN Algo!</b> 💙<br>W środę 12.11.2025 odbyło się nasze specjalne spotkanie dla nowych osób, podczas którego <b>oficjalnie wprowadziliśmy ich w szeregi Algo</b> 🤝✨<br><br>Rekrutację pozytywnie przeszło aż 19 osób, co… podwoiło liczbę członków naszego koła! 😍<br><br><b>Cieszymy się, że jesteście z nami — przed nami mnóstwo pomysłów, projektów i wspólnych wyzwań </b>💻⚡♟️<br><br>Dzięki Wam będziemy mogli działać jeszcze intensywniej, kreatywniej i z jeszcze większą pasją! 🚀<br><br><center><b><u>Witamy na pokładzie Algo — teraz to dopiero się zacznie</u></b> 🔥</center>",
+    "images":[
+      "../img/events/_grupowe_1.webp",
+      "../img/events/_grupowe_3.webp"
+    ]
+  },
+
+  {
+    "id":"NOT",
+    "title":"Udział w Dniach Aktywności w NOT",
+    "date":"2025-11-10",
+    "thumbnail":"../img/events/NOT1.webp",
+    "description":"🎓 <b>Algo na Dniach Aktywności w NOT!</b> 🎓<br>Mieliśmy przyjemność wziąć udział w Dniach Aktywności organizowanych przez <b>Naczelną Organizację Techniczną (NOT)</b>, gdzie zaprezentowaliśmy uczniom szkół średnich działalność naszego Koła 💼✨<br><br>Ogromne zainteresowanie wzbudził nasz najnowszy projekt – Szach-Mat 2.0, czyli inteligentna, interaktywna szachownica, która łączy elektronikę, programowanie i algorytmikę. Opowiedzieliśmy o procesie jej tworzenia, technologii, z jakiej korzysta, oraz o tym, jak wygląda współpraca między członkami zespołu 🤖♟️<br><br>Cieszymy się, że mogliśmy przybliżyć młodszym pasjonatom świat algorytmów i nowych technologii oraz pokazać, że studiowanie na Politechnice Wrocławskiej to nie tylko nauka, ale też okazja do realizacji ambitnych projektów i współpracy w inspirującym środowisku akademickim 💙<br><br><b>Dziękujemy organizatorom za zaproszenie i możliwość zaprezentowania naszej pracy!</b> 🙌<br><br><br>🐍 Wąż na zdjęciach jest od skn_zywienia_zwierzat",
+    "images":[
+      "../img/events/NOT1.webp",
+      "../img/events/NOT2.webp",
+      "../img/events/NOT3.webp",
+      "../img/events/NOT4.webp"
+    ]
+  },
+  {
+    "id":"das2025",
+    "title": "Dni Aktywności Studneckiej za nami!",
+    "date": "2025-11-05",
+    "thumbnail": "../img/events/das2_1.webp",
+    "description": "🎉 <b>DAS 2025 za nami!</b> 🎉<br>To był dzień pełen energii, rozmów i inspiracji! 💬✨<br><br>Podczas <b>Dni Aktywności Studenckiej</b> mieliśmy okazję zaprezentować działalność Koła Naukowego Algo — nie tylko studentom z naszego wydziału Wydział Informatyki i Telekomunikacji PWr, ale też wielu odwiedzającym z innych kierunków z całej Politechnika Wrocławska🔥<br><br>Nasze stoisko z projektem Szach-Mat 2.0 ♟️⚙️ przyciągało mnóstwo ciekawych osób — dziękujemy wszystkim, którzy zatrzymali się, żeby z nami porozmawiać, zobaczyć projekt w akcji i podzielić się swoimi pomysłami 🙌<br><br>Atmosfera była fantastyczna, a Wasze reakcje przypomniały nam, dlaczego tak bardzo lubimy to, co robimy 💡💙<br><br><b>Do zobaczenia na kolejnych wydarzeniach — to dopiero początek!</b> 🚀",
+    "images": [
+      "../img/events/das2_1.webp",
+      "../img/events/das2_2.webp",
+      "../img/events/das2_3.webp",
+      "../img/events/das2_4.webp",
+      "../img/events/das2_5.webp",
+      "../img/events/das2_6.webp",
+      "../img/events/das2_7.webp",
+      "../img/events/das2_8.webp"
+    ]
+  },
+
+  {
+    "id":"Bielik",
+    "title": "Jakub Dobrzański certyfikowanym trenerem eskadry Bielik.AI",
+    "date":"2025-11-02",
+    "thumbnail":"../img/events/bielik.webp",
+    "description":" 🔥 Wielkie wieści z Algo! 🔥<br>Z ogromną dumą ogłaszamy, że <b>Jakub Dobrzański</b> – członek naszego koła naukowego Algo – został <b>certyfikowanym trenerem eskadry Bielik.AI!</b> 🦅💥<br><br>💬 Bielik.AI to nowoczesny, polski model językowy, rozwijany przez Fundację SpeakLeash i Cyfronet AGH — otwarty, bezpieczny i stworzony z myślą o języku polskim 🇵🇱🤖<br><br>👏 <b>Gratulacje</b>, Kuba! Jesteśmy niesamowicie dumni z Twojego osiągnięcia — to ogromny krok naprzód nie tylko dla Ciebie, ale i całego naszego zespołu 💪<br><br>A może już niedługo… 👀<br>warsztaty z Bielik.AI, prowadzone właśnie przez naszego trenera? 🔥<br><br><b>Zostańcie z nami — będzie się działo!</b> 🚀",
+    "images": [
+      "../img/events/bielik.webp"
+    ]
+  },
+
   {
     "id":"DaWiT2025",
     "title":"ALGO ponownie zwycięzcą konkursu na najlepsze stoisko na DaWIT!",
