@@ -6,18 +6,16 @@ window.addEventListener('load', () => {
   if (window.particlesJS && document.getElementById('particles-js')) {
     particlesJS.load('particles-js', '/js/particles-config.json', function () {
       console.log('particles.js config loaded');
-      setTimeout(() => {
-        if (window.pJSDom && window.pJSDom.length > 0) {
-          window.pJSDom.forEach(p => p.pJS.fn.vendors.resize());
-        }
-      }, 100);
     });
   }
 });
 
 
-// Aktualności
-fetch('../data/news.json')
+// Funkcja do ładowania aktualności
+function loadNews() {
+  const newsPath = window.i18n ? window.i18n.getDataPath('news') : '../data/news_pl.json';
+
+  fetch(newsPath)
   .then(response => {
     if (!response.ok) throw new Error("Błąd odpowiedzi: " + response.status);
     return response.json();
@@ -123,28 +121,51 @@ fetch('../data/news.json')
   .catch(error => {
     console.error("Błąd wczytywania aktualności:", error);
   });
+}
+
+// Wywołaj po załadowaniu i18n
+if (window.i18n && window.i18n.translations && Object.keys(window.i18n.translations).length > 0) {
+  loadNews();
+} else {
+  window.addEventListener('DOMContentLoaded', loadNews);
+}
+
+// Przeładuj po zmianie języka
+window.addEventListener('languageChanged', loadNews);
 
 
 // ZESPÓŁ
 // Członkowie koła
-document.addEventListener('DOMContentLoaded', () => {
+function loadTeam() {
   const membersContainer = document.getElementById('members-container');
 
   if (membersContainer) {
+    // Team.json nie wymaga tłumaczenia (imiona międzynarodowe), więc zawsze ładujemy ten sam plik
     fetch('../data/team.json')
       .then(response => {
         if (!response.ok) throw new Error("Błąd ładowania członków: " + response.status);
         return response.json();
       })
       .then(data => {
+        // Wyczyść istniejącą zawartość przed przeładowaniem
+        membersContainer.innerHTML = '';
+        
         data.forEach(member => {
           const col = document.createElement('div');
           col.className = 'col-12 col-sm-6 col-lg-4 mb-4';
 
+          // Sprawdź czy członek ma stanowisko
+          let positionHTML = '';
+          if (member.position) {
+            const positionKey = `team.${member.position}`;
+            const positionText = window.i18n ? window.i18n.t(positionKey) : member.position;
+            positionHTML = `<br><b>${positionText}</b>`;
+          }
+
           col.innerHTML = `
             <div class="member-card text-center py-4 px-3 h-100">
               <img src="${member.image}" alt="${member.firstName} ${member.lastName}" class="member-img mb-3" loading="lazy">
-              <h5 class="member-name mb-0">${member.firstName} ${member.lastName}</h5>
+              <h5 class="member-name mb-0">${member.firstName} ${member.lastName}${positionHTML}</h5>
             </div>
           `;
 
@@ -155,7 +176,10 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error("Błąd ładowania członków:", error);
       });
   }
-});
+}
+
+document.addEventListener('DOMContentLoaded', loadTeam);
+window.addEventListener('languageChanged', loadTeam);
 
 // Toggle opisu prowadzących
 function toggleLeaderDescription(card) {
@@ -188,10 +212,16 @@ function toggleLeaderDescription(card) {
 
 // PROJEKTY
 
-const projectsAccordion = document.getElementById('projects-accordion');
+function loadProjects() {
+  const projectsAccordion = document.getElementById('projects-accordion');
 
-if (projectsAccordion) {
-  fetch('../data/projects.json')
+  if (projectsAccordion) {
+    // Wyczyść istniejące projekty przed przeładowaniem
+    projectsAccordion.innerHTML = '';
+
+    const projectsPath = window.i18n ? window.i18n.getDataPath('projects') : '../data/projects_pl.json';
+
+    fetch(projectsPath)
     .then(res => res.json())
     .then(data => {
       data.forEach((project, index) => {
@@ -296,16 +326,24 @@ if (projectsAccordion) {
     .catch(err => {
       console.error('Błąd ładowania projektów:', err);
     });
+  }
 }
+
+document.addEventListener('DOMContentLoaded', loadProjects);
+window.addEventListener('languageChanged', loadProjects);
 
 //NADCHODZĄCE PROJEKTY
 
-// NADCHODZĄCE PROJEKTY
+function loadMipProjects() {
+  const mip_projectsAccordion = document.getElementById('mip_projects-accordion');
 
-const mip_projectsAccordion = document.getElementById('mip_projects-accordion');
+  if (mip_projectsAccordion) {
+    // Wyczyść istniejące projekty przed przeładowaniem
+    mip_projectsAccordion.innerHTML = '';
 
-if (mip_projectsAccordion) {
-  fetch('../data/mip_projects.json')
+    const mipProjectsPath = window.i18n ? window.i18n.getDataPath('mip_projects') : '../data/mip_projects_pl.json';
+
+    fetch(mipProjectsPath)
     .then(res => res.json())
     .then(data => {
       data.forEach((project, index) => {
@@ -370,17 +408,26 @@ if (mip_projectsAccordion) {
     .catch(err => {
       console.error('Błąd ładowania nadchodzących projektów:', err);
     });
+  }
 }
+
+document.addEventListener('DOMContentLoaded', loadMipProjects);
+window.addEventListener('languageChanged', loadMipProjects);
 
 
 
 //WYDARZENIA
-document.addEventListener('DOMContentLoaded', () => {
+function loadEvents() {
   const eventsContainer = document.getElementById('events-container');
-  const modal = new bootstrap.Modal(document.getElementById('eventModal'));
+  const modal = document.getElementById('eventModal') ? new bootstrap.Modal(document.getElementById('eventModal')) : null;
 
   if (eventsContainer) {
-    fetch('../data/events.json')
+    // Wyczyść istniejące wydarzenia przed przeładowaniem
+    eventsContainer.innerHTML = '';
+
+    const eventsPath = window.i18n ? window.i18n.getDataPath('events') : '../data/events_pl.json';
+
+    fetch(eventsPath)
       .then(res => res.json())
       .then(events => {
         const hash = window.location.hash.replace('#', '');
@@ -408,60 +455,70 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         });
       });
-      
+  }
+}
+
+document.addEventListener('DOMContentLoaded', loadEvents);
+window.addEventListener('languageChanged', loadEvents);
+
+function openEventModal(event) {
+  const modal = document.getElementById('eventModal') ? new bootstrap.Modal(document.getElementById('eventModal')) : null;
+  
+  document.getElementById('eventModalLabel').textContent = event.title;
+  document.getElementById('eventDescription').innerHTML = event.description;
+
+  const gallery = document.getElementById('eventGallery');
+  gallery.innerHTML = '';
+  if (event.images && event.images.length > 0) {
+    event.images.forEach(img => {
+      const col = document.createElement('div');
+      col.className = 'col-md-4 mb-3';
+      col.innerHTML = `<img src="${img}" class="img-fluid rounded shadow-sm gallery-image" alt="Zdjęcie wydarzenia">`;
+      gallery.appendChild(col);
+    });
   }
 
-  function openEventModal(event) {
-    document.getElementById('eventModalLabel').textContent = event.title;
-    document.getElementById('eventDescription').innerHTML = event.description;
+  if (modal) modal.show();
+}
 
-    const gallery = document.getElementById('eventGallery');
-    gallery.innerHTML = '';
-    if (event.images && event.images.length > 0) {
-      event.images.forEach(img => {
-        const col = document.createElement('div');
-        col.className = 'col-md-4 mb-3';
-        col.innerHTML = `<img src="${img}" class="img-fluid rounded shadow-sm gallery-image" alt="Zdjęcie wydarzenia">`;
-        gallery.appendChild(col);
-      });
-    }
+// Klik w zdjęcie – fullscreen
+document.addEventListener('click', function (e) {
+  if (e.target.matches('.gallery-image')) {
+    const images = [...document.querySelectorAll('.gallery-image')];
+    const clickedIndex = images.indexOf(e.target);
 
-    modal.show();
+    const carouselInner = document.getElementById('fullImageCarouselInner');
+    carouselInner.innerHTML = '';
+
+    images.forEach((img, i) => {
+      const item = document.createElement('div');
+      item.className = `carousel-item${i === clickedIndex ? ' active' : ''}`;
+      item.innerHTML = `<img src="${img.src}" class="d-block w-100" alt="Zdjęcie wydarzenia">`;
+      carouselInner.appendChild(item);
+    });
+
+    const fullModal = new bootstrap.Modal(document.getElementById('fullImageModal'));
+    fullModal.show();
   }
+});
 
-  // Klik w zdjęcie – fullscreen
-  document.addEventListener('click', function (e) {
-    if (e.target.matches('.gallery-image')) {
-      const images = [...document.querySelectorAll('.gallery-image')];
-      const clickedIndex = images.indexOf(e.target);
-
-      const carouselInner = document.getElementById('fullImageCarouselInner');
-      carouselInner.innerHTML = '';
-
-      images.forEach((img, i) => {
-        const item = document.createElement('div');
-        item.className = `carousel-item${i === clickedIndex ? ' active' : ''}`;
-        item.innerHTML = `<img src="${img.src}" class="d-block w-100" alt="Zdjęcie wydarzenia">`;
-        carouselInner.appendChild(item);
-      });
-
-      const fullModal = new bootstrap.Modal(document.getElementById('fullImageModal'));
-      fullModal.show();
-    }
-  });
-
-  // Klik poza – zamknięcie
-  document.getElementById('fullImageModal').addEventListener('click', function (e) {
+// Klik poza – zamknięcie
+const fullImageModal = document.getElementById('fullImageModal');
+if (fullImageModal) {
+  fullImageModal.addEventListener('click', function (e) {
     const content = e.target.closest('.modal-content');
     if (!content) {
       const fullModal = bootstrap.Modal.getInstance(this);
       fullModal.hide();
     }
   });
-});
+}
 
 // Zamknięcie modala przez przycisk X
-document.getElementById('closeFullImageModal').addEventListener('click', function () {
-  const fullModal = bootstrap.Modal.getInstance(document.getElementById('fullImageModal'));
-  fullModal.hide();
-});
+const closeFullImageModal = document.getElementById('closeFullImageModal');
+if (closeFullImageModal) {
+  closeFullImageModal.addEventListener('click', function () {
+    const fullModal = bootstrap.Modal.getInstance(document.getElementById('fullImageModal'));
+    fullModal.hide();
+  });
+}

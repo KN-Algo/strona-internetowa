@@ -1,0 +1,10 @@
+[
+    {
+
+      "title": "Magdalena",
+      "description": "<b>Magdalena – Modularer Automatischer Druckkopf-Drucker mit Erweiterbarer Logik und Trägheits-Adaptivem Antrieb</b> ist ein Konzept eines modernen, modularen FDM-3D-Druckers, dessen Konstruktion auf einem universellen mechanischen Modul basiert, das auch im Schachprojekt verwendet wird. Aufbauend auf einem fertigen Rahmen mit CoreXY-Mechanik wird das Gerät für die Arbeit mit verschiedenen Werkzeugköpfen angepasst, mit automatischer Wechselmöglichkeit – sowohl auf Basis eines proprietären Systems als auch fertiger Lösungen wie Bondtech.<br><br>Das Projekt sieht eine vollständige Online-Steuerung vor, mit der Möglichkeit zur weiteren Verfeinerung der Kommunikationstechnologie und Benutzeroberfläche. Der Drucker wird geschlossen sein, mit aktiver Temperaturkontrolle innerhalb der Arbeitskammer, was stabile Druckbedingungen für anspruchsvolle Materialien gewährleistet. Ein integraler Bestandteil der Konstruktion wird auch ein effizientes Luftfiltersystem sein, das einen sicheren Betrieb in geschlossenen Räumen ermöglicht.<br><br>Innerhalb der Kammer wird eine Kamera platziert, die eine Echtzeitüberwachung des Druckvorgangs ermöglicht. Zusätzlich kann die Kamera zur Bildanalyse und Früherkennung von Druckfehlern verwendet werden. Das System wird mit einer magnetischen Druckplatte ausgestattet, die das Entfernen von Drucken erleichtert, sowie einer Reihe von Sensoren, die unter anderem Filamentverflechtungen, ordnungsgemäßen Betrieb der Hauptkomponenten und fortschreitenden Verschleiß mechanischer Elemente überwachen. In Zukunft kann das Gerät um Laserschneider-Funktionalität erweitert werden, wodurch es zu einem multifunktionalen Werkstattwerkzeug wird.",
+      "images": [
+
+      ]
+    }
+]

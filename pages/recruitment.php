@@ -6,8 +6,8 @@
 <main>
   <section class="contact-hero text-white text-center py-5" style="background-color: #0b0c2a;">
     <div class="container">
-      <h2 class="section-title mb-3">Skontaktuj się z nami!</h2>
-      <p class="lead">Jesteśmy otwarci na nowe współprace.</p>
+      <h2 class="section-title mb-3" data-i18n="contact.page_title">Skontaktuj się z nami!</h2>
+      <p class="lead" data-i18n="contact.page_subtitle">Jesteśmy otwarci na nowe współprace.</p>
     </div>
   </section>
 
@@ -15,27 +15,27 @@
     <div class="container">
       <form id="contact-form" class="needs-validation" novalidate>
         <div class="mb-3">
-          <label for="name" class="form-label">Imię i Nazwisko</label>
+          <label for="name" class="form-label" data-i18n="contact.form_name">Imię i Nazwisko</label>
           <input type="text" class="form-control" id="name" name="name" required maxlength="100">
         </div>
 
         <div class="mb-3">
-          <label for="email" class="form-label">Adres e-mail</label>
+          <label for="email" class="form-label" data-i18n="contact.form_email">Adres e-mail</label>
           <input type="email" class="form-control" id="email" name="email" required maxlength="100">
         </div>
 
         <div class="mb-3">
-          <label for="subject" class="form-label">Temat</label>
+          <label for="subject" class="form-label" data-i18n="contact.form_subject">Temat</label>
           <input type="text" class="form-control" id="subject" name="subject" required maxlength="120">
         </div>
 
         <div class="mb-4">
-          <label for="message" class="form-label">Wiadomość</label>
+          <label for="message" class="form-label" data-i18n="contact.form_message">Wiadomość</label>
           <textarea class="form-control" id="message" name="message" rows="6" required maxlength="2000"></textarea>
         </div>
 
         <input type="hidden" name="token" id="recaptcha-token">
-        <button type="submit" class="btn btn-dark">Wyślij wiadomość</button>
+        <button type="submit" class="btn btn-dark" data-i18n="contact.form_submit">Wyślij wiadomość</button>
       </form>
     </div>
   </section>
@@ -67,9 +67,9 @@
                         } else {
                             Swal.fire({
                                 icon: 'warning',
-                                title: 'Chwila!',
-                                text: 'Robotom wstęp wzbroniony!',
-                                footer: 'Test reCAPTCHA nie powiódł się.',
+                                title: window.i18n ? window.i18n.t('contact.alert_robot_title') : 'Chwila!',
+                                text: window.i18n ? window.i18n.t('contact.alert_robot_text') : 'Robotom wstęp wzbroniony!',
+                                footer: window.i18n ? window.i18n.t('contact.alert_robot_footer') : 'Test reCAPTCHA nie powiódł się.',
                             })
                         }
                     })
@@ -86,8 +86,8 @@
                .then(
                    Swal.fire({
                        icon: 'info',
-                       title: 'Proszę czekać...',
-                       text: 'Wysyłanie wiadomości...',
+                       title: window.i18n ? window.i18n.t('contact.alert_wait') : 'Proszę czekać...',
+                       text: window.i18n ? window.i18n.t('contact.alert_sending') : 'Wysyłanie wiadomości...',
                        allowOutsideClick: false,
                        allowEscapeKey: false,
                        allowEnterKey: false,

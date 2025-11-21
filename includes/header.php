@@ -13,6 +13,12 @@
       --main-bg: #000424;
       --accent-color: #f8e9e5;
     }
+    /* Style dla aktywnego przycisku języka */
+    [data-lang-switch].active {
+      background-color: var(--accent-color) !important;
+      color: var(--main-bg) !important;
+      border-color: var(--accent-color) !important;
+    }
   </style>
 </head>
 <body>
