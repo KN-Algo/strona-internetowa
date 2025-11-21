@@ -7,8 +7,8 @@
   <!-- Sekcja nagłówka strony -->
   <section class="py-5 text-center bg-light">
     <div class="container">
-      <h1 class="display-5 fw-bold">Poznaj nasz zespół</h1>
-      <p class="lead">Ludzie, którzy tworzą Koło Naukowe Algo</p>
+      <h1 class="display-5 fw-bold" data-i18n="team.page_title">Poznaj nasz zespół</h1>
+      <p class="lead" data-i18n="team.page_subtitle">Ludzie, którzy tworzą Koło Naukowe Algo</p>
     </div>
   </section>
 
@@ -25,7 +25,7 @@
   <!-- Sekcja: Prowadzący -->
   <section class="leaders-section py-5">
     <div class="container">
-      <h2 class="section-title">
+      <h2 class="section-title" data-i18n="team.supervisors_title">
   Opiekunowie<br><br>
 </h2>
       <div class="row align-items-center">
@@ -34,8 +34,8 @@
         </div>
         <div class="col-md-6">
         <div class="leaders-intro-description">
-            <p><strong>Dr. inż. Jacek Jagodziński i mgr inż. Marta Lampasiak</strong> to zgrany duet, który łączy pasję do algorytmiki z doświadczeniem dydaktycznym. Inspirują studentów do zgłębiania świata informatyki i automatyki – od struktur danych, przez systemy dynamiczne, aż po projektowanie i analizę algorytmów.</p>
-            <p>Ich współpraca to coś więcej niż tylko prowadzenie koła. To również wspólna organizacja wydarzeń, tworzenie projektów badawczych i prac naukowych. Razem budują środowisko, w którym nauka łączy się z praktyką, a pomysły przeradzają się w realne działania.</p>
+            <p data-i18n="team.supervisors_intro"><strong>Dr. inż. Jacek Jagodziński i mgr inż. Marta Lampasiak</strong> to zgrany duet, który łączy pasję do algorytmiki z doświadczeniem dydaktycznym. Inspirują studentów do zgłębiania świata informatyki i automatyki – od struktur danych, przez systemy dynamiczne, aż po projektowanie i analizę algorytmów.</p>
+            <p data-i18n="team.supervisors_intro_p2">Ich współpraca to coś więcej niż tylko prowadzenie koła. To również wspólna organizacja wydarzeń, tworzenie projektów badawczych i prac naukowych. Razem budują środowisko, w którym nauka łączy się z praktyką, a pomysły przeradzają się w realne działania.</p>
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@
           <h5 class="text-center mb-2">mgr inż. Marta Lampasiak</h5>
           <div class="expand-icon">▼</div>
           <div class="leader-description hidden">
-            <p>Mgr inż. Marta Lampasiak w 2022 ukończyła kierunek Automatyka i Robotyka na Wydziale Elektroniki. Pracę na Wydziale Informatyki i Telekomunikacji na Politechnice Wrocławskiej podjęła jeszcze w tym samym roku.<br> Prowadzi głównie przedmioty związane z programowaniem i technologiami informatycznymi, jednakże jej obszar zainteresowań badawczych obejmuje: modelowanie i identyfikacja systemów dynamicznych, projektowanie układów sterowania i badania symulacyjne. Aktualnie pracuje nad doktoratem i prowadzi badania naukowe, a ich efekty często prezentuje na międzynarodowych konferencjach naukowych. Praca na PWr pozwala jej na łączenie dwóch aspektów, bez których nie wyobraża sobie swojego życia: zdobywania wiedzy i przekazywania jej innym. Dla mgr inż. Marty Lampasiak praca dydaktyczna, a w tym atmosfera na jej zajęciach, ma równie ważne znaczenie co praca naukowa, o czym świadczy chociażby tytuł laureata w Programie Quintus, w którym to studenci wybierają prowadzących wyróżniających się swoim zaangażowaniem i sposobem prowadzenia zajęć.</p>
+            <p data-i18n="team.marta_bio">Mgr inż. Marta Lampasiak w 2022 ukończyła kierunek Automatyka i Robotyka na Wydziale Elektroniki. Pracę na Wydziale Informatyki i Telekomunikacji na Politechnice Wrocławskiej podjęła jeszcze w tym samym roku.<br> Prowadzi głównie przedmioty związane z programowaniem i technologiami informatycznymi, jednakże jej obszar zainteresowań badawczych obejmuje: modelowanie i identyfikacja systemów dynamicznych, projektowanie układów sterowania i badania symulacyjne. Aktualnie pracuje nad doktoratem i prowadzi badania naukowe, a ich efekty często prezentuje na międzynarodowych konferencjach naukowych. Praca na PWr pozwala jej na łączenie dwóch aspektów, bez których nie wyobraża sobie swojego życia: zdobywania wiedzy i przekazywania jej innym. Dla mgr inż. Marty Lampasiak praca dydaktyczna, a w tym atmosfera na jej zajęciach, ma równie ważne znaczenie co praca naukowa, o czym świadczy chociażby tytuł laureata w Programie Quintus, w którym to studenci wybierają prowadzących wyróżniających się swoim zaangażowaniem i sposobem prowadzenia zajęć.</p>
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@
           <h5 class="text-center mb-2">dr inż. Jacek Jagodziński</h5>
           <div class="expand-icon">▼</div>
           <div class="leader-description hidden">
-            <p>Dr inż. Jacek Jagodziński ukończył studia na kierunku Automatyka i Robotyka na Wydziale Elektroniki, na Politechnice Wrocławskiej uzyskał również tytuł doktora, a pracę na wspomnianej uczelni rozpoczął w 2017 roku. Prowadzi przedmioty związane z szeroko pojętą automatyką przemysłową, IoT, przetwarzaniem sygnałów i wiele innych. Warto również nadmienić, że jego praca doktorska dotyczyła zagadnień związanych z robotyką. Natomiast w swojej pracy naukowej skupia się głównie na tworzeniu modeli systemów (nie tylko tych związanych z automatyką), ich identyfikacji oraz na ogólnie pojętej estymacji. Dr inż. Jacek Jagodziński jest opiekunem Laboratorium urządzeń i układów automatyki, a jeśli chodzi o jego pracę dydaktyczną najlepszym dowodem jego zaangażowania, a także i pomysłowości dotyczącej wymyślania coraz to nowszych tematów projektów do realizacji, są absolwenci, zarówno studiów inżynierskich, jak i magisterskich, których miał przyjemność być promotorem. Dodatkowo należy nadmienić, że posiada on duże doświadczenie związane z pracą w projektach badawczych.</p>
+            <p data-i18n="team.jacek_bio">Dr inż. Jacek Jagodziński ukończył studia na kierunku Automatyka i Robotyka na Wydziale Elektroniki, na Politechnice Wrocławskiej uzyskał również tytuł doktora, a pracę na wspomnianej uczelni rozpoczął w 2017 roku. Prowadzi przedmioty związane z szeroko pojętą automatyką przemysłową, IoT, przetwarzaniem sygnałów i wiele innych. Warto również nadmienić, że jego praca doktorska dotyczyła zagadnień związanych z robotyką. Natomiast w swojej pracy naukowej skupia się głównie na tworzeniu modeli systemów (nie tylko tych związanych z automatyką), ich identyfikacji oraz na ogólnie pojętej estymacji. Dr inż. Jacek Jagodziński jest opiekunem Laboratorium urządzeń i układów automatyki, a jeśli chodzi o jego pracę dydaktyczną najlepszym dowodem jego zaangażowania, a także i pomysłowości dotyczącej wymyślania coraz to nowszych tematów projektów do realizacji, są absolwenci, zarówno studiów inżynierskich, jak i magisterskich, których miał przyjemność być promotorem. Dodatkowo należy nadmienić, że posiada on duże doświadczenie związane z pracą w projektach badawczych.</p>
           </div>
         </div>
       </div>
@@ -81,7 +81,7 @@
   <!-- Sekcja: Członkowie (dynamicznie) -->
 <section class="members-section py-5 bg-light">
   <div class="container">
-    <h2 class="section-title text-center mb-5">Członkowie koła</h2>
+    <h2 class="section-title text-center mb-5" data-i18n="team.members_title">Członkowie koła</h2>
     <div class="row g-4 justify-content-center" id="members-container">
       <!-- Wczytane przez JS -->
     </div>

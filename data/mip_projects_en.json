@@ -1,0 +1,10 @@
+[
+    {
+
+      "title": "Magdalena",
+      "description": "<b>Magdalena – Modular Automatic Expandable-Logic Head-equipped Printer with Inertial-Adaptive Drive</b> is a concept of a modern, modular FDM 3D printer, whose design is based on a universal mechanical module also used in the chess project. Building upon a ready-made CoreXY mechanics frame, the device will be adapted to work with various tool heads, with automatic exchange capability – both based on a proprietary system and ready-made solutions such as Bondtech.<br><br>The project assumes full online control, with the possibility of further refinement of communication technology and user interface. The printer will be enclosed, with active temperature control inside the working chamber, ensuring stable printing conditions for demanding materials. An integral part of the construction will also be an efficient air filtration system, enabling safe operation in enclosed spaces.<br><br>A camera will be placed inside the chamber, providing real-time monitoring of the printing process. Additionally, the camera can be used for image analysis and early detection of printing errors. The system will be equipped with a magnetic build plate facilitating print removal, as well as a series of sensors monitoring filament tangles, proper operation of main components, and progressive wear of mechanical elements. In the future, the device may be expanded with laser cutter functionality, thus becoming a multifunctional workshop tool.",
+      "images": [
+
+      ]
+    }
+]

@@ -5,7 +5,7 @@
 <main>
 <section class="events-section py-5 bg-light">
   <div class="container">
-    <h2 class="section-title text-center mb-5">Wydarzenia</h2>
+    <h2 class="section-title text-center mb-5" data-i18n="events.page_title">Wydarzenia</h2>
     <div class="row g-4" id="events-container"></div>
   </div>
 </section>
@@ -31,7 +31,7 @@
   <div class="modal-dialog modal-fullscreen modal-dialog-centered">
     <div class="modal-content bg-dark border-0 position-relative">
       <!-- Działa poprawnie: -->
-      <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3 z-3" id="closeFullImageModal" aria-label="Zamknij"></button>
+      <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3 z-3" id="closeFullImageModal" data-i18n-aria="common.close"></button>
 
       <div class="modal-body d-flex justify-content-center align-items-center p-0">
         <div id="fullImageCarousel" class="carousel slide w-100" data-bs-ride="carousel">

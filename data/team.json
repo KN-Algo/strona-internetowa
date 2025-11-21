@@ -1,32 +1,38 @@
 [{
     "firstName": "Krystian",
-    "lastName": "Bury<br><b>Prezes</b>",
+    "lastName": "Bury",
+    "position": "president",
     "image": "../img/members/Krystian.webp"
   },
   
   {
     "firstName": "Adrian",
-    "lastName": "Goral<br><b>Wiceprezes</b>",
+    "lastName": "Goral",
+    "position": "vice_president",
     "image": "../img/members/Adrian.webp"
   },
   {
     "firstName": "Paulina",
-    "lastName": "Szulc<br><b>Sekretarz</b>",
+    "lastName": "Szulc",
+    "position": "secretary",
     "image":"../img/members/Paulina.webp"
   },
   {
     "firstName": "Jakub",
-    "lastName": "Barczyński<br><b>Członek zarządu</b>",
+    "lastName": "Barczyński",
+    "position": "board_member",
     "image": "../img/members/Jakub.webp"
   },
   {
     "firstName": "Mateusz",
-    "lastName": "Andrzejewski<br><b>Członek zarządu</b>",
+    "lastName": "Andrzejewski",
+    "position": "board_member",
     "image": "../img/members/Mateusz.webp"
   },
   {
     "firstName": "Wiktor",
-    "lastName": "Jankowski-Ostrowski<br><b>Członek zarządu</b>",
+    "lastName": "Jankowski-Ostrowski",
+    "position": "board_member",
     "image": "../img/members/Wiktor.webp"
   },
   
