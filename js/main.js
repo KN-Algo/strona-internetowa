@@ -435,6 +435,7 @@ function loadEvents() {
         events.forEach(event => {
           const col = document.createElement('div');
           col.className = 'col-12 col-md-6 col-lg-4';
+          const readMoreText = window.i18n ? window.i18n.t('events.read_more') : 'Zobacz więcej';
           col.innerHTML = `
             <div class="card h-100 event-card" data-id="${event.id}" style="cursor:pointer;">
               <img src="${event.thumbnail}" class="card-img-top" alt="${event.title}">
@@ -442,7 +443,7 @@ function loadEvents() {
                 <h5 class="card-title">${event.title}</h5>
                 <p class="card-text">${event.date}</p>
                 <a class="read-more" href="#${event.id}">
-                  Zobacz więcej <i class="bi bi-arrow-right-circle"></i>
+                  ${readMoreText} <i class="bi bi-arrow-right-circle"></i>
                 </a>
               </div>
             </div>

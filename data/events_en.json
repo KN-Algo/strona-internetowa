@@ -1,4 +1,69 @@
 [
+  {
+  "id": "best",
+  "title": "✨ We were at BEST Mind Challenge 2025! ✨",
+  "date": "2025-11-25",
+  "thumbnail": "../img/events/best1.webp",
+  "description": "✨ <b>We were at BEST Mind Challenge 2025!</b> ✨<br><br>Last weekend, the Algo Student Research Group had the great pleasure of attending BEST Mind Challenge 2025 – an engineering competition organized by the BEST Wrocław Student Organization 🤝💡<br><br>During the networking session, participants could visit our stand, chat about algorithms, projects and student life, and learn more about what we do every day in Algo 🚀✨<br><br>There were plenty of inspiring conversations, fresh ideas and positive energy, confirming once again that the tech community at Wrocław University of Science and Technology is thriving 💙🤍<br><br>Huge thanks to the organizers for the invitation and to all participants for the great time spent together 😉<br><br>See you next time! 💻💙",
+  "images": [
+    "../img/events/best1.webp",
+    "../img/events/best2.webp"
+  ]
+}
+
+  ,{
+    "id":"targi",
+    "title":"KN Algo at Formnext 2025!",
+    "date":"2025-11-24",
+    "thumbnail":"../img/events/targi1.webp",
+    "description":"<center><b>⭐ KN Algo at Formnext 2025! ⭐</center></b><br><br>On November 20–21, we visited Formnext 2025 in Frankfurt. <b>It is one of the largest events in the world dedicated to 3D printing and additive manufacturing technologies,</b> where companies from many countries present their innovations. Thank you to all the companies and people we had the chance to talk to — we’re returning with fresh motivation and new ideas for future projects.<br><br><b>See you at the next events! 💙</b>",
+    "images":[
+      "../img/events/targi1.webp",
+      "../img/events/targi2.webp",
+      "../img/events/targi3.webp",
+      "../img/events/targi4.webp",
+      "../img/events/targi5.webp",
+      "../img/events/targi6.webp",
+      "../img/events/targi7.webp",
+      "../img/events/targi8.webp",
+      "../img/events/targi9.webp",
+      "../img/events/targi10.webp",
+      "../img/events/targi11.webp",
+      "../img/events/targi12.webp",
+      "../img/events/targi13.webp",
+      "../img/events/targi14.webp",
+      "../img/events/targi15.webp"
+    ]
+  }
+  ,
+  {
+  "id": "synder",
+  "title": "We won 2nd place at SynderHacks Wrocław!",
+  "date": "2025-11-18",
+  "thumbnail": "../img/events/Synder1.webp",
+  "description": "💥 <b>2nd place at SynderHacks Wrocław!</b> 💥<br><br>Our student association took part in SynderHacks Wrocław – a 24h AI Hackathon, during which we spent an entire day creating innovative solutions based on artificial intelligence 🤖<br><br>We participated with two teams:<br>💡 <b>Algo-7</b> – composed of 7th-semester members<br>⚡ <b>Algo-3</b> – representing younger students from the 3rd semester<br><br>The hackathon challenge was to design a complete business application for small companies in just 24 hours, supporting online store management – from integrations with external sales platforms, through inventory control, all the way to cost analysis and invoicing 💼<br><br>🔹 <b>The Algo-7 team</b> developed the “SellHub” application, focused on analysing the reasons behind product returns and summarising profits using artificial intelligence 🤖 Their solution not only identified return causes and recommended ways to reduce them, but also visualised net sales profit using interactive charts.<br><br>🔹 <b>The Algo-3 team</b> created the “Sales Optimizer Platform” – a tool for dynamic product price optimisation. Their AI agent analysed the market, trends and inventory levels to automatically propose optimal pricing strategies, suggesting discounts or promotional bundles, and updating them across external e-commerce platforms with a single click 📊<br><br>It was 24 hours of intense work, creativity and fighting off sleep 😅 But it was absolutely worth it!<br><br>🏆 <b>The Algo-7 team won 2nd place and received a special award from the jury</b> for originality and for taking on a challenge that no other team wanted to attempt – huge congratulations! 👏🔥<br><br>It was an amazing weekend full of inspiration, new experiences and collaboration. We hope this is only the beginning of our hackathon journey – see you at the next events! 🚀",
+  "images": [
+    "../img/events/Synder1.webp",
+    "../img/events/Synder2.webp",
+    "../img/events/Synder3.webp",
+    "../img/events/Synder4.webp",
+    "../img/events/Synder5.webp",
+    "../img/events/Synder6.webp",
+    "../img/events/Synder7.webp",
+    "../img/events/Synder8.webp",
+    "../img/events/Synder9.webp",
+    "../img/events/Synder10.webp",
+    "../img/events/Synder11.webp",
+    "../img/events/Synder12.webp",
+    "../img/events/Synder13.webp",
+    "../img/events/Synder14.webp",
+    "../img/events/Synder15.webp",
+    "../img/events/Synder16.webp",
+    "../img/events/Synder17.webp",
+    "../img/events/Synder18.webp",
+    "../img/events/Synder19.webp"
+  ]
+},
 
   {
     "id":"nowi",
