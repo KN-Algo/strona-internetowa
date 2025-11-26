@@ -1,4 +1,66 @@
 [
+  {
+    "id":"best",
+    "title":"Byliśmy na BEST Mind Challenge 2025!",
+    "date":"2025-11-25",
+    "thumbnail":"../img/events/best1.webp",
+    "description":"✨ <b>Byliśmy na BEST Mind Challenge 2025!</b> ✨<br><br>W miniony weekend ekipa Koła Naukowego Algo miała ogromną przyjemność pojawić się na BEST Mind Challenge 2025 – inżynierskim konkursie tworzonym przez Organizację Studencką BEST Wrocław 🤝💡<br><br>W trakcie części networkingowej uczestnicy mogli wpaść do naszego stanowiska, pogadać o algorytmach, projektach i studenckim życiu, a także dowiedzieć się, czym na co dzień zajmujemy się w Algo 🚀✨<br><br>Było mnóstwo inspirujących rozmów, świeżych pomysłów i energii, która tylko potwierdza, że społeczność techniczna na PWr ma się świetnie 💙🤍<br><br>Serdeczne podziękowania dla organizatorów za zaproszenie oraz dla uczestników za wspólnie spędzony czas 😉<br><br>Do zobaczenia 💻💙",
+    "images":[
+      "../img/events/best1.webp",
+      "../img/events/best2.webp"
+    ]
+  }
+  ,{
+    "id":"targi",
+    "title":"KN Algo na Formnext 2025!",
+    "date":"2025-11-24",
+    "thumbnail":"../img/events/targi1.webp",
+    "description":"<center><b>⭐ KN Algo na Formnext 2025! ⭐</center></b><br><br>W dniach 20–21 listopada byliśmy we Frankfurcie na targach Formnext 2025. <b>To jedne z największych wydarzeń na świecie dotyczących druku 3D i technologii addytywnych,</b> gdzie swoje rozwiązania prezentują firmy z wielu krajów. Dziękujemy wszystkim firmom i osobom, z którymi mogliśmy porozmawiać — wracamy z nową motywacją i pomysłami do dalszej pracy.<br><br><b>Do zobaczenia na kolejnych wydarzeniach! 💙</b>",
+    "images":[
+      "../img/events/targi1.webp",
+      "../img/events/targi2.webp",
+      "../img/events/targi3.webp",
+      "../img/events/targi4.webp",
+      "../img/events/targi5.webp",
+      "../img/events/targi6.webp",
+      "../img/events/targi7.webp",
+      "../img/events/targi8.webp",
+      "../img/events/targi9.webp",
+      "../img/events/targi10.webp",
+      "../img/events/targi11.webp",
+      "../img/events/targi12.webp",
+      "../img/events/targi13.webp",
+      "../img/events/targi14.webp",
+      "../img/events/targi15.webp"
+    ]
+  }
+  ,
+{
+  "id": "synder",
+  "title": "Zajęliśmy 2 miejsce na SynderHacks Wrocław!",
+  "date": "2025-11-18",
+  "thumbnail": "../img/events/Synder1.webp",
+  "description": "💥 <b>2 miejsce na SynderHacks Wrocław!</b> 💥<br><br>Nasze koło wzięło udział w SynderHacks Wrocław – 24h AI Hackathonie, podczas którego przez całą dobę tworzyliśmy innowacyjne rozwiązania oparte na sztucznej inteligencji 🤖<br><br>Na wydarzenie wystawiliśmy dwa zespoły:<br>💡 <b>Algo-7</b> – złożony z członków 7. semestru<br>⚡ <b>Algo-3</b> – reprezentujący młodsze roczniki z 3. semestru<br><br>Tematem hackathonu było zaprojektowanie w 24 godziny aplikacji biznesowej dla małych firm, wspierającej zarządzanie sklepem internetowym – od integracji z zewnętrznymi platformami sprzedażowymi, przez kontrolę stanów magazynowych, aż po analizę kosztów i fakturowanie 💼<br><br>🔹 <b>Zespół Algo-7</b> opracował aplikację „SellHub\", której głównym założeniem było analizowanie przyczyn zwrotów i podsumowywanie zysków przy użyciu sztucznej inteligencji 🤖 Ich rozwiązanie pozwalało nie tylko identyfikować powody zwrotów i rekomendować czynności, które by je ograniczyły, ale także wizualizować zysk netto ze sprzedaży w formie interaktywnych wykresów.<br><br>🔹 <b>Zespół Algo-3</b> zaprojektował „Sales Optimizer Platform” – narzędzie do dynamicznej optymalizacji cen produktów. Ich agent AI analizował rynek, trendy oraz zapasy magazynowe, by automatycznie proponować najlepsze strategie cenowe, sugerując zniżki czy zestawy promocyjne, a przy okazji aktualizując to na zewnętrznych sklepach internetowych jednym kliknięciem 📊<br><br>Były to 24 godziny intensywnej pracy, kreatywności i walki ze snem 😅 Ale zdecydowanie było warto!<br><br>🏆 <b>Drużyna Algo-7 zajęła 2 miejsce oraz zdobyła wyróżnienie od jury</b> za pomysłowość, podejmując się wyzwania, którego nikt inny nie chciał się podjąć – ogromne gratulacje! 👏🔥<br><br>To był niesamowity weekend pełen inspiracji, nowych doświadczeń i współpracy. Mamy nadzieję, że to dopiero początek naszej przygody z hackathonami – do zobaczenia na kolejnych! 🚀",
+  "images": ["../img/events/Synder1.webp",
+"../img/events/Synder2.webp",
+"../img/events/Synder3.webp",
+"../img/events/Synder4.webp",
+"../img/events/Synder5.webp",
+"../img/events/Synder6.webp",
+"../img/events/Synder7.webp",
+"../img/events/Synder8.webp",
+"../img/events/Synder9.webp",
+"../img/events/Synder10.webp",
+"../img/events/Synder11.webp",
+"../img/events/Synder12.webp",
+"../img/events/Synder13.webp",
+"../img/events/Synder14.webp",
+"../img/events/Synder15.webp",
+"../img/events/Synder16.webp",
+"../img/events/Synder17.webp",
+"../img/events/Synder18.webp",
+"../img/events/Synder19.webp"]
+},
 
   {
     "id":"nowi",

@@ -56,8 +56,11 @@
   "image":"../img/members/Artiom.webp"
 },
 
-
-
+{
+  "firstName":"Jakub",
+  "lastName":"Dobrzański",
+  "image":"../img/members/JakubD.webp"
+},
 {
   "firstName":"Hanna",
   "lastName":"Gąsior",
@@ -205,11 +208,6 @@
     "image": "../img/members/Aleksandra.webp"
   },
 
-{
-  "firstName":"Jakub",
-  "lastName":"Dobrzański",
-  "image":"../img/members/temp.webp"
-},
 {
     "firstName": "Kacper",
     "lastName": "Strugała",

@@ -83,6 +83,30 @@
       "description":"Wir freuen uns, dass Sie bei uns sind — vor uns liegen viele Ideen, Projekte und gemeinsame Herausforderungen!",
       "image":"../img/events/_grupowe_1.webp",
       "link":"/pages/events.php#nowi"
-    }
+    },
+    {
+  "type": "info",
+  "title": "Wir haben am SynderHacks Wrocław teilgenommen!",
+  "description": "Wir haben den 2. Platz erreicht!",
+  "image": "../img/events/Synder1.webp",
+  "link": "/pages/events.php#synder"
+},
+
+{
+  "type": "info",
+  "title": "KN Algo auf der Formnext 2025 in Frankfurt!",
+  "description": "Eines der größten Events weltweit zum Thema 3D-Druck und additive Fertigung!",
+  "image": "../img/events/targi1.webp",
+  "link": "/pages/events.php#targi"
+},
+
+{
+  "type": "info",
+  "title": "Wir waren beim BEST Mind Challenge 2025!",
+  "description": "Vielen Dank für die Einladung und die gemeinsame Zeit!",
+  "image": "../img/events/best1.webp",
+  "link": "/pages/events.php#best"
+}
+
 
   ]
