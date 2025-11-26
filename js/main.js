@@ -28,6 +28,7 @@ function loadNews() {
     const sorted = Array.isArray(data) ? [...data].reverse() : [];
 
     const carouselId = 'newsCarousel';
+    const readMoreText = window.i18n ? window.i18n.t('home.read_more') : 'Czytaj więcej';
 
     // Bazowo tworzymy po 1 karcie na slajd (potem uzupełnimy do 3 przez klonowanie)
     const slidesHTML = sorted.map((item, idx) => `
@@ -41,7 +42,7 @@ function loadNews() {
                   <h5 class="news-card-title">${item.title}</h5>
                   <p class="news-card-text">${item.description}</p>
                 </div>
-                <a href="${item.link}" class="btn btn-outline-dark mt-auto">Czytaj więcej</a>
+                <a href="${item.link}" class="btn btn-outline-dark mt-auto">${readMoreText}</a>
               </div>
             </div>
           </div>
