@@ -1,16 +1,15 @@
 [
   {
   "id": "best",
-  "title": "✨ We were at BEST Mind Challenge 2025! ✨",
+  "title": "Wir waren beim BEST Mind Challenge 2025!",
   "date": "2025-11-25",
   "thumbnail": "../img/events/best1.webp",
-  "description": "✨ <b>We were at BEST Mind Challenge 2025!</b> ✨<br><br>Last weekend, the Algo Student Research Group had the great pleasure of attending BEST Mind Challenge 2025 – an engineering competition organized by the BEST Wrocław Student Organization 🤝💡<br><br>During the networking session, participants could visit our stand, chat about algorithms, projects and student life, and learn more about what we do every day in Algo 🚀✨<br><br>There were plenty of inspiring conversations, fresh ideas and positive energy, confirming once again that the tech community at Wrocław University of Science and Technology is thriving 💙🤍<br><br>Huge thanks to the organizers for the invitation and to all participants for the great time spent together 😉<br><br>See you next time! 💻💙",
+  "description": "✨ <b>Wir waren beim BEST Mind Challenge 2025!</b> ✨<br><br>Am 18. November hatte das Team der Studentengruppe Algo die große Freude, am BEST Mind Challenge 2025 teilzunehmen – einem Ingenieurwettbewerb, der von der Studierendenorganisation BEST Wrocław veranstaltet wird 🤝💡<br><br>Während der Networking-Phase konnten die Teilnehmer unseren Stand besuchen, über Algorithmen, Projekte und das Studentenleben sprechen und mehr darüber erfahren, womit wir uns bei Algo täglich beschäftigen 🚀✨<br><br>Es gab viele inspirierende Gespräche, neue Ideen und eine Menge Energie – ein weiterer Beweis dafür, dass die technische Community an der TU Wrocław hervorragend gedeiht 💙🤍<br><br>Ein großes Dankeschön an die Veranstalter für die Einladung und an alle Teilnehmenden für die gemeinsam verbrachte Zeit 😉<br><br>Bis zum nächsten Mal! 💻💙",
   "images": [
     "../img/events/best1.webp",
     "../img/events/best2.webp"
   ]
 }
-
   ,{
     "id":"targi",
     "title":"KN Algo auf der Formnext 2025!",
