@@ -102,20 +102,6 @@
   "lastName":"Kruszczyński",
   "image":"../img/members/AdamK2.webp"
 },
-
-
-  {
-    "firstName": "Adam",
-    "lastName": "Krystek",
-    "image": "../img/members/AdamK.webp"
-  },
-  
-  
-  {
-    "firstName": "Adam",
-    "lastName": "Krzywicki",
-    "image": "../img/members/Adam.webp"
-  },
   {
     "firstName": "Bartek",
     "lastName": "Kuk",
@@ -206,12 +192,6 @@
     "firstName": "Aleksandra",
     "lastName": "Zimna",
     "image": "../img/members/Aleksandra.webp"
-  },
-
-{
-    "firstName": "Kacper",
-    "lastName": "Strugała",
-    "image": "../img/members/temp.webp"
   },
 {
   "firstName":"Mikołaj",
