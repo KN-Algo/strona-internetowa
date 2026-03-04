@@ -51,11 +51,11 @@
     <div class="modal-content">
       <div class="modal-body text-center">
         <div class="poster-wrapper mx-auto">
-          <img src="img/events/algo_rekru.webp" alt="Rekrutacja do Koła Naukowego Algo" class="poster-img" loading="eager">
+          <img src="img/events/algo_rekru.webp" data-i18n-alt="recruitment.modal_alt" alt="Rekrutacja do Koła Naukowego Algo" class="poster-img" loading="eager">
         </div>
       </div>
       <div class="modal-footer recruitment-footer">
-        <a class="btn btn-recruitment btn-lg w-100" href="https://forms.gle/9Vjz8c2EjEF8SqnH7" target="_blank">
+        <a class="btn btn-recruitment btn-lg w-100" href="https://forms.gle/9Vjz8c2EjEF8SqnH7" target="_blank" data-i18n="recruitment.button_text">
           Dołącz – formularz rekrutacyjny
         </a>
       </div>
@@ -63,7 +63,7 @@
   </div>
 </div>
 <!-- Global close button fixed to viewport corner -->
-<button type="button" class="recruitment-close-global" aria-label="Zamknij"></button>
+<button type="button" class="recruitment-close-global" data-i18n-aria="recruitment.close_label" aria-label="Zamknij"></button>
 <!-- [RECRUITMENT MODAL - TEMP END] -->
 
 </main>

@@ -140,6 +140,12 @@ class I18n {
       const key = element.getAttribute('data-i18n-title');
       element.setAttribute('title', this.t(key));
     });
+
+    // Aktualizuj atrybuty alt dla obrazków
+    document.querySelectorAll('[data-i18n-alt]').forEach(element => {
+      const key = element.getAttribute('data-i18n-alt');
+      element.setAttribute('alt', this.t(key));
+    });
   }
 
   /**
