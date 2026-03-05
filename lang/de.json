@@ -60,5 +60,10 @@
     "follow_us": "Bleiben Sie auf dem Laufenden – folgen Sie uns:",
     "copyright": "Algo Wissenschaftlicher Verein",
     "tagline": "Leidenschaft für Algorithmen | Made with ❤️"
+  },
+  "recruitment": {
+    "modal_alt": "Rekrutierung zum Algo Wissenschaftlichen Verein",
+    "button_text": "Beitreten – Anmeldeformular",
+    "close_label": "Schließen"
   }
 }

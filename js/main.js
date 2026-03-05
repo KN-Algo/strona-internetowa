@@ -158,8 +158,7 @@ function loadTeam() {
           let positionHTML = '';
           if (member.position) {
             const positionKey = `team.${member.position}`;
-            const positionText = window.i18n ? window.i18n.t(positionKey) : member.position;
-            positionHTML = `<br><b>${positionText}</b>`;
+            positionHTML = `<br><b><span data-i18n="${positionKey}"></span></b>`;
           }
 
           col.innerHTML = `
@@ -171,6 +170,11 @@ function loadTeam() {
 
           membersContainer.appendChild(col);
         });
+        
+        // Po dodaniu elementów, zaktualizuj tłumaczenia
+        if (window.i18n) {
+          window.i18n.updatePageContent();
+        }
       })
       .catch(error => {
         console.error("Błąd ładowania członków:", error);

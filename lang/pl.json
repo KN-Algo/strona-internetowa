@@ -60,5 +60,10 @@
     "follow_us": "Bądź na bieżąco – obserwuj nas:",
     "copyright": "Koło Naukowe Algo",
     "tagline": "Z pasji do algorytmów | Made with ❤️"
+  },
+  "recruitment": {
+    "modal_alt": "Rekrutacja do Koła Naukowego Algo",
+    "button_text": "Dołącz – formularz rekrutacyjny",
+    "close_label": "Zamknij"
   }
 }

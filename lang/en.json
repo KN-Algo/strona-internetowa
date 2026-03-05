@@ -60,5 +60,10 @@
     "follow_us": "Stay updated – follow us:",
     "copyright": "Algo Science Club",
     "tagline": "Passion for algorithms | Made with ❤️"
+  },
+  "recruitment": {
+    "modal_alt": "Recruitment to Algo Science Club",
+    "button_text": "Join – recruitment form",
+    "close_label": "Close"
   }
 }
