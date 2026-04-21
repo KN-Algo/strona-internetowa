@@ -1,5 +1,32 @@
 [
   {
+    "id":"blinky",
+    "title":"Algo x Visus präsentieren: Blinky",
+    "date":"20.04.2026",
+    "thumbnail":"../img/projects/Blinky1.webp",
+    "description":"<center><b>Algo x Visus präsentieren: Blinky 👁✨️</b></center><br><br>Wir möchten, dass Technologie dem dient, was am wertvollsten ist! Gemeinsam mit den Sehexperten des <b>Forschungskreises Visus</b> haben wir unsere algorithmischen Kräfte gebündelt, um etwas Besonderes zu schaffen, das euren Blick auf die tägliche Arbeit am Computer verändern kann 💻👀<br><br>Als Programmierer und Studierende wissen wir, wie leicht man die Welt um sich herum vergisst, wenn man auf einen Bildschirm schaut 😵‍💫🖥 Deshalb haben wir für euch <b>Blinky</b> entwickelt – einen Assistenten für eure Augen, der Wissen aus der Optometrie nutzt, um euch im richtigen Moment an Pausen zu erinnern und Tipps zum Schutz eurer Sehkraft zu geben 🤓🛡<br><br>Überzeugt euch selbst 👉 <a href='https://algo.pwr.edu.pl/blinky/' target='_blank' rel='noopener noreferrer'>https://algo.pwr.edu.pl/blinky/</a><br><br>Möchtet ihr live mit dem Team sprechen?<br><br>👉 Kommt vom 20.04 bis 24.04 zwischen 9:00 und 13:00 Uhr zum Visus-Stand während der Gesunden Woche<br>👉 Gebäude C-13<br><b>Bis dann ✨️👁</b>",
+    "images":[
+      "../img/projects/Blinky1.webp",
+      "../img/projects/Blinky2.webp",
+      "../img/projects/Blinky3.webp",
+      "../img/projects/Blinky4.webp",
+      "../img/projects/Blinky5.webp"
+    ]
+  },
+  {
+    "id":"kiss",
+    "title":"KN Algo bei KISS IT 2026!",
+    "date":"17.03.2026",
+    "thumbnail":"../img/events/kiss1.webp",
+    "description":"<center><b>KN Algo bei KISS IT 2026 🚀</b></center><br><br>Am 17. Marz hatte das Team des Forschungskreises Algo das grosse Vergnugen, an der IT-Konferenz der Studierendenvertretung teilzunehmen 💻🖱<br><br>Unsere Referenten fuhrten faszinierende und ausserst praxisnahe Workshops zur Aufgabenautomatisierung in n8n durch. Dadurch konnten die Teilnehmenden lernen, wie sie ihre Arbeit effektiv optimieren und Losungen entwickeln, die sie bei Routineaufgaben entlasten 🤖💡<br><br>Vielen Dank an alle, die dabei waren, fur eure Teilnahme und euer grosses Engagement 🔥<br>Wir hoffen, euch bald bei den nachsten Veranstaltungen wiederzusehen!",
+    "images":[
+      "../img/events/kiss1.webp",
+      "../img/events/kiss2.webp",
+      "../img/events/kiss3.webp",
+      "../img/events/kiss4.webp"
+    ]
+  },
+  {
   "id": "best",
   "title": "✨ Wir waren bei der BEST Mind Challenge 2025! ✨",
   "date": "2025-11-25",

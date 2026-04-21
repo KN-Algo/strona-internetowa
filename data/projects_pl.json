@@ -52,6 +52,17 @@
         "../img/projects/szachy4.webp",
         "../img/projects/szachy5.webp"
       ]
+    },
+    {
+      "title":"Blinky",
+      "description":"<p><strong>Blinky</strong> to aplikacja webowa stworzona we współpracy <strong>Koła Naukowego Algo</strong> oraz <strong>Koła Naukowego Visus</strong>. Projekt powstał z połączenia wiedzy technologicznej i optometrycznej, aby wspierać użytkowników w codziennym dbaniu o wzrok podczas pracy przy komputerze.</p><p>Aplikacja działa zarówno w przeglądarce, jak i w trybie <strong>PWA</strong>, dzięki czemu może być używana również offline. Głównym celem Blinky jest przypominanie o regularnych przerwach od ekranu oraz promowanie zdrowych nawyków związanych z higieną wzroku. Na podstawie zaleceń z zakresu optometrii aplikacja pomaga użytkownikowi zwrócić uwagę na to, jak długo korzysta z komputera, i zachęca do chwili odpoczynku dla oczu.</p><p>Projekt został stworzony z myślą przede wszystkim o studentach, programistach i wszystkich osobach, które spędzają wiele godzin przed monitorem. Blinky to prosty, wygodny i praktyczny asystent, który przypomina, że w codziennym natłoku obowiązków warto zadbać także o własne zdrowie.</p><p>Aplikacja jest dostępna pod adresem: <a href='https://algo.pwr.edu.pl/blinky/' target='_blank' rel='noopener noreferrer'>https://algo.pwr.edu.pl/blinky/</a>.</p>",
+      "images":[
+        "../img/projects/Blinky1.webp",
+        "../img/projects/Blinky2.webp",
+        "../img/projects/Blinky3.webp",
+        "../img/projects/Blinky4.webp",
+        "../img/projects/Blinky5.webp"
+      ]
     }
   ]
   

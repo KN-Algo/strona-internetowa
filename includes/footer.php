@@ -30,9 +30,9 @@
 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 <script src="../js/i18n.js"></script>
 <script src="../js/main.js"></script>
-<!-- [RECRUITMENT MODAL - TEMP START] JS to auto-show recruitment popup -->
-<script src="../js/recruitment-modal.js"></script>
-<!-- [RECRUITMENT MODAL - TEMP END] -->
+<!-- [RECRUITMENT MODAL - TEMP DISABLED START] JS to auto-show recruitment popup -->
+<!-- <script src="../js/recruitment-modal.js"></script> -->
+<!-- [RECRUITMENT MODAL - TEMP DISABLED END] -->
 
 </body>
 </html>

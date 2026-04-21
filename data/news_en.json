@@ -106,6 +106,20 @@
   "description": "Thank you for the invitation and the time spent together!",
   "image": "../img/events/best1.webp",
   "link": "/pages/events.php#best"
+},
+{
+  "type": "info",
+  "title": "KN Algo at KISS IT 2026!",
+  "description": "We conducted practical workshops on task automation in n8n!",
+  "image": "../img/events/kiss1.webp",
+  "link": "/pages/events.php#kiss"
+},
+{
+  "type": "info",
+  "title": "Algo x Visus Present: Blinky",
+  "description": "We created an app that helps take care of your eyesight while working at the computer!",
+  "image": "../img/projects/Blinky1.webp",
+  "link": "/pages/events.php#blinky"
 }
 
 

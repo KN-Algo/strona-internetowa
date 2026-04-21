@@ -1,5 +1,33 @@
 [
   {
+    "id":"blinky",
+    "title":"Algo x Visus prezentują: Blinky",
+    "date":"2026-04-20",
+    "thumbnail":"../img/projects/Blinky1.webp",
+    "description":"<center><b>Algo x Visus prezentują: Blinky👁✨️</b></center><br><br>Chcemy, aby technologia służyła temu, co najcenniejsze! Połączyliśmy nasze algorytmiczne siły z wiedzą ekspertów od wzroku z <b>KN Visus</b> by stworzyć coś wyjątkowego, co zmieni sposób w jaki patrzycie na codzienną pracę przy komputerze 💻👀<br><br>Jako programiści i studenci wiemy, jak łatwo zapomnieć o świecie, patrząc w ekran 😵‍💫🖥 Dlatego stworzyliśmy dla was aplikację <b>Blinky</b> - asystenta waszych oczu wykorzystującego wiedzę z zakresu optometrii, by w odpowiednich momentach przypominać o przerwach i podpowiadać jak dbać o wzrok 🤓🛡<br><br>Przekonajcie się sami 👉 <a href='https://algo.pwr.edu.pl/blinky/' target='_blank' rel='noopener noreferrer'>https://algo.pwr.edu.pl/blinky/</a><br><br>Chcecie na żywo pogadać z ekipą?<br><br>👉 Wpadnijcie od 20.04 do 24.04 w godzinach 9:00-13:00 na stoisko Visusa podczas Zdrowego Tygodnia<br>👉 Budynek C-13<br><b>Do zobaczenia✨️👁</b>",
+    "images":[
+      "../img/projects/Blinky1.webp",
+        "../img/projects/Blinky2.webp",
+        "../img/projects/Blinky3.webp",
+        "../img/projects/Blinky4.webp",
+        "../img/projects/Blinky5.webp"
+    ]
+  }
+  ,{
+    "id":"kiss",
+    "title":"KN Algo na KISS IT 2026!",
+    "date":"2026-03-17",
+    "thumbnail":"../img/events/kiss1.webp",
+    "description": "<center><b>KN Algo na KISS IT 2026 🚀</b></center><br><br> 17 marca ekipa Koła Naukowego Algo miała ogromną przyjemność wystąpić na Konferencji Informatycznej Samorządu Studenckiego💻🖱 <br><br>Nasi prelegenci przeprowadzili fascynujące i niezwykle praktyczne warsztaty na temat automatyzacji zadań w n8n. Dzięki nim uczestnicy mogli nauczyć się, jak skutecznie optymalizować swoją pracę i tworzyć rozwiązania wyręczające nas w rutynowych czynnościach 🤖💡<br><br>Dziękujemy wszystkim przybyłym za uczestnictwo oraz ogromne zaangażowanie🔥<br>Mamy nadzieję, że zobaczymy się wkrótce na kolejnych wydarzeniach",
+    "images":[
+      "../img/events/kiss1.webp",
+      "../img/events/kiss2.webp",
+      "../img/events/kiss3.webp",
+      "../img/events/kiss4.webp"
+    ]
+  }
+
+  ,{
     "id":"best",
     "title":"Byliśmy na BEST Mind Challenge 2025!",
     "date":"2025-11-25",

@@ -45,6 +45,7 @@
   </div>
 </section>
 
+<?php /* ?>
 <!-- [RECRUITMENT MODAL - TEMP START] Popup on homepage -->
 <div class="modal fade recruitment-modal" id="recruitmentModal" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
@@ -65,6 +66,7 @@
 <!-- Global close button fixed to viewport corner -->
 <button type="button" class="recruitment-close-global" data-i18n-aria="recruitment.close_label" aria-label="Zamknij"></button>
 <!-- [RECRUITMENT MODAL - TEMP END] -->
+<?php */ ?>
 
 </main>
 

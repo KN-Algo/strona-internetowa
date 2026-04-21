@@ -106,6 +106,20 @@
   "description": "Vielen Dank für die Einladung und die gemeinsame Zeit!",
   "image": "../img/events/best1.webp",
   "link": "/pages/events.php#best"
+},
+{
+  "type": "info",
+  "title": "KN Algo bei KISS IT 2026!",
+  "description": "Wir haben praxisnahe Workshops zur Aufgabenautomatisierung in n8n durchgefuhrt!",
+  "image": "../img/events/kiss1.webp",
+  "link": "/pages/events.php#kiss"
+},
+{
+  "type": "info",
+  "title": "Algo x Visus präsentieren: Blinky",
+  "description": "Wir haben eine App entwickelt, die hilft, die Augen bei der Arbeit am Computer zu schonen!",
+  "image": "../img/projects/Blinky1.webp",
+  "link": "/pages/events.php#blinky"
 }
 
 
