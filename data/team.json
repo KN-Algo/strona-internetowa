@@ -6,10 +6,10 @@
   },
   
   {
-    "firstName": "Adrian",
-    "lastName": "Goral",
+    "firstName": "Monika",
+    "lastName": "Świgost",
     "position": "vice_president",
-    "image": "../img/members/Adrian.webp"
+    "image": "../img/members/Monika.webp"
   },
   {
     "firstName": "Paulina",
@@ -19,9 +19,9 @@
   },
   {
     "firstName": "Jakub",
-    "lastName": "Barczyński",
+    "lastName": "Rolak",
     "position": "board_member",
-    "image": "../img/members/Jakub.webp"
+    "image": "../img/members/JakubR.webp"
   },
   {
     "firstName": "Mateusz",
@@ -40,6 +40,12 @@
   "firstName":"Szymon",
   "lastName":"Banasiak",
   "image":"../img/members/Szymon.webp"
+},
+
+{
+  "firstName":"Jakub",
+  "lastName": "Barczyński",
+  "image":"../img/members/Jakub.webp"
 },
 
 {
@@ -66,6 +72,11 @@
   "lastName":"Gąsior",
   "image":"../img/members/Hania.webp"
 },
+{
+    "firstName": "Adrian",
+    "lastName": "Goral",
+    "image": "../img/members/Adrian.webp"
+  },
 
 {
   "firstName":"Karol",
@@ -157,12 +168,6 @@
   },
 
    {
-    "firstName": "Jakub",
-    "lastName": "Rolak",
-    "image": "../img/members/JakubR.webp"
-  },
-
-   {
     "firstName": "Tobiasz",
     "lastName": "Rolla",
     "image": "../img/members/Tobiasz.webp"
@@ -179,14 +184,6 @@
     "lastName": "Stankevich",
     "image": "../img/members/Pavel.webp"
   },
-
-   
-
-  {
-    "firstName": "Monika",
-    "lastName": "Świgost",
-    "image":"../img/members/Monika.webp"
-  },
   
    {
     "firstName": "Aleksandra",
@@ -197,5 +194,54 @@
   "firstName":"Mikołaj",
   "lastName":"Bogusz",
   "image":"../img/members/temp.webp"
+},
+
+{
+  "firstName":"Karol",
+  "lastName":"Nalepa",
+  "image":"../img/members/temp.webp"
+},
+
+{
+  "firstName":"Ekaterina",
+  "lastName":"Bozhok",
+  "image":"../img/members/temp.webp"
+},
+
+{
+  "firstName":"Franciszek",
+  "lastName":"Kakareko",
+  "image":"../img/members/temp.webp"
+},
+
+{
+  "firstName":"Jakub",
+  "lastName":"Włodarski",
+  "image":"../img/members/temp.webp"
+},
+
+{
+  "firstName":"Kamil",
+  "lastName":"Rachwalik",
+  "image":"../img/members/temp.webp"
+},
+
+{
+  "firstName":"Mikołaj",
+  "lastName":"Kal",
+  "image":"../img/members/temp.webp"
+},
+
+{
+  "firstName":"Paweł",
+  "lastName":"Szuber",
+  "image":"../img/members/temp.webp"
+},
+
+{
+  "firstName":"Tymoteusz",
+  "lastName":"Kosman",
+  "image":"../img/members/temp.webp"
 }
+
 ]
