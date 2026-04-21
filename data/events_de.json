@@ -1,5 +1,18 @@
 [
   {
+    "id":"kiss",
+    "title":"KN Algo bei KISS IT 2026!",
+    "date":"17.03.2026",
+    "thumbnail":"../img/events/kiss1.webp",
+    "description":"<center><b>KN Algo bei KISS IT 2026 🚀</b></center><br><br>Am 17. Marz hatte das Team des Forschungskreises Algo das grosse Vergnugen, an der IT-Konferenz der Studierendenvertretung teilzunehmen 💻🖱<br><br>Unsere Referenten fuhrten faszinierende und ausserst praxisnahe Workshops zur Aufgabenautomatisierung in n8n durch. Dadurch konnten die Teilnehmenden lernen, wie sie ihre Arbeit effektiv optimieren und Losungen entwickeln, die sie bei Routineaufgaben entlasten 🤖💡<br><br>Vielen Dank an alle, die dabei waren, fur eure Teilnahme und euer grosses Engagement 🔥<br>Wir hoffen, euch bald bei den nachsten Veranstaltungen wiederzusehen!",
+    "images":[
+      "../img/events/kiss1.webp",
+      "../img/events/kiss2.webp",
+      "../img/events/kiss3.webp",
+      "../img/events/kiss4.webp"
+    ]
+  },
+  {
   "id": "best",
   "title": "✨ Wir waren bei der BEST Mind Challenge 2025! ✨",
   "date": "2025-11-25",

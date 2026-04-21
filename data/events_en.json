@@ -1,5 +1,18 @@
 [
   {
+    "id":"kiss",
+    "title":"KN Algo at KISS IT 2026!",
+    "date":"2026-03-17",
+    "thumbnail":"../img/events/kiss1.webp",
+    "description":"<center><b>KN Algo at KISS IT 2026 🚀</b></center><br><br>On March 17, the Algo Research Club team had the great pleasure of appearing at the Student Government IT Conference 💻🖱<br><br>Our speakers delivered fascinating and highly practical workshops on task automation in n8n. Thanks to them, participants could learn how to effectively optimize their work and build solutions that take over routine activities 🤖💡<br><br>Thank you to everyone who joined us for your participation and amazing engagement 🔥<br>We hope to see you again soon at future events!",
+    "images":[
+      "../img/events/kiss1.webp",
+      "../img/events/kiss2.webp",
+      "../img/events/kiss3.webp",
+      "../img/events/kiss4.webp"
+    ]
+  },
+  {
   "id": "best",
   "title": "✨ We were at BEST Mind Challenge 2025! ✨",
   "date": "2025-11-25",
