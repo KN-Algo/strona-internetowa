@@ -114,6 +114,13 @@
       "description": "Przeprowadziliśmy praktyczne warsztaty z automatyzacji zadań w n8n!",
       "image": "../img/events/kiss1.webp",
       "link": "/pages/events.php#kiss"
+    },
+    {
+      "type": "info",
+      "title": "Algo x Visus prezentują: Blinky",
+      "description": "Stworzyliśmy aplikację, która pomaga dbać o wzrok podczas pracy przy komputerze!",
+      "image": "../img/projects/Blinky1.webp",
+      "link": "/pages/events.php#blinky"
     }
 
 
