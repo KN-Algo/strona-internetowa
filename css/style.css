@@ -752,21 +752,21 @@ main {
 
 
   /* ==============================
-   [RECRUITMENT MODAL - TEMP START]
+   [RECRUITMENT MODAL - TEMP DISABLED START]
    Responsive styles for recruitment popup
-   Remove this whole block when recruitment ends
-   ============================== */
+   Uncomment this block to restore the homepage recruitment modal.
+
 .recruitment-modal .modal-dialog {
-  /* Tighter width for better fit across zoom levels */
+  COMMENT: Tighter width for better fit across zoom levels
   max-width: min(92vw, 600px);
   margin: 1.25rem auto;
 }
 
 .recruitment-modal .modal-content {
-  border: 2px solid #000; /* widoczne obramowanie panelu */
+  border: 2px solid #000; COMMENT: widoczne obramowanie panelu
   border-radius: 14px;
-  overflow: visible; /* nie przycinaj zawartości, body samo zarządza przewijaniem */
-  /* Cap total height and keep footer visible */
+  overflow: visible; COMMENT: nie przycinaj zawartości, body samo zarządza przewijaniem
+  COMMENT: Cap total height and keep footer visible
   max-height: 85vh;
   display: flex;
   flex-direction: column;
@@ -776,20 +776,20 @@ main {
   padding: 0.75rem 0.75rem 0 0.75rem;
   background: #ffffff;
   flex: 1 1 auto;
-  min-height: 0; /* pozwala flex-itemowi się kurczyć i nie wypychać stopki */
-  overflow: auto; /* jeśli obrazek jest wyższy, tylko body przewija się wewnątrz */
-  /* Smooth scrolling on mobile */
+  min-height: 0; COMMENT: pozwala flex-itemowi się kurczyć i nie wypychać stopki
+  overflow: auto; COMMENT: jeśli obrazek jest wyższy, tylko body przewija się wewnątrz
+  COMMENT: Smooth scrolling on mobile
   -webkit-overflow-scrolling: touch;
 }
 
 .recruitment-modal .poster-wrapper {
   width: 100%;
-  /* bez sztywnego limitu wysokości; kontrolę przejmuje max-height modala i przewijanie body */
+  COMMENT: bez sztywnego limitu wysokości; kontrolę przejmuje max-height modala i przewijanie body
   max-height: none;
-  /* [TEMP] delikatny odstęp dookoła plakatu wewnątrz panelu */
+  COMMENT: [TEMP] delikatny odstęp dookoła plakatu wewnątrz panelu
   padding: 12px;
   box-sizing: border-box;
-  /* [TEMP] zaokrąglenie białej ramki */
+  COMMENT: [TEMP] zaokrąglenie białej ramki
   background: #ffffff;
   border-radius: 14px;
   overflow: hidden;
@@ -798,8 +798,8 @@ main {
 .recruitment-modal .poster-img {
   display: block;
   width: 100%;
-  height: auto; /* unikamy przycięcia na różnych zoomach */
-  object-fit: contain; /* całe zdjęcie w panelu */
+  height: auto; COMMENT: unikamy przycięcia na różnych zoomach
+  object-fit: contain; COMMENT: całe zdjęcie w panelu
   max-width: 100%;
 }
 
@@ -807,10 +807,10 @@ main {
   background: #ffffff;
   border-top: none;
   padding: 0.75rem 0.75rem 1rem 0.75rem;
-  flex-shrink: 0; /* stopka zawsze widoczna */
+  flex-shrink: 0; COMMENT: stopka zawsze widoczna
 }
 
-/* CTA button look and responsiveness */
+COMMENT: CTA button look and responsiveness
 .btn-recruitment {
   background-color: #000424;
   color: #f8e9e5;
@@ -826,9 +826,9 @@ main {
   border-color: #0a0a60;
 }
 
-/* Wyraźny przycisk X do zamknięcia (widoczny na ciemnym plakacie) */
+COMMENT: Wyraźny przycisk X do zamknięcia (widoczny na ciemnym plakacie)
 .recruitment-close-global {
-  position: fixed; /* przypnij do rogu ekranu */
+  position: fixed; COMMENT: przypnij do rogu ekranu
   top: calc(env(safe-area-inset-top, 0px) + 16px);
   right: calc(env(safe-area-inset-right, 0px) + 16px);
   width: 40px;
@@ -844,7 +844,7 @@ main {
   cursor: pointer;
   background-image: none;
   transition: background-color .2s ease, border-color .2s ease, box-shadow .2s ease;
-  display: none; /* domyślnie ukryty, pokażemy dopiero po pełnym otwarciu modala */
+  display: none; COMMENT: domyślnie ukryty, pokażemy dopiero po pełnym otwarciu modala
 }
 .recruitment-close-global::before,
 .recruitment-close-global::after {
@@ -866,15 +866,15 @@ main {
 }
 .recruitment-close-global:hover {
   background-color: #fff;
-  border-color: #dc3545; /* czerwony */
+  border-color: #dc3545; COMMENT: czerwony
   box-shadow: 0 10px 24px rgba(220, 53, 69, 0.25);
 }
 .recruitment-close-global:hover::before,
 .recruitment-close-global:hover::after {
-  background-color: #dc3545; /* czerwony X na hover */
+  background-color: #dc3545; COMMENT: czerwony X na hover
 }
 
-/* Mobile-first improvements */
+COMMENT: Mobile-first improvements
 @media (max-width: 576px) {
   .recruitment-modal .modal-dialog {
     max-width: 95vw;
@@ -897,7 +897,7 @@ main {
     font-size: 1rem;
     padding: 0.75rem 1rem;
   }
-  /* Mniejszy X i mniejsze odsunięcie poza ramkę na małych ekranach */
+  COMMENT: Mniejszy X i mniejsze odsunięcie poza ramkę na małych ekranach
   .recruitment-close-global {
     top: calc(env(safe-area-inset-top, 0px) + 10px);
     right: calc(env(safe-area-inset-right, 0px) + 10px);
@@ -910,7 +910,7 @@ main {
   }
 }
 
-/* Extra small devices (older iPhones, small Android phones) */
+COMMENT: Extra small devices (older iPhones, small Android phones)
 @media (max-width: 375px) {
   .recruitment-modal .modal-dialog {
     max-width: 98vw;
@@ -932,7 +932,7 @@ main {
   }
 }
 
-/* Landscape orientation on mobile devices */
+COMMENT: Landscape orientation on mobile devices
 @media (max-height: 600px) and (orientation: landscape) {
   .recruitment-modal .modal-content {
     max-height: 95vh;
@@ -965,7 +965,7 @@ main {
   }
 }
 
-/* Medium devices - tablets */
+COMMENT: Medium devices - tablets
 @media (min-width: 577px) and (max-width: 991px) {
   .recruitment-modal .modal-dialog {
     max-width: 540px;
@@ -973,13 +973,12 @@ main {
 }
 
 @media (min-width: 992px) {
-  /* On larger screens, keep it modest */
+  COMMENT: On larger screens, keep it modest
   .recruitment-modal .modal-dialog {
     max-width: 560px;
   }
 }
-/* ==============================
-   [RECRUITMENT MODAL - TEMP END]
+   [RECRUITMENT MODAL - TEMP DISABLED END]
    ============================== */
 
   /* Animacja */

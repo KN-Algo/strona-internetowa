@@ -1,3 +1,8 @@
+/* ==============================
+   [RECRUITMENT MODAL - TEMP FILE DISABLED]
+   Purpose: Always show the recruitment popup on the homepage.
+   Kept in comments so the component can be restored later.
+   ==============================
 // ==============================
 // [RECRUITMENT MODAL - TEMP FILE]
 // Purpose: Always show the recruitment popup on the homepage.
@@ -39,3 +44,4 @@
     init();
   }
 })();
+*/
