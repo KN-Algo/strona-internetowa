@@ -35,17 +35,24 @@
     "position": "board_member",
     "image": "../img/members/Wiktor.webp"
   },
+  {
+  "firstName":"Jakub",
+  "lastName": "Barczyński",
+  "position": "president_2024_2025",
+  "image":"../img/members/Jakub.webp"
+},
+
+{
+    "firstName": "Adrian",
+    "lastName": "Goral",
+    "position": "vice_president_2024_2026",
+    "image": "../img/members/Adrian.webp"
+  },
   
 {
   "firstName":"Szymon",
   "lastName":"Banasiak",
   "image":"../img/members/Szymon.webp"
-},
-
-{
-  "firstName":"Jakub",
-  "lastName": "Barczyński",
-  "image":"../img/members/Jakub.webp"
 },
 
 {
@@ -72,11 +79,6 @@
   "lastName":"Gąsior",
   "image":"../img/members/Hania.webp"
 },
-{
-    "firstName": "Adrian",
-    "lastName": "Goral",
-    "image": "../img/members/Adrian.webp"
-  },
 
 {
   "firstName":"Karol",
