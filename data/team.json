@@ -41,6 +41,13 @@
   "position": "Prezes 2024-2025",
   "image":"../img/members/Jakub.webp"
 },
+
+{
+    "firstName": "Adrian",
+    "lastName": "Goral",
+    "position": "Prezes 2024-2025",
+    "image": "../img/members/Adrian.webp"
+  },
   
 {
   "firstName":"Szymon",
@@ -72,11 +79,6 @@
   "lastName":"Gąsior",
   "image":"../img/members/Hania.webp"
 },
-{
-    "firstName": "Adrian",
-    "lastName": "Goral",
-    "image": "../img/members/Adrian.webp"
-  },
 
 {
   "firstName":"Karol",
