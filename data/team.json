@@ -38,14 +38,14 @@
   {
   "firstName":"Jakub",
   "lastName": "Barczyński",
-  "position": "Prezes 2024-2025",
+  "position": "president_2024_2025",
   "image":"../img/members/Jakub.webp"
 },
 
 {
     "firstName": "Adrian",
     "lastName": "Goral",
-    "position": "Prezes 2024-2025",
+    "position": "president_2024_2025",
     "image": "../img/members/Adrian.webp"
   },
   
