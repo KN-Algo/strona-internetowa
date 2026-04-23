@@ -35,17 +35,17 @@
     "position": "board_member",
     "image": "../img/members/Wiktor.webp"
   },
+  {
+  "firstName":"Jakub",
+  "lastName": "Barczyński",
+  "position": "Prezes 2024-2025",
+  "image":"../img/members/Jakub.webp"
+},
   
 {
   "firstName":"Szymon",
   "lastName":"Banasiak",
   "image":"../img/members/Szymon.webp"
-},
-
-{
-  "firstName":"Jakub",
-  "lastName": "Barczyński",
-  "image":"../img/members/Jakub.webp"
 },
 
 {
