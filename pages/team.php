@@ -17,7 +17,7 @@
     <div class="container text-center">
       <div class="group-photo-wrapper">
       <br>
-      <img src="../img/kn_algo_grupowe1.webp" alt="Zdjęcie zespołu" class="img-fluid group-photo">
+      <img src="../img/algo_26-2.webp" alt="Zdjęcie zespołu" class="img-fluid group-photo">
       </div>
     </div>
   </section>

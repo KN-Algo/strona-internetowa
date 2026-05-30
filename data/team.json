@@ -21,7 +21,7 @@
     "firstName": "Jakub",
     "lastName": "Rolak",
     "position": "board_member",
-    "image": "../img/members/JakubR.webp"
+    "image": "../img/members/Jakub_R.webp"
   },
   {
     "firstName": "Mateusz",
@@ -35,26 +35,25 @@
     "position": "board_member",
     "image": "../img/members/Wiktor.webp"
   },
+  {
+  "firstName":"Jakub",
+  "lastName": "Barczyński",
+  "position": "president_2024_2025",
+  "image":"../img/members/Jakub.webp"
+},
+
+{
+    "firstName": "Adrian",
+    "lastName": "Goral",
+    "position": "vicepresident_2024_2026",
+    "image": "../img/members/Adrian.webp"
+  },
   
 {
   "firstName":"Szymon",
   "lastName":"Banasiak",
   "image":"../img/members/Szymon.webp"
 },
-
-{
-  "firstName":"Jakub",
-  "lastName": "Barczyński",
-  "image":"../img/members/Jakub.webp"
-},
-
-{
-  "firstName":"Paweł",
-  "lastName":"Bijak",
-  "image":"../img/members/Pawel.webp"
-},
-
-
 
 {
   "firstName":"Artiom",
@@ -72,11 +71,6 @@
   "lastName":"Gąsior",
   "image":"../img/members/Hania.webp"
 },
-{
-    "firstName": "Adrian",
-    "lastName": "Goral",
-    "image": "../img/members/Adrian.webp"
-  },
 
 {
   "firstName":"Karol",
@@ -88,6 +82,18 @@
   "firstName":"Viacheslav",
   "lastName":"Ilchuk",
   "image":"../img/members/Viacheslav.webp"
+},
+
+{
+  "firstName":"Franciszek",
+  "lastName":"Kakareko",
+  "image":"../img/members/Franciszek.webp"
+},
+
+{
+  "firstName":"Mikołaj",
+  "lastName":"Kal",
+  "image":"../img/members/Mikołaj.webp"
 },
 
   {
@@ -102,11 +108,6 @@
   "image":"../img/members/JakubK2.webp"
 },
 
-{
-  "firstName":"Mateusz",
-  "lastName":"Kozik",
-  "image":"../img/members/MateuszK.webp"
-},
 
 {
   "firstName":"Adam",
@@ -117,11 +118,6 @@
     "firstName": "Bartek",
     "lastName": "Kuk",
     "image": "../img/members/Bartlomiej.webp"
-  },
-  {
-    "firstName": "Jakub",
-    "lastName": "Kulik",
-    "image": "../img/members/JakubK.webp"
   },
 
   {
@@ -134,6 +130,12 @@
   "firstName":"Filip",
   "lastName":"Mikłusiak",
   "image":"../img/members/Filip.webp"
+},
+
+{
+  "firstName":"Karol",
+  "lastName":"Nalepa",
+  "image":"../img/members/KarolN.webp"
 },
 
   {
@@ -167,16 +169,16 @@
     "image": "../img/members/Oliwia.webp"
   },
 
+  {
+  "firstName":"Kamil",
+  "lastName":"Rachwalik",
+  "image":"../img/members/Kamil.webp"
+},
+
    {
     "firstName": "Tobiasz",
     "lastName": "Rolla",
     "image": "../img/members/Tobiasz.webp"
-  },
-
-  {
-    "firstName": "Wiktor",
-    "lastName": "Siepka",
-    "image": "../img/members/WiktorS.webp"
   },
 
    {
@@ -184,22 +186,23 @@
     "lastName": "Stankevich",
     "image": "../img/members/Pavel.webp"
   },
+
+  {
+  "firstName":"Jakub",
+  "lastName":"Włodarski",
+  "image":"../img/members/JakubW.webp"
+},
   
    {
     "firstName": "Aleksandra",
     "lastName": "Zimna",
     "image": "../img/members/Aleksandra.webp"
   },
-{
-  "firstName":"Mikołaj",
-  "lastName":"Bogusz",
-  "image":"../img/members/temp.webp"
-},
 
-{
-  "firstName":"Karol",
-  "lastName":"Nalepa",
-  "image":"../img/members/temp.webp"
+  {
+  "firstName":"Bożydar",
+  "lastName":"GigaBara",
+  "image":"../img/members/GigaBara.webp"
 },
 
 {
@@ -208,40 +211,13 @@
   "image":"../img/members/temp.webp"
 },
 
-{
-  "firstName":"Franciszek",
-  "lastName":"Kakareko",
-  "image":"../img/members/temp.webp"
-},
-
-{
-  "firstName":"Jakub",
-  "lastName":"Włodarski",
-  "image":"../img/members/temp.webp"
-},
-
-{
-  "firstName":"Kamil",
-  "lastName":"Rachwalik",
-  "image":"../img/members/temp.webp"
-},
-
-{
-  "firstName":"Mikołaj",
-  "lastName":"Kal",
-  "image":"../img/members/temp.webp"
-},
 
 {
   "firstName":"Paweł",
   "lastName":"Szuber",
   "image":"../img/members/temp.webp"
-},
-
-{
-  "firstName":"Tymoteusz",
-  "lastName":"Kosman",
-  "image":"../img/members/temp.webp"
 }
+
+
 
 ]
